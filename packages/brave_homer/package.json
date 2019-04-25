@@ -1,0 +1,29 @@
+{
+  "name": "brave_homer",
+  "version": "1.0.0",
+  "description": "brave",
+  "keywords": [
+    "niketa"
+  ],
+  "author": "Dejan Toteff <deyan8284@gmail.com>",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme",
+  "license": "MIT",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  }
+}
