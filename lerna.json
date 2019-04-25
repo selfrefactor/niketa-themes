@@ -6,5 +6,10 @@
   "npmClientArgs": [
     "--no-lockfile"
   ],
-  "version": "independent"
+  "version": "independent",
+  "commands": {
+    "publish": {
+      "message": "chore: release"
+    }
+  }
 }
