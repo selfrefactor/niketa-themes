@@ -12,19 +12,19 @@
   "categories": [
       "Themes"
   ],
+  "icon": "lib/screen.png",
   "contributes": {
       "themes": [
           {
-              "label": "Brave Homer",
+              "label": "Brave Homer X",
               "uiTheme": "vs",
-              "path": "./lib/theme.json"
+              "path": "./theme/theme.json"
           }
       ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
   "homepage": "https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme",
   "license": "MIT",
-  "main": "noExecutable.js",
   "directories": {
     "lib": "lib"
   },

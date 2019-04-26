@@ -5,6 +5,6 @@
     "lerna": "^3.13.4"
   },
   "commitMessage": {
-    "workInProgress": "first publish"
+    "workInProgress": ""
   }
 }
