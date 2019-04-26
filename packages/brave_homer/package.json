@@ -1,17 +1,32 @@
 {
   "name": "brave_homer",
   "version": "1.0.0",
-  "description": "brave",
   "keywords": [
     "niketa"
   ],
+  "displayName": "BraveHomer",
+  "description": "Niketa theme",
+  "engines": {
+      "vscode": "^1.33.0"
+  },
+  "categories": [
+      "Themes"
+  ],
+  "contributes": {
+      "themes": [
+          {
+              "label": "Brave Homer",
+              "uiTheme": "vs",
+              "path": "./lib/theme.json"
+          }
+      ]
+  },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
   "homepage": "https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme",
   "license": "MIT",
-  "main": "index.js",
+  "main": "noExecutable.js",
   "directories": {
-    "lib": "lib",
-    "test": "__tests__"
+    "lib": "lib"
   },
   "files": [
     "lib"
