@@ -13,7 +13,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "lib/screen.png",
+  "icon": "https://github.com/selfrefactor/niketa-themes/blob/master/packages/brave_homer/theme/screen.png?raw=true",
   "contributes": {
     "themes": [
       {
