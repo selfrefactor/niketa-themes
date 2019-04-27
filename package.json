@@ -8,6 +8,9 @@
     "workInProgress": "",
     "support": [
       "docs"
+    ],
+    "feature": [
+      "theme"
     ]
   }
 }
