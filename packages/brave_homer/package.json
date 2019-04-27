@@ -2,7 +2,11 @@
   "name": "BraveHomerNiketa",
   "version": "1.2.0",
   "keywords": [
-    "niketa"
+    "niketa",
+    "theme",
+    "color-theme",
+    "light",
+    "collection"
   ],
   "publisher": "selfrefactor",
   "displayName": "BraveHomer",
@@ -17,9 +21,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Brave Homer X",
+        "label": "Brave Homer",
         "uiTheme": "vs",
-        "path": "./theme/theme.json"
+        "path": "./theme/BraveHomer.json"
       }
     ]
   },
@@ -27,10 +31,10 @@
   "homepage": "https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme",
   "license": "MIT",
   "directories": {
-    "lib": "lib"
+    "lib": "theme"
   },
   "files": [
-    "lib"
+    "theme"
   ],
   "repository": {
     "type": "git",
