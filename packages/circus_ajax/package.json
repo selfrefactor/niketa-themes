@@ -17,7 +17,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "https://github.com/selfrefactor/niketa-themes/blob/master/packages/brave_homer/theme/screen.png?raw=true",
+  "icon": "https://github.com/selfrefactor/niketa-themes/blob/master/packages/circus_ajax/theme/circus.ajax.png?raw=true",
   "contributes": {
     "themes": [
       {
