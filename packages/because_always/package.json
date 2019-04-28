@@ -1,0 +1,49 @@
+{
+  "name": "BecauseAlwaysNiketa",
+  "version": "0.1.0",
+  "keywords": [
+    "niketa",
+    "theme",
+    "color-theme",
+    "light",
+    "collection"
+  ],
+  "publisher": "selfrefactor",
+  "displayName": "BecauseAlways",
+  "description": "Niketa theme",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "theme/because.always.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Because Always",
+        "uiTheme": "vs-dark",
+        "path": "./theme/BecauseAlways.json"
+      }
+    ]
+  },
+  "author": "Dejan Toteff <deyan8284@gmail.com>",
+  "homepage": "https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme",
+  "license": "MIT",
+  "directories": {
+    "lib": "theme"
+  },
+  "files": [
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  }
+}
