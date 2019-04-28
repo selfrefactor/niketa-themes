@@ -1,5 +1,5 @@
 {
-  "name": "BecauseAskNiketa",
+  "name": "AdvancedCatNiketa",
   "version": "0.1.0",
   "keywords": [
     "niketa",
@@ -9,7 +9,7 @@
     "collection"
   ],
   "publisher": "selfrefactor",
-  "displayName": "BecauseAsk",
+  "displayName": "AdvancedCat",
   "description": "Niketa theme",
   "engines": {
     "vscode": "^1.33.0"
@@ -17,13 +17,13 @@
   "categories": [
     "Themes"
   ],
-  "icon": "theme/because.ask.png",
+  "icon": "theme/advanced.cat.png",
   "contributes": {
     "themes": [
       {
-        "label": "Because Ask",
-        "uiTheme": "vs-dark",
-        "path": "./theme/BecauseAsk.json"
+        "label": "Advanced Cat",
+        "uiTheme": "vs",
+        "path": "./theme/AdvancedCat.json"
       }
     ]
   },
