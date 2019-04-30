@@ -1,11 +1,11 @@
-# Brave Homer
+# Because Ask
 
-Part of [Niketa theme bundle](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme) but distributed standalone for people who don't like having 17 themes in their VSCode theme namespace so they can use only one of them.
+Dark theme builded with the theme factory of [Niketa theme bundle](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme)
 
 ## Screen
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/brave_homer/theme/brave.homer.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because_ask/theme/because.ask.png?raw=true)
 
 ## Marketplace link
 
-[https://marketplace.visualstudio.com/items?itemName=selfrefactor.BraveHomerNiketa](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BraveHomerNiketa)
+[https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseAskNiketa](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseAskNiketa)

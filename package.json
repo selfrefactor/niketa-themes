@@ -5,7 +5,7 @@
     "lerna": "^3.13.4"
   },
   "commitMessage": {
-    "workInProgress": "",
+    "workInProgress": "publish dark themes docs and homepage",
     "support": [
       "docs"
     ],

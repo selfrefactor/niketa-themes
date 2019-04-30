@@ -28,7 +28,7 @@
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/packages/because_always",
   "license": "MIT",
   "directories": {
     "lib": "theme"
