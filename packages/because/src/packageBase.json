@@ -1,0 +1,41 @@
+{
+  "name": "Because",
+  "displayName": "Because Themes",
+  "description": "Large collection of handmade dark themes",
+  "version": "1.0.0",
+  "license": "MIT",
+  "publisher": "selfrefactor",
+  "engines": {
+    "vscode": "^1.27.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selfrefactor/niketa-themesniketa-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-theme/issues"
+  },
+  "icon": "logo.png",
+  "contributes": {
+    "themes": []
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "collection",
+    "themes",
+    "bundle"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "fs-extra": "^7.0.0",
+    "jest": "^23.6.0",
+    "rambdax": "^2.3.0",
+    "string-fn": "^1.8.0"
+  }
+}
