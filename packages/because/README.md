@@ -1,11 +1,13 @@
-# Because Always
+# Because
 
-Dark theme builded with the theme factory of [Niketa theme bundle](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme)
+2 Dark VSCode Themes
 
-## Screen
+## Screens
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because_always/theme/because.always.png?raw=true)
+### Because Ask
 
-## Marketplace link
+![because.ask](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because_ask/screens/because.ask.png?raw=true)
 
-[https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseAlwaysNiketa](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseAlwaysNiketa)
+### Because Always
+
+![because.always](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because_always/screens/because.always.png?raw=true)
