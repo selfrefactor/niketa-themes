@@ -34,6 +34,11 @@ function workingMan(label){
     screenOutput
   )
 
+  return {
+      "label": pascalName,
+      "uiTheme": "vs-dark",
+      "path": `./themes/${pascalName}.json`
+  }
 }
 
 function build(){
