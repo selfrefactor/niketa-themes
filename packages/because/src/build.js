@@ -40,18 +40,18 @@ function workingMan(labelRaw){
   )
 
   const readmePartial = `
-  ### ${titleName}
+  ### ${ titleName }
 
-![${label}](https://github.com/selfrefactor/niketa-themes/blob/master/packages/${snakeName}/screens/${label}.png?raw=true)
+![${ label }](https://github.com/selfrefactor/niketa-themes/blob/master/packages/${ snakeName }/screens/${ label }.png?raw=true)
 `.trim()
 
   return {
-    data: {
+    data : {
       label   : pascalName,
       uiTheme : 'vs-dark',
       path    : `./themes/${ pascalName }.json`,
     },
-    readmePartial
+    readmePartial,
   }
 }
 
@@ -59,15 +59,15 @@ function build(themesInput = THEMES){
   const readmeBase = `
 # Because
 
-${themesInput.length} Dark VSCode Themes
+${ themesInput.length } Dark VSCode Themes
 
 ## Screens
 `.trim()
 
   const workingManResult = themesInput.map(workingMan)
 
-  const themes = pluck('data',workingManResult)
-  const readmePartials = pluck('readmePartial',workingManResult).join('\n\n')
+  const themes = pluck('data', workingManResult)
+  const readmePartials = pluck('readmePartial', workingManResult).join('\n\n')
 
   const toSave = change(
     packageBase,
@@ -75,11 +75,10 @@ ${themesInput.length} Dark VSCode Themes
     themes
   )
 
-  const readme = `${readmeBase}\n\n${readmePartials}`
+  const readme = `${ readmeBase }\n\n${ readmePartials }`
 
   outputJsonSync(packageJsonFile, toSave, { spaces : 2 })
   outputFileSync(readmeFile, readme)
 }
-
 
 exports.build = build
