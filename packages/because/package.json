@@ -1,49 +1,52 @@
 {
-  "name": "BecauseAlwaysNiketa",
-  "version": "0.2.0",
-  "keywords": [
-    "niketa",
-    "theme",
-    "color-theme",
-    "light",
-    "collection"
-  ],
+  "name": "Because",
+  "displayName": "Because Themes",
+  "description": "Collection of handmade dark themes",
+  "version": "1.0.0",
+  "license": "MIT",
   "publisher": "selfrefactor",
-  "displayName": "BecauseAlways",
-  "description": "Niketa theme",
   "engines": {
-    "vscode": "^1.33.0"
+    "vscode": "^1.27.0"
   },
   "categories": [
     "Themes"
   ],
-  "icon": "theme/because.always.png",
-  "contributes": {
-    "themes": [
-      {
-        "label": "Because Always",
-        "uiTheme": "vs-dark",
-        "path": "./theme/BecauseAlways.json"
-      }
-    ]
-  },
-  "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://github.com/selfrefactor/niketa-themes/packages/because_always",
-  "license": "MIT",
-  "directories": {
-    "lib": "theme"
-  },
-  "files": [
-    "theme"
-  ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "url": "https://github.com/selfrefactor/niketa-themes.git"
   },
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  },
+  "icon": "./screens/because.always.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "BecauseAsk",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BecauseAsk.json"
+      },
+      {
+        "label": "BecauseAlways",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BecauseAlways.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark",
+    "collection",
+    "themes",
+    "bundle"
+  ],
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "fs-extra": "^7.0.0",
+    "jest": "^23.6.0",
+    "rambdax": "^2.3.0",
+    "string-fn": "^1.8.0"
   }
 }

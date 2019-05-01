@@ -1,7 +1,7 @@
 {
   "name": "Because",
   "displayName": "Because Themes",
-  "description": "Large collection of handmade dark themes",
+  "description": "Collection of handmade dark themes",
   "version": "1.0.0",
   "license": "MIT",
   "publisher": "selfrefactor",
@@ -13,12 +13,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/selfrefactor/niketa-themesniketa-theme.git"
+    "url": "https://github.com/selfrefactor/niketa-themes.git"
   },
   "bugs": {
-    "url": "https://github.com/selfrefactor/niketa-theme/issues"
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
   },
-  "icon": "logo.png",
+  "icon": "./screens/because.always.png",
   "contributes": {
     "themes": []
   },
