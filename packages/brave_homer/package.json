@@ -1,6 +1,6 @@
 {
   "name": "BraveHomerNiketa",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "keywords": [
     "niketa",
     "theme",
@@ -28,7 +28,7 @@
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/brave_homer",
   "license": "MIT",
   "directories": {
     "lib": "theme"
@@ -39,9 +39,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/selfrefactor/niketa-themes.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"

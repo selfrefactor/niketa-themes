@@ -4,7 +4,7 @@ Part of [Niketa theme bundle](https://marketplace.visualstudio.com/items?itemNam
 
 ## Screen
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/brave_homer/theme/advanced.cat.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/advanced_cat/theme/advanced.cat.png?raw=true)
 
 ## Marketplace link
 

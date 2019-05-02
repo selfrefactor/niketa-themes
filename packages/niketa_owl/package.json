@@ -1,6 +1,6 @@
 {
-  "name": "AdvancedDogNiketa",
-  "version": "0.1.1",
+  "name": "NiketaOwlNiketa",
+  "version": "0.1.0",
   "keywords": [
     "niketa",
     "theme",
@@ -9,7 +9,7 @@
     "collection"
   ],
   "publisher": "selfrefactor",
-  "displayName": "AdvancedDog",
+  "displayName": "NiketaOwl",
   "description": "Niketa theme",
   "engines": {
     "vscode": "^1.33.0"
@@ -17,18 +17,18 @@
   "categories": [
     "Themes"
   ],
-  "icon": "theme/advanced.dog.png",
+  "icon": "theme/niketa.owl.png",
   "contributes": {
     "themes": [
       {
-        "label": "Advanced Dog",
+        "label": "Niketa Owl",
         "uiTheme": "vs",
-        "path": "./theme/AdvancedDog.json"
+        "path": "./theme/NiketaOwl.json"
       }
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/advanced_dog",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/brave_homer",
   "license": "MIT",
   "directories": {
     "lib": "theme"
@@ -39,9 +39,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/selfrefactor/niketa-themes.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"
