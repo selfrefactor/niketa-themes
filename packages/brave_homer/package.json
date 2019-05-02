@@ -1,6 +1,6 @@
 {
   "name": "BraveHomerNiketa",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "keywords": [
     "niketa",
     "theme",
@@ -17,7 +17,7 @@
   "categories": [
     "Themes"
   ],
-  "icon": "https://github.com/selfrefactor/niketa-themes/blob/master/packages/brave_homer/theme/screen.png?raw=true",
+  "icon": "theme/brave.homer.png",
   "contributes": {
     "themes": [
       {
