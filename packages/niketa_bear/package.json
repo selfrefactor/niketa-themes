@@ -28,7 +28,7 @@
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/brave_homer",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
   "license": "MIT",
   "directories": {
     "lib": "theme"
