@@ -1,6 +1,6 @@
 {
   "name": "AdvancedEngineNiketa",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "keywords": [
     "niketa",
     "theme",
@@ -28,7 +28,7 @@
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/advanced_engine",
   "license": "MIT",
   "directories": {
     "lib": "theme"
