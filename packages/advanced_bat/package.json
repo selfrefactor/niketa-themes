@@ -45,5 +45,10 @@
   },
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  },
+  "commitMessage": {
+    "feature": [
+      "theme"
+    ]
   }
 }
