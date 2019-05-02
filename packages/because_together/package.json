@@ -1,0 +1,46 @@
+{
+  "name": "BecauseTogetherNiketa",
+  "version": "0.1.0",
+  "keywords": [
+    "niketa",
+    "theme",
+    "color-theme",
+    "light",
+    "collection"
+  ],
+  "publisher": "selfrefactor",
+  "displayName": "BecauseTogether",
+  "description": "Niketa theme",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "theme/because.together.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Because Together",
+        "uiTheme": "vs-dark",
+        "path": "./theme/BecauseTogether.json"
+      }
+    ]
+  },
+  "author": "Dejan Toteff <deyan8284@gmail.com>",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/because_together",
+  "license": "MIT",
+  "directories": {
+    "lib": "theme"
+  },
+  "files": [
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  }
+}
