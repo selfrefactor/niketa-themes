@@ -1,6 +1,6 @@
 # Because
 
-3 Dark VSCode Themes
+3 Dark VSCode Themes build with [Niketa theme generator](https://github.com/selfrefactor/niketa-theme/blob/master/src/createPaletteTheme.spec.js)
 
 ## Screens
 

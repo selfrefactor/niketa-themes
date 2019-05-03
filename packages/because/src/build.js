@@ -17,6 +17,8 @@ const THEMES = [
   'together',
 ]
 
+const FILE = 'https://github.com/selfrefactor/niketa-theme/blob/master/src/createPaletteTheme.spec.js'
+
 function workingMan(labelRaw){
   const label = `because.${ labelRaw }`
   const pascalName = pascalCase(label)
@@ -60,7 +62,7 @@ function build(themesInput = THEMES){
   const readmeBase = `
 # Because
 
-${ themesInput.length } Dark VSCode Themes
+${ themesInput.length } Dark VSCode Themes build with [Niketa theme generator](${FILE})
 
 ## Screens
 `.trim()
