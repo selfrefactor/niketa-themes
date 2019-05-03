@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"
   },
-  "icon": "./screens/because.always.png",
+  "icon": "screens/because.always.png",
   "contributes": {
     "themes": [
       {
