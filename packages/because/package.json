@@ -38,6 +38,9 @@
       }
     ]
   },
+  "scripts": {
+    "test": "jest"
+  },
   "keywords": [
     "theme",
     "color-theme",
