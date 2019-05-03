@@ -2,7 +2,7 @@
   "name": "BecauseTogether",
   "type": "dark",
   "colors": {
-    "editor.background": "#445A63EC",
+    "editor.background": "#2A3343DA",    
     "activityBar.background": "#889193",
     "editor.selectionBackground": "#8349629a",
     "editor.lineHighlightBackground": "#0e2236",
