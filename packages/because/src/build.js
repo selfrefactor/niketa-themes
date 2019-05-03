@@ -62,7 +62,7 @@ function build(themesInput = THEMES){
   const readmeBase = `
 # Because
 
-${ themesInput.length } Dark VSCode Themes build with [Niketa theme generator](${FILE})
+${ themesInput.length } Dark VSCode Themes build with [Niketa theme generator](${ FILE })
 
 ## Screens
 `.trim()
