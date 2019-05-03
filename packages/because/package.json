@@ -30,6 +30,11 @@
         "label": "BecauseAlways",
         "uiTheme": "vs-dark",
         "path": "./themes/BecauseAlways.json"
+      },
+      {
+        "label": "BecauseTogether",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BecauseTogether.json"
       }
     ]
   },

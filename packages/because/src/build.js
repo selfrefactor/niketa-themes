@@ -14,6 +14,7 @@ const readmeFile = resolve(__dirname, '../README.md')
 const THEMES = [
   'ask',
   'always',
+  'together',
 ]
 
 function workingMan(labelRaw){
@@ -42,7 +43,7 @@ function workingMan(labelRaw){
   const readmePartial = `
   ### ${ titleName }
 
-![${ label }](https://github.com/selfrefactor/niketa-themes/blob/master/packages/${ snakeName }/screens/${ label }.png?raw=true)
+![${ label }](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because/screens/${ label }.png?raw=true)
 `.trim()
 
   return {
