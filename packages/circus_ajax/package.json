@@ -1,6 +1,6 @@
 {
   "name": "CircusAjaxNiketa",
-  "version": "0.2.0",
+  "version": "0.4.0",
   "keywords": [
     "niketa",
     "theme",
@@ -28,7 +28,7 @@
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/circus_ajax",
   "license": "MIT",
   "directories": {
     "lib": "theme"
