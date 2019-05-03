@@ -15,7 +15,7 @@
     "scrollbarSlider.hoverBackground": "#757F81",
     "sideBar.background": "#7E888A",
     "statusBar.background": "#6C7577",
-    "tab.inactiveForeground": "#445A63EC",
+    "tab.inactiveForeground": "#eae3cdf1",
     "tab.inactiveBackground": "#6C7577",
     "tab.activeForeground": "#F8E2E2f3",
     "tab.activeBackground": "#445A63EC",
