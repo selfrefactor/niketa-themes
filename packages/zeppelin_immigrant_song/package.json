@@ -1,0 +1,46 @@
+{
+  "name": "ZeppelinImmigrantSongNiketa",
+  "version": "0.1.0",
+  "keywords": [
+    "niketa",
+    "theme",
+    "color-theme",
+    "light",
+    "collection"
+  ],
+  "publisher": "selfrefactor",
+  "displayName": "ZeppelinImmigrantSong",
+  "description": "Niketa theme",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "theme/zeppelin.immigrant.song.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Zeppelin Immigrant Song",
+        "uiTheme": "vs",
+        "path": "./theme/ZeppelinImmigrantSong.json"
+      }
+    ]
+  },
+  "author": "Dejan Toteff <deyan8284@gmail.com>",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
+  "license": "MIT",
+  "directories": {
+    "lib": "theme"
+  },
+  "files": [
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  }
+}
