@@ -2,7 +2,7 @@
   "name": "Because",
   "displayName": "Because Themes",
   "description": "Collection of handmade dark themes",
-  "version": "1.3.0",
+  "version": "1.0.0",
   "license": "MIT",
   "publisher": "selfrefactor",
   "engines": {
@@ -35,6 +35,11 @@
         "label": "BecauseTogether",
         "uiTheme": "vs-dark",
         "path": "./themes/BecauseTogether.json"
+      },
+      {
+        "label": "BecauseNever",
+        "uiTheme": "vs-dark",
+        "path": "./themes/BecauseNever.json"
       }
     ]
   },
