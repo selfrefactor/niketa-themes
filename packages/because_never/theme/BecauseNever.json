@@ -2,7 +2,7 @@
   "name": "BecauseNever",
   "type": "dark",
   "colors": {
-    "editor.background": "#303c45",
+    "editor.background": "#283041",
     "activityBar.background": "#9e958f",
     "editor.selectionBackground": "#F8E2E2E6",
     "editor.lineHighlightBackground": "#394852",
