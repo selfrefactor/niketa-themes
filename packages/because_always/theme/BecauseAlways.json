@@ -2,7 +2,7 @@
   "name": "BecauseAlways",
   "type": "dark",
   "colors": {
-    "editor.background": "#2A3343DA",
+    "editor.background": "#2A3343",
     "activityBar.background": "#859DA9D5",
     "editor.selectionBackground": "#40434a",
     "editor.lineHighlightBackground": "#40434a",
