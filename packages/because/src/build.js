@@ -44,10 +44,15 @@ function workingMan(labelRaw){
 
   copySync(screenPath, screenOutput)
 
+  const linkLabel = `${label}.niketa`
+  
   const readmePartial = `
   ### ${ titleName }
 
 ![${ label }](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because/screens/${ label }.png?raw=true)
+
+[As a standalone theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.${pascalCase(linkLabel)})
+
 `.trim()
 
   return {
