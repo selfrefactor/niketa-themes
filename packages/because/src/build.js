@@ -4,19 +4,14 @@ const { copySync, outputJsonSync, outputFileSync } = require('fs-extra')
 const { existsSync } = require('fs')
 const { pascalCase, snakeCase, titleCase } = require('string-fn')
 const { resolve } = require('path')
-logInit({logFlag: false})
+logInit({ logFlag : false })
 const base = resolve(__dirname, '../../')
 const themesFolder = resolve(__dirname, '../themes')
 const screensFolder = resolve(__dirname, '../screens')
 const packageJsonFile = resolve(__dirname, '../package.json')
 const readmeFile = resolve(__dirname, '../README.md')
- 
-const THEMES = [
-  'ask',
-  'always',
-  'together',
-  'never',
-]
+
+const THEMES = [ 'ask', 'always', 'together', 'never' ]
 
 const FILE =
   'https://github.com/selfrefactor/niketa-theme/blob/master/src/createPaletteTheme.spec.js'
@@ -44,14 +39,16 @@ function workingMan(labelRaw){
 
   copySync(screenPath, screenOutput)
 
-  const linkLabel = `${label}.niketa`
-  
+  const linkLabel = `${ label }.niketa`
+
   const readmePartial = `
   ### ${ titleName }
 
 ![${ label }](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because/screens/${ label }.png?raw=true)
 
-[As a standalone theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.${pascalCase(linkLabel)})
+[As a standalone theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.${ pascalCase(
+    linkLabel
+  ) })
 
 `.trim()
 
