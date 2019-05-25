@@ -1,16 +1,16 @@
 const packageBase = require('./packageBase.json')
-const { change, pluck } = require('rambdax')
+const { change, pluck, log, logInit } = require('rambdax')
 const { copySync, outputJsonSync, outputFileSync } = require('fs-extra')
 const { existsSync } = require('fs')
 const { pascalCase, snakeCase, titleCase } = require('string-fn')
 const { resolve } = require('path')
-
+logInit({logFlag: false})
 const base = resolve(__dirname, '../../')
 const themesFolder = resolve(__dirname, '../themes')
 const screensFolder = resolve(__dirname, '../screens')
 const packageJsonFile = resolve(__dirname, '../package.json')
 const readmeFile = resolve(__dirname, '../README.md')
-
+ 
 const THEMES = [
   'ask',
   'always',
@@ -18,7 +18,8 @@ const THEMES = [
   'never',
 ]
 
-const FILE = 'https://github.com/selfrefactor/niketa-theme/blob/master/src/createPaletteTheme.spec.js'
+const FILE =
+  'https://github.com/selfrefactor/niketa-theme/blob/master/src/createPaletteTheme.spec.js'
 
 function workingMan(labelRaw){
   const label = `because.${ labelRaw }`
@@ -31,17 +32,17 @@ function workingMan(labelRaw){
 
   const screenPath = `${ base }/${ snakeName }/theme/${ label }.png`
   const screenOutput = `${ screensFolder }/${ label }.png`
+  log({
+    screenOutput,
+    screenPath,
+    themePath,
+    themeOutput,
+  })
   if (!existsSync(themePath)) throw new Error(`themePath - ${ themePath }`)
 
-  copySync(
-    themePath,
-    themeOutput
-  )
+  copySync(themePath, themeOutput)
 
-  copySync(
-    screenPath,
-    screenOutput
-  )
+  copySync(screenPath, screenOutput)
 
   const readmePartial = `
   ### ${ titleName }
@@ -63,7 +64,9 @@ function build(themesInput = THEMES){
   const readmeBase = `
 # Because
 
-${ themesInput.length } Dark VSCode Themes build with [Niketa theme generator](${ FILE })
+${
+  themesInput.length
+} Dark VSCode Themes build with [Niketa theme generator](${ FILE })
 
 ## Screens
 `.trim()
@@ -71,13 +74,11 @@ ${ themesInput.length } Dark VSCode Themes build with [Niketa theme generator]($
   const workingManResult = themesInput.map(workingMan)
 
   const themes = pluck('data', workingManResult)
-  const readmePartials = pluck('readmePartial', workingManResult).join('\n\n')
-
-  const toSave = change(
-    packageBase,
-    'contributes.themes',
-    themes
+  const readmePartials = pluck('readmePartial', workingManResult).join(
+    '\n\n'
   )
+
+  const toSave = change(packageBase, 'contributes.themes', themes)
 
   const readme = `${ readmeBase }\n\n${ readmePartials }`
 

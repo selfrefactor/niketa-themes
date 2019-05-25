@@ -5,7 +5,7 @@
     "editor.background": "#2A3343",
     "activityBar.background": "#859DA9D5",
     "editor.selectionBackground": "#40434a",
-    "editor.lineHighlightBackground": "#292225ba",
+    "editor.lineHighlightBackground": "#40434a",
     "editorBracketMatch.background": "#52BC8C",
     "editorBracketMatch.border": "#D64F82",
     "editorGroupHeader.tabsBackground": "#2A3343f3",
