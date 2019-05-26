@@ -5,6 +5,7 @@ const { existsSync } = require('fs')
 const { pascalCase, snakeCase, titleCase } = require('string-fn')
 const { resolve } = require('path')
 logInit({ logFlag : false })
+ 
 const base = resolve(__dirname, '../../')
 const themesFolder = resolve(__dirname, '../themes')
 const screensFolder = resolve(__dirname, '../screens')
