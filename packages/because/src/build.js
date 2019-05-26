@@ -13,7 +13,7 @@ const packageJsonFile = resolve(__dirname, '../package.json')
 const readmeFile = resolve(__dirname, '../README.md')
 
 const THEMES = [ 'ask', 'always', 'together', 'never' ]
-
+ 
 const FILE =
   'https://github.com/selfrefactor/niketa-theme/blob/master/src/createPaletteTheme.spec.js'
 
