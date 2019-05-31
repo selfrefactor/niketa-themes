@@ -23,12 +23,12 @@
       {
         "label": "Advanced Engine",
         "uiTheme": "vs",
-        "path": "./theme/AdvancedEngine.json"
+        "path": "./theme/advanced.engine.json"
       }
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/advanced_engine",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
   "license": "MIT",
   "directories": {
     "lib": "theme"
@@ -39,9 +39,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/selfrefactor/niketa-themes.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"

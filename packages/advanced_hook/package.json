@@ -23,12 +23,12 @@
       {
         "label": "Advanced Hook",
         "uiTheme": "vs",
-        "path": "./theme/AdvancedHook.json"
+        "path": "./theme/advanced.hook.json"
       }
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/advanced_hook",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
   "license": "MIT",
   "directories": {
     "lib": "theme"

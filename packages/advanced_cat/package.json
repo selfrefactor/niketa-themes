@@ -23,12 +23,12 @@
       {
         "label": "Advanced Cat",
         "uiTheme": "vs",
-        "path": "./theme/AdvancedCat.json"
+        "path": "./theme/advanced.cat.json"
       }
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/advanced_cat",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
   "license": "MIT",
   "directories": {
     "lib": "theme"
@@ -39,9 +39,6 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/selfrefactor/niketa-themes.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"

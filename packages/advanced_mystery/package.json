@@ -23,7 +23,7 @@
       {
         "label": "Advanced Mystery",
         "uiTheme": "vs",
-        "path": "./theme/AdvancedMystery.json"
+        "path": "./theme/advanced.mystery.json"
       }
     ]
   },
