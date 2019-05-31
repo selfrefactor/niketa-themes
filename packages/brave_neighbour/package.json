@@ -23,7 +23,7 @@
       {
         "label": "Brave Neighbour",
         "uiTheme": "vs",
-        "path": "./theme/BraveNeighbour.json"
+        "path": "./theme/brave.neighbour.json"
       }
     ]
   },

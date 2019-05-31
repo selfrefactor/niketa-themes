@@ -23,7 +23,7 @@
       {
         "label": "Circus Whisky",
         "uiTheme": "vs",
-        "path": "./theme/CircusWhisky.json"
+        "path": "./theme/circus.whisky.json"
       }
     ]
   },
