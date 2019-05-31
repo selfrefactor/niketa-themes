@@ -23,12 +23,12 @@
       {
         "label": "Advanced Bat",
         "uiTheme": "vs",
-        "path": "./theme/AdvancedBat.json"
+        "path": "./theme/advanced.bat.json"
       }
     ]
   },
   "author": "Dejan Toteff <deyan8284@gmail.com>",
-  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages/advanced_bat",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
   "license": "MIT",
   "directories": {
     "lib": "theme"
@@ -40,15 +40,7 @@
     "type": "git",
     "url": "git+https://github.com/selfrefactor/niketa-themes.git"
   },
-  "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
-  },
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"
-  },
-  "commitMessage": {
-    "feature": [
-      "theme"
-    ]
   }
 }
