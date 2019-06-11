@@ -27,3 +27,7 @@
 ![because.never](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because/screens/because.never.png?raw=true)
 
 [As a standalone theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseNeverNiketa)
+
+## References
+
+- Featured in [Web Tools Weekly](https://mailchi.mp/webtoolsweekly/web-tools-306)
