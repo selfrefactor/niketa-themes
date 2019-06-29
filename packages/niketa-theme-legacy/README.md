@@ -7,14 +7,13 @@
 ## Screens
 
 ### Advanced Bat
-
-![advanced.bat](https://github.com/selfrefactor/niketa-themes/packages/niketa-theme-legacy/blob/master/screens/advanced.bat.png?raw=true)
+![advanced.bat](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/advanced.bat.png?raw=true)
 
 [As a single theme(marketplace link)](https://marketplace.visualstudio.com/items?itemName=selfrefactor.AdvancedBatNiketa)
 
 ### Advanced Cat
 
-![advanced.cat](https://github.com/selfrefactor/niketa-themes/packages/niketa-theme-legacy/blob/master/screens/advanced.cat.png?raw=true)
+![advanced.cat](https://github.com/selfrefactor/niketa-themes/packages/niketa-theme-legacy/master/screens/advanced.cat.png?raw=true)
 
 [As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.AdvancedCatNiketa)
 
@@ -189,25 +188,25 @@ There is dark version of `Niketa theme` and it is called [Because](https://marke
 
 ### Because Ask
 
-![because.ask](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because/screens/because.ask.png?raw=true)
+![because.ask](https://github.com/selfrefactor/niketa-themes/blob/master/packages/blob/because/screens/because.ask.png?raw=true)
 
 [As a standalone theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseAskNiketa)
 
 ### Because Always
 
-![because.always](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because/screens/because.always.png?raw=true)
+![because.always](https://github.com/selfrefactor/niketa-themes/blob/master/packages/blob/because/screens/because.always.png?raw=true)
 
 [As a standalone theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseAlwaysNiketa)
 
 ### Because Together
 
-![because.together](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because/screens/because.together.png?raw=true)
+![because.together](https://github.com/selfrefactor/niketa-themes/blob/master/packages/blob/because/screens/because.together.png?raw=true)
 
 [As a standalone theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseTogetherNiketa)
 
 ### Because Never
 
-![because.never](https://github.com/selfrefactor/niketa-themes/blob/master/packages/because/screens/because.never.png?raw=true)
+![because.never](https://github.com/selfrefactor/niketa-themes/blob/master/packages/blob/because/screens/because.never.png?raw=true)
 
 [As a standalone theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BecauseNeverNiketa)
 
