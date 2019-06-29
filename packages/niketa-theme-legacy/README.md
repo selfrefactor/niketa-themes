@@ -7,33 +7,24 @@
 ## Screens
 
 ### Advanced Bat
-![advanced.bat](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/advanced.bat.png?raw=true)
 
-[As a single theme(marketplace link)](https://marketplace.visualstudio.com/items?itemName=selfrefactor.AdvancedBatNiketa)
+![advanced.bat](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/advanced.bat.png?raw=true)
 
 ### Advanced Cat
 
 ![advanced.cat](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/advanced.cat.png?raw=true)
 
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.AdvancedCatNiketa)
-
 ### Advanced Dog
 
 ![advanced.dog](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/advanced.dog.png?raw=true)
-
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.AdvancedDogNiketa)
 
 ### Advanced Engine
 
 ![advanced.engine](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/advanced.engine.png?raw=true)
 
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.AdvancedEngineNiketa)
-
 ### Advanced Hook
 
 ![advanced.hook](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/advanced.hook.png?raw=true)
-
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.AdvancedHookNiketa)
 
 ### Advanced Immigrant
 
@@ -45,73 +36,49 @@
 
 ![advanced.mystery](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/advanced.mystery.png?raw=true)
 
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.AdvancedMysteryNiketa)
-
 ### Brave Habits
 
 ![Brave Habits](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/brave.habits.png?raw=true)
-
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BraveHabitsNiketa)
 
 ### Brave Homer
 
 ![Brave Homer](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/brave.homer.png?raw=true)
 
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BraveHomerNiketa)
-
 ### Brave Love
 
 ![Brave Love](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/brave.love.png?raw=true)
-
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BraveLoveNiketa)
 
 ### Brave Neighbour
 
 ![Brave Neighbour](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/brave.neighbour.png?raw=true)
 
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.BraveNeighbourNiketa)
-
 ### Circus Ajax
 
 ![circus.brother](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/circus.ajax.png?raw=true)
-
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.CircusAjaxNiketa)
 
 ### Circus Brother
 
 ![circus.brother](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/circus.brother.png?raw=true)
 
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.CircusBrotherNiketa)
-
 ### Circus Owl
 
 ![niketa.owl](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/niketa.owl.png?raw=true)
-
-[As a single theme is deployed under its previous name `NiketaOwl`](https://marketplace.visualstudio.com/items?itemName=selfrefactor.NiketaOwlNiketa)
 
 ### Circus People
 
 ![circus.People](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/circus.people.png?raw=true)
 
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.CircusPeopleNiketa)
-
 ### Circus Whisky
 
 ![circus.whisky](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/circus.whisky.png?raw=true)
-
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.CircusWhiskyNiketa)
 
 ### Niketa Bear
 
 ![niketa.bear](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/niketa.bear.png?raw=true)
 
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.NiketaBearNiketa)
-
 ### Niketa Moon
 
 ![niketa.moon](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-legacy/screens/niketa.moon.png?raw=true)
-
-[As a single theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.NiketaMoonNiketa)
 
 ## Naming conventions
 
