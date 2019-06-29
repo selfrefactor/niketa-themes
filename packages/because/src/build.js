@@ -17,6 +17,12 @@ const THEMES = [ 'ask', 'always', 'together', 'never' ]
 const FILE =
   'https://github.com/selfrefactor/niketa-theme/blob/master/src/createPaletteTheme.spec.js'
 
+const readmeEnd = `
+## References
+
+- Featured in [Web Tools Weekly](https://mailchi.mp/webtoolsweekly/web-tools-306)
+`.trim()
+
 function workingMan(labelRaw){
   const label = `because.${ labelRaw }`
   const pascalName = pascalCase(label)
@@ -83,7 +89,7 @@ ${
 
   const toSave = change(packageBase, 'contributes.themes', themes)
 
-  const readme = `${ readmeBase }\n\n${ readmePartials }`
+  const readme = `${ readmeBase }\n\n${ readmePartials }\n\n${readmeEnd}`
 
   outputJsonSync(packageJsonFile, toSave, { spaces : 2 })
   outputFileSync(readmeFile, readme)

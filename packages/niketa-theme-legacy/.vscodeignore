@@ -1,0 +1,13 @@
+.cache
+.gitignore
+.vscode
+.vscode-test/**
+.vscode/**
+dist
+node_modules
+out/
+src/
+files/
+palettes/
+bases/
+baboon/
