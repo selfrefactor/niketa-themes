@@ -16,29 +16,29 @@ Git diff colors are blue and ochra similar to the ones suggested in the article 
 
 ### ZeppelinDancingDays
 
-![vscode screen](https://github.com/selfrefactor/zeppelin-themes/blob/master/files/dancing.days.png?raw=true)
+![vscode screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/zeppelin-themes/screens/dancing.days.png?raw=true)
 
 ### ZeppelinHeartbreaker
 
-![vscode screen](https://github.com/selfrefactor/zeppelin-themes/blob/master/files/heartbreaker.png?raw=true)
+![vscode screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/zeppelin-themes/screens/heartbreaker.png?raw=true)
 
 ### ZeppelinInLight
 
-![vscode screen](https://github.com/selfrefactor/zeppelin-themes/blob/master/files/in.light.png?raw=true)
+![vscode screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/zeppelin-themes/screens/in.light.png?raw=true)
 
 ### ZeppelinLemonSong
 
-![vscode screen](https://github.com/selfrefactor/zeppelin-themes/blob/master/files/lemon.song.png?raw=true)
+![vscode screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/zeppelin-themes/screens/lemon.song.png?raw=true)
 
 ### ZeppelinSinceLoving
 
 > update
 
-![vscode screen](https://github.com/selfrefactor/zeppelin-themes/blob/master/files/since.loving.png?raw=true)
+![vscode screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/zeppelin-themes/screens/since.loving.png?raw=true)
 
 ### ZeppelinTeaFor
 
-![vscode screen](https://github.com/selfrefactor/zeppelin-themes/blob/master/files/tea.for.png?raw=true)
+![vscode screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/zeppelin-themes/screens/tea.for.png?raw=true)
 
 ## Dedicated
 
