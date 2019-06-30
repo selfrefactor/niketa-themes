@@ -1,0 +1,32 @@
+[
+  {
+    "label": "ZeppelinSinceLoving",
+    "uiTheme": "vs",
+    "path": "./themes/ZeppelinSinceLoving.json"
+  },
+  {
+    "label": "ZeppelinTeaFor",
+    "uiTheme": "vs",
+    "path": "./themes/ZeppelinTeaFor.json"
+  },
+  {
+    "label": "ZeppelinLemonSong",
+    "uiTheme": "vs",
+    "path": "./themes/ZeppelinLemonSong.json"
+  },
+  {
+    "label": "ZeppelinHeartbreaker",
+    "uiTheme": "vs",
+    "path": "./themes/ZeppelinHeartbreaker.json"
+  },
+  {
+    "label": "ZeppelinDancingDays",
+    "uiTheme": "vs",
+    "path": "./themes/ZeppelinDancingDays.json"
+  },
+  {
+    "label": "ZeppelinInLight",
+    "uiTheme": "vs",
+    "path": "./themes/ZeppelinInLight.json"
+  }
+]
