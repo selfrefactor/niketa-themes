@@ -2,7 +2,7 @@
   "name": "zeppelin-themes",
   "displayName": "Zeppelin themes",
   "description": "Collection of tre color light themes",
-  "version": "3.5.0",
+  "version": "3.6.0",
   "license": "MIT",
   "publisher": "selfrefactor",
   "scripts": {
@@ -16,10 +16,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/selfrefactor/zeppelin-themes.git"
+    "url": "https://github.com/selfrefactor/niketa-themes.git"
   },
   "bugs": {
-    "url": "https://github.com/selfrefactor/zeppelin-themes/issues"
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
   },
   "icon": "logo.png",
   "contributes": {
