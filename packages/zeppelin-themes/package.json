@@ -2,7 +2,7 @@
   "name": "zeppelin-themes",
   "displayName": "Zeppelin themes",
   "description": "Collection of tre color light themes",
-  "version": "3.7.1",
+  "version": "3.7.2",
   "license": "MIT",
   "publisher": "selfrefactor",
   "scripts": {
@@ -84,16 +84,18 @@
     ],
     "workInProgress": ""
   },
-  "badges": [ {
-    "description": "Trending daily",
-    "url": "https://vsmarketplacebadge.apphb.com/trending-daily/selfrefactor.zeppelin-themes.svg"
-  },
-  {
-    "description": "Trending weekly",
-    "url": "https://vsmarketplacebadge.apphb.com/trending-weekly/selfrefactor.zeppelin-themes.svg"
-  },
-  {
-    "description": "Trending monthly",
-    "url": "https://vsmarketplacebadge.apphb.com/trending-monthly/selfrefactor.zeppelin-themes.svg"
-  }]
+  "badges": [
+    {
+      "description": "Trending daily",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-daily/selfrefactor.zeppelin-themes.svg"
+    },
+    {
+      "description": "Trending weekly",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-weekly/selfrefactor.zeppelin-themes.svg"
+    },
+    {
+      "description": "Trending monthly",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-monthly/selfrefactor.zeppelin-themes.svg"
+    }
+  ]
 }

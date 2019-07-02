@@ -19,6 +19,20 @@
     "url": "https://github.com/selfrefactor/niketa-themes/issues"
   },
   "icon": "screens/because.always.png",
+  "badges": [
+    {
+      "description": "Trending daily",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-daily/selfrefactor.Because.svg"
+    },
+    {
+      "description": "Trending weekly",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-weekly/selfrefactor.Because.svg"
+    },
+    {
+      "description": "Trending monthly",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-monthly/selfrefactor.Because.svg"
+    }
+  ],
   "contributes": {
     "themes": [
       {
