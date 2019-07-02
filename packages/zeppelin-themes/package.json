@@ -2,7 +2,7 @@
   "name": "zeppelin-themes",
   "displayName": "Zeppelin themes",
   "description": "Collection of tre color light themes",
-  "version": "3.6.0",
+  "version": "3.7.0",
   "license": "MIT",
   "publisher": "selfrefactor",
   "scripts": {
