@@ -51,5 +51,17 @@
       "build",
       "bee"
     ]
-  }
+  },
+  "badges": [ {
+    "description": "Trending daily",
+    "url": "https://vsmarketplacebadge.apphb.com/trending-daily/selfrefactor.zeppelin-themes.svg"
+  },
+  {
+    "description": "Trending weekly",
+    "url": "https://vsmarketplacebadge.apphb.com/trending-weekly/selfrefactor.zeppelin-themes.svg"
+  },
+  {
+    "description": "Trending monthly",
+    "url": "https://vsmarketplacebadge.apphb.com/trending-monthly/selfrefactor.zeppelin-themes.svg"
+  }]
 }
