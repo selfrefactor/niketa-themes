@@ -21,7 +21,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Because Ask",
+        "label": "BecauseAsk",
         "uiTheme": "vs-dark",
         "path": "./theme/BecauseAsk.json"
       }
