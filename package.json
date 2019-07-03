@@ -11,7 +11,8 @@
       "screens"
     ],
     "feature": [
-      "theme"
+      "theme",
+      "import"
     ]
   }
 }

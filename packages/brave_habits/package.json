@@ -1,6 +1,6 @@
 {
   "name": "BraveHabitsNiketa",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "keywords": [
     "niketa",
     "theme",
@@ -23,7 +23,7 @@
       {
         "label": "Brave Habits",
         "uiTheme": "vs",
-        "path": "./theme/BraveHabits.json"
+        "path": "./theme/brave.habits.json"
       }
     ]
   },

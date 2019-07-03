@@ -1,6 +1,6 @@
 {
   "name": "NiketaMoonNiketa",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "keywords": [
     "niketa",
     "theme",
@@ -23,7 +23,7 @@
       {
         "label": "Niketa Moon",
         "uiTheme": "vs",
-        "path": "./theme/NiketaMoon.json"
+        "path": "./theme/niketa.moon.json"
       }
     ]
   },

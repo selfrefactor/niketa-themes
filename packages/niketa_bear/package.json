@@ -1,6 +1,6 @@
 {
   "name": "NiketaBearNiketa",
-  "version": "0.3.0",
+  "version": "0.1.0",
   "keywords": [
     "niketa",
     "theme",
@@ -23,7 +23,7 @@
       {
         "label": "Niketa Bear",
         "uiTheme": "vs",
-        "path": "./theme/NiketaBear.json"
+        "path": "./theme/niketa.bear.json"
       }
     ]
   },

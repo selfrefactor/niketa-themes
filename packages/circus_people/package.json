@@ -1,6 +1,6 @@
 {
   "name": "CircusPeopleNiketa",
-  "version": "0.2.0",
+  "version": "0.1.0",
   "keywords": [
     "niketa",
     "theme",
@@ -23,7 +23,7 @@
       {
         "label": "Circus People",
         "uiTheme": "vs",
-        "path": "./theme/CircusPeople.json"
+        "path": "./theme/circus.people.json"
       }
     ]
   },
