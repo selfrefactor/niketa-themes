@@ -1,6 +1,8 @@
 # Advanced Hook
 
-Part of [Niketa theme bundle](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme) but distributed standalone for people who don't like having 17 themes in their VSCode theme namespace so they can use only one of them.
+Deprecated theme from [Niketa theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme) deployed as standalone theme.
+
+The deprecation is nessasary as currently `Niketa theme` has 18 light themes and there is no place for creation of new themes, unless with each new theme, the previous state is deployed as separate theme.
 
 ## Screen
 
