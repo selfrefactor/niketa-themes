@@ -1,0 +1,46 @@
+{
+  "name": "LemonSongNiketa",
+  "version": "1.6.0",
+  "keywords": [
+    "niketa",
+    "theme",
+    "color-theme",
+    "light",
+    "collection"
+  ],
+  "publisher": "selfrefactor",
+  "displayName": "LemonSong",
+  "description": "Niketa theme",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "theme/brave.love.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Lemon Song",
+        "uiTheme": "vs",
+        "path": "./theme/brave.love.json"
+      }
+    ]
+  },
+  "author": "Dejan Toteff <deyan8284@gmail.com>",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
+  "license": "MIT",
+  "directories": {
+    "lib": "theme"
+  },
+  "files": [
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  }
+}
