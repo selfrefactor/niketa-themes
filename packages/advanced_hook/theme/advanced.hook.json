@@ -827,6 +827,13 @@
       }
     },
     {
+      "name": "support.class.component.tsx",
+      "scope": "support.class.component.tsx",
+      "settings": {
+        "foreground": "#530c0c"
+      }
+    },
+    {
       "name": "support.class.promise.jsx",
       "scope": "support.class.promise.jsx",
       "settings": {
