@@ -1,0 +1,46 @@
+{
+  "name": "FamilyGuyNiketa",
+  "version": "1.1.0",
+  "keywords": [
+    "niketa",
+    "theme",
+    "color-theme",
+    "light",
+    "collection"
+  ],
+  "publisher": "selfrefactor",
+  "displayName": "FamilyGuy",
+  "description": "Niketa theme",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "theme/circus.ajax.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Family Guy",
+        "uiTheme": "vs",
+        "path": "./theme/circus.ajax.json"
+      }
+    ]
+  },
+  "author": "Dejan Toteff <deyan8284@gmail.com>",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
+  "license": "MIT",
+  "directories": {
+    "lib": "theme"
+  },
+  "files": [
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  }
+}
