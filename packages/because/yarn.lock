@@ -2643,9 +2643,9 @@ lodash.sortby@^4.7.0:
   integrity sha1-7dFMgk4sycHgsKG0K7UhBRakJDg=
 
 lodash@^4.17.11, lodash@^4.17.4:
-  version "4.17.11"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.11.tgz#b39ea6229ef607ecd89e2c8df12536891cac9b8d"
-  integrity sha512-cQKh8igo5QUhZ7lg38DYWAxMvjSAKG0A8wGSVimP07SIUEK2UO+arSRKbRZWtelMtN5V0Hkwh5ryOto/SshYIg==
+  version "4.17.15"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
 
 loose-envify@^1.0.0:
   version "1.4.0"
@@ -3269,10 +3269,10 @@ rambda@^1.2.6:
   resolved "https://registry.yarnpkg.com/rambda/-/rambda-1.2.6.tgz#5feed8039369b65c389ee1e02db9527695d30e83"
   integrity sha512-3tjeDuSMKAf8t099BejrmLgXdexAh63AsU2c2ZTcN5y/gt5njw03Wsfb+Ti9b08ZWLLDN5r0EvKynfYM91PB6g==
 
-rambdax@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/rambdax/-/rambdax-2.8.1.tgz#22757cf5545104979a50b20a02ec35a95017631f"
-  integrity sha512-OGaOtKBEwqrVBXji/bBT+0F1W9OEZ0dMkHY3+fmaankMN9PsyQqv/zgOms9ax2+XhQCZcIZeBrvHj70j0JW4wA==
+rambdax@^2.3.0:
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/rambdax/-/rambdax-2.17.0.tgz#986cc6ffd34c0d85b9151311e08485388316be18"
+  integrity sha512-OoSU9tKeP0MJjGKdFSh+X2+6V4+IT3oMOkSUdcadn5VAbkRYmW1nyEmFSYh9wIB1TPGwVdIGr7axDKVFBqo+PA==
 
 randomatic@^3.0.0:
   version "3.1.1"
