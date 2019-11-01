@@ -1,7 +1,7 @@
 {
-  "name": "niketa-theme",
-  "displayName": "Niketa Theme Light",
-  "description": "Large collection of handmade light themes",
+  "name": "niketa-dark-theme",
+  "displayName": "Niketa Theme Dark",
+  "description": "Large collection of handmade dark themes",
   "version": "8.19.0",
   "license": "MIT",
   "publisher": "selfrefactor",
@@ -16,12 +16,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/selfrefactor/niketa-theme.git"
+    "url": "https://github.com/selfrefactor/niketa-themes.git"
   },
   "bugs": {
-    "url": "https://github.com/selfrefactor/niketa-theme/issues"
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
   },
-  "icon": "logo.png",
+  "icon": "files/american.alien.png",
   "contributes": {
     "themes": [
       {
