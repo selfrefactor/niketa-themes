@@ -2,7 +2,7 @@
   "name": "niketa-dark-theme",
   "displayName": "Niketa Theme Dark",
   "description": "Large collection of handmade dark themes",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "publisher": "selfrefactor",
   "scripts": {
@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/selfrefactor/niketa-themes/issues"
   },
-  "icon": "files/american.alien.png",
+  "icon": "logo.png",
   "contributes": {
     "themes": [
       {
