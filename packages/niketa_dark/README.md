@@ -9,13 +9,11 @@
 
 ### American Alien
 
-![American Alien](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/files/american.alien.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-dark/files/american.alien.png?raw=true)
 
 ### American Dad
 
-![American Dad](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/files/american.dad.png?raw=true)
-
-
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-dark/files/american.alien.png?raw=true)
 
 ## Naming
 
