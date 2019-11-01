@@ -2,7 +2,7 @@
   "name": "niketa-dark-theme",
   "displayName": "Niketa Theme Dark",
   "description": "Large collection of handmade dark themes",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "license": "MIT",
   "publisher": "selfrefactor",
   "scripts": {
