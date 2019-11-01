@@ -87,8 +87,7 @@ function getBaseColors(mode, actualBack){
     .is('hunger', '#445A63')
     .default('#4d607b')
 
-  const darker = changeColorAnt(chromeMainColor, 'DARK', 0.2)
-  console.log({ darker })
+  const darker = changeColorAnt(chromeMainColor, 'DARK', 0.3)
   const listChrome = mode === 'hunger' ?
     listBlue :
     listStandard
