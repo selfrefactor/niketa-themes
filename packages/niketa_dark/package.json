@@ -2,7 +2,7 @@
   "name": "niketa-dark-theme",
   "displayName": "Niketa Theme Dark",
   "description": "Large collection of handmade dark themes",
-  "version": "0.2.0",
+  "version": "0.5.0",
   "license": "MIT",
   "publisher": "selfrefactor",
   "scripts": {
@@ -96,27 +96,17 @@
     {
       "description": "Trending daily",
       "href": "https://github.com/selfrefactor/niketa-theme",
-      "url": "https://vsmarketplacebadge.apphb.com/trending-daily/selfrefactor.Niketa-theme.svg"
+      "url": "https://vsmarketplacebadge.apphb.com/trending-daily/selfrefactor.Niketa-dark-theme.svg"
     },
     {
       "description": "Trending weekly",
       "href": "https://github.com/selfrefactor/niketa-theme",
-      "url": "https://vsmarketplacebadge.apphb.com/trending-weekly/selfrefactor.Niketa-theme.svg"
+      "url": "https://vsmarketplacebadge.apphb.com/trending-weekly/selfrefactor.Niketa-dark-theme.svg"
     },
     {
       "description": "Trending monthly",
       "href": "https://github.com/selfrefactor/niketa-theme",
-      "url": "https://vsmarketplacebadge.apphb.com/trending-monthly/selfrefactor.Niketa-theme.svg"
-    },
-    {
-      "description": "GitHub stars",
-      "href": "https://github.com/selfrefactor/niketa-theme/stargazers",
-      "url": "https://img.shields.io/github/stars/selfrefactor/niketa-theme.svg?style=social"
-    },
-    {
-      "description": "GitHub issues",
-      "href": "https://github.com/selfrefactor/niketa-theme/issues",
-      "url": "https://img.shields.io/github/issues/selfrefactor/niketa-theme.svg?style=social"
+      "url": "https://vsmarketplacebadge.apphb.com/trending-monthly/selfrefactor.Niketa-dark-theme.svg"
     }
   ]
 }
