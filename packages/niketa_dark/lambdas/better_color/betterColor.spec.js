@@ -1,16 +1,10 @@
 import { betterColor } from './betterColor.js'
-/*
-    back    : '#f4f1e3',
-  COLOR_0 : '#83580b',
-  COLOR_1 : '#780662',
-  COLOR_2 : '#090089',
-*/
-const COLOR_0 = '#780662'
-const COLOR_1 = '#83580b'
-const BACKGROUND = '#f4f1e3'
+const COLOR_0 = '#B97444'
+const COLOR_1 = '#ff5177'
+const BACKGROUND = '#355d80'
 const BATCH = 300
 const COLOR_TOLERANCE = 1
-const BACKGROUND_TOLERANCE = 3.5
+const BACKGROUND_TOLERANCE = 1.5
 
 test('happy', () => {
 
@@ -24,6 +18,6 @@ test('happy', () => {
   })
 })
 
-// Brave back - #f3f0e0
-// Circus back - #ede8e1
-// Niketa back - #d8d5c9
+// American back - #2A3343
+// Hunger back - #355d80
+// South back - #d8d5c9
