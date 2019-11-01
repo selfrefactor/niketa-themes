@@ -29,13 +29,13 @@ const listBlue = {
   'list.highlightForeground'         : '#861d4f',
   'list.inactiveSelectionBackground' : '#d1d3d4aa',
 }
-
+ 
 export const baseColors = {
-  'git.color.modified'                        : '#a50044',
-  'list.errorForeground'                      : '#a50044',
-  'gitDecoration.modifiedResourceForeground'  : '#eae3cd',
-  'gitDecoration.untrackedResourceForeground' : '#a50044',
-  'activityBar.background'                    : '#a11',
+  'git.color.modified'                        : '#b65a3d',
+  'list.errorForeground'                      : '#859da9',
+  'gitDecoration.modifiedResourceForeground'  : '#b06775',
+  'gitDecoration.untrackedResourceForeground' : '#877757',
+  'activityBar.background'                    : '#54a',
   'badge.background'                          : '#aaa',
   'badge.foreground'                          : '#fafafa',
   'diffEditor.insertedTextBackground'         : '#9c824a55',
@@ -62,10 +62,10 @@ export const baseColors = {
   'selection.background'                      : '#ebe6d9',
   'sideBar.background'                        : 'MAIN_COLOR',
   'sideBar.border'                            : '#445250c1',
-  'sideBar.foreground'                        : '#525',
+  'sideBar.foreground'                        : '#e7e7e7',
   'sideBarSectionHeader.background'           : '#aebabee9',
   'sideBarSectionHeader.foreground'           : '#2a3343e9',
-  'sideBarTitle.foreground'                   : '#00a',
+  'sideBarTitle.foreground'                   : '#e7e7e7',
   'statusBar.background'                      : 'MAIN_COLOR',
   'statusBar.foreground'                      : '#fafafa',
   'tab.activeBackground'                      : 'BACK_COLOR',
@@ -76,7 +76,7 @@ export const baseColors = {
   'tab.inactiveForeground'                    : '#b48ead',
   'tab.unfocusedActiveBackground'             : 'MAIN_COLOR',
   'tab.unfocusedActiveBorder'                 : 'MAIN_COLOR',
-  'editorGutter.background'                   : 'MAIN_COLOR',
+  'editorGutter.background'                   : 'MAIN_COLOR',  
   'tab.unfocusedActiveForeground'             : '#aa769b',
   'widget.shadow'                             : '#8382aebb',
 }
