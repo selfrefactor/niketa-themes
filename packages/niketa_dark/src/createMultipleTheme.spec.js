@@ -12,25 +12,47 @@ const SOUTH_BACK = '#1b2d41'
 
 const listStandard = {
   'list.activeSelectionBackground'   : '#eae3cd',
-  'list.activeSelectionForeground'   : '#677d7f',
+  'list.activeSelectionForeground'   : '#30322e',
   'list.dropBackground'              : '#999a9d',
   'list.focusBackground'             : '#885f66aa',
   'list.highlightForeground'         : '#89345d',
-  'list.hoverBackground'             : '#999a9d',
-  'list.hoverForeground'             : '#f5f4e8',
-  'list.inactiveSelectionBackground' : '#eae3cd55',
-  'list.inactiveSelectionForeground' : '#30322e',
-}
-const listBlue = {
-  ...listStandard,
-  'list.activeSelectionBackground'   : '#cacacc',
-  'list.activeSelectionForeground'   : '#445a63',
-  'list.focusBackground'             : '#978373d2',
-  'list.highlightForeground'         : '#861d4f',
-  'list.inactiveSelectionBackground' : '#d1d3d4aa',
+  'list.hoverBackground'             : '#e5e9f0',
+  'list.hoverForeground'             : '#bf616a',
+  'list.inactiveSelectionBackground' : '#30322e',
+  'list.inactiveSelectionForeground' : '#f7f2f2',
 }
  
+const sidebarColors = {
+  'sideBar.background'                        : 'MAIN_COLOR',
+  'sideBar.foreground'                        : '#e7e7e7',
+  'sideBar.border'                            : '#8382ae',
+  'sideBarSectionHeader.background'           : '#aebabe',
+  'sideBarSectionHeader.foreground'           : '#2a3343',
+  'sideBarTitle.foreground'                   : '#cacacc',
+}
+
+const suggestionsColors = {
+  "editorSuggestWidget.background": "#c3c1a9",
+  "editorSuggestWidget.border": "#936776e9",
+  "editorSuggestWidget.foreground": "#445a63",
+  "editorSuggestWidget.highlightForeground":"#4d0e0b",
+  "editorSuggestWidget.selectedBackground":"#aebabe",
+  "editorHoverWidget.background": "#a3a",
+  "editorHoverWidget.border": "#33a",
+  "editorWidget.background": "#fafafa",
+  "editorWidget.border": "#1afafa",
+}
+
+const selectionsColors = {
+  'editor.selectionBackground': "#cacacc",
+"editor.selectionHighlightBackground": "#977d96",
+"editor.inactiveSelectionBackground":"#b06775"
+}
+
 export const baseColors = {
+  ...suggestionsColors,
+  ...sidebarColors,
+  ...selectionsColors,
   'git.color.modified'                        : '#b65a3d',
   'list.errorForeground'                      : '#859da9',
   'gitDecoration.modifiedResourceForeground'  : '#b06775',
@@ -45,13 +67,11 @@ export const baseColors = {
   'editor.findRangeHighlightBackground'       : '#3f706366',
   'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK',
   'editor.lineHighlightBorderx'               : '#9a9b9411',
-  'editor.selectionBackground'                : 'MAIN_COLOR55',
-  'editor.selectionHighlightBackground'       : 'MAIN_COLOR88',
-  'editor.wordHighlightBackground'            : 'MAIN_COLORaa',
-  'editor.wordHighlightStrongBackground'      : 'MAIN_COLORdd',
-  'editorBracketMatch.background'             : '#B1365Bf3',
-  'editorBracketMatch.border'                 : '#9F7E6Bf3',
-  'editorCursor.foreground'                   : '#54a',
+  'editor.wordHighlightBackground'            : '#bacfd6',
+  'editor.wordHighlightStrongBackground'      : '#ffe0e0',
+  'editorBracketMatch.background'             : '#B1365B',
+  'editorBracketMatch.border'                 : '#978373',
+  'editorCursor.foreground'                   : '#f9f6f1',
   'editorGroupHeader.tabsBackground'          : 'MAIN_COLOR',
   'editorLineNumber.foreground'               : '#DD85007a',
   'editorLink.activeForeground'               : '#7a2',
@@ -60,12 +80,6 @@ export const baseColors = {
   'scrollbarSlider.background'                : '#455a64',
   'scrollbarSlider.hoverBackground'           : '#C4BE9D',
   'selection.background'                      : '#ebe6d9',
-  'sideBar.background'                        : 'MAIN_COLOR',
-  'sideBar.border'                            : '#445250c1',
-  'sideBar.foreground'                        : '#e7e7e7',
-  'sideBarSectionHeader.background'           : '#aebabee9',
-  'sideBarSectionHeader.foreground'           : '#2a3343e9',
-  'sideBarTitle.foreground'                   : '#e7e7e7',
   'statusBar.background'                      : 'MAIN_COLOR',
   'statusBar.foreground'                      : '#fafafa',
   'tab.activeBackground'                      : 'BACK_COLOR',
@@ -88,13 +102,10 @@ function getBaseColors(mode, actualBack){
     .default('#4d607b')
 
   const darker = changeColorAnt(chromeMainColor, 'DARK', 0.3)
-  const listChrome = mode === 'hunger' ?
-    listBlue :
-    listStandard
 
   const currentBase = {
     ...baseColors,
-    ...listChrome,
+    ...listStandard,
   }
   const withMainDarkColor = map(
     color => replace('MAIN_COLOR_DARK', darker, color)
