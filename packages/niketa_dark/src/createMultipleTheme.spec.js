@@ -40,7 +40,7 @@ const suggestionsColors = {
   "editorHoverWidget.background": "#ebeeea",
   "editorHoverWidget.border": "#30322e",
   "editorWidget.background": "#fafafa",
-  "editorWidget.border": "#1afafa", 
+  "editorWidget.border": "#40c8ae", 
 }
 
 const selectionsColors = {
