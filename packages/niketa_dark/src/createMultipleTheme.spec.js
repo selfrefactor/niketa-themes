@@ -149,7 +149,8 @@ SETTINGS[ 3 ] = {
   mode    : 'hunger',
   label   : 'force',
   COLOR_0 : '#9eb4ad',
-  COLOR_1 : '#bf616a',
+  // COLOR_1 : '#bf616a',
+  COLOR_1 : '#845d66',
   COLOR_2 : '#8994bd',
 }
 
@@ -157,8 +158,9 @@ SETTINGS[ 4 ] = {
   mode    : 'hunger',
   label   : 'epiphany',
   COLOR_0 : '#a3be8c',
-  COLOR_5 : '#827717',
-  COLOR_4 : '#906387',
+  COLOR_1 : '#827717',
+  COLOR_2 : '#836180',
+  // COLOR_2 : '#906387',
 }
 SETTINGS[ 5 ] = {
   mode    : 'hunger',
@@ -172,7 +174,8 @@ SETTINGS[ 6 ] = {
   mode    : 'south',
   label   : 'park',
   COLOR_0 : '#2b8fb3',
-  COLOR_1 : '#a0512c',
+  // COLOR_1 : '#a0512c',
+  COLOR_1 : '#9a574d',
   COLOR_2 : '#c0c5c9',
 }
 SETTINGS[ 7 ] = {
