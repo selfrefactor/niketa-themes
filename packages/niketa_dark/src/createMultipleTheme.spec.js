@@ -90,7 +90,8 @@ export const baseColors = {
   'tab.inactiveForeground'                    : '#b48ead',
   'tab.unfocusedActiveBackground'             : 'MAIN_COLOR',
   'tab.unfocusedActiveBorder'                 : 'MAIN_COLOR',
-  'editorGutter.background'                   : 'MAIN_COLOR',  
+  'editorGutter.background'                   : 'MAIN_COLOR',
+  "scrollbar.shadow": "#cf6f4b",  
   'tab.unfocusedActiveForeground'             : '#aa769b',
   'widget.shadow'                             : '#8382aebb',
 }
