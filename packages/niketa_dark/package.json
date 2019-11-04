@@ -108,5 +108,8 @@
       "href": "https://github.com/selfrefactor/niketa-theme",
       "url": "https://vsmarketplacebadge.apphb.com/trending-monthly/selfrefactor.Niketa-dark-theme.svg"
     }
-  ]
+  ],
+  "commitMessage": {
+    "workInProgress": "populate screens"
+  }
 }
