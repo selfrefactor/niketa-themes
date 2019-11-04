@@ -13,7 +13,11 @@
 
 ### American Dad
 
-![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/american.alien.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/american.dad.png?raw=true)
+
+### American Spy
+
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/american.spy.png?raw=true)
 
 ## Naming
 
