@@ -25,14 +25,14 @@
   "contributes": {
     "themes": [
       {
-        "label": "AmericanDad",
-        "uiTheme": "vs-dark",
-        "path": "./themes/AmericanDad.json"
-      },
-      {
         "label": "AmericanAlien",
         "uiTheme": "vs-dark",
         "path": "./themes/AmericanAlien.json"
+      },
+      {
+        "label": "AmericanDad",
+        "uiTheme": "vs-dark",
+        "path": "./themes/AmericanDad.json"
       },
       {
         "label": "AmericanSpy",

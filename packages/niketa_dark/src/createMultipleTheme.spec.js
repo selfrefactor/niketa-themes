@@ -125,17 +125,17 @@ export const SETTINGS = {}
 
 SETTINGS[ 0 ] = {
   mode    : 'american',
-  label   : 'dad',
-  COLOR_0 : '#FBFBBF',
-  COLOR_1 : '#8ac6d1',
-  COLOR_2 : '#DD8500',
-}
-SETTINGS[ 1 ] = {
-  mode    : 'american',
   label   : 'alien',
   COLOR_0 : '#E3E278',
   COLOR_1 : '#DAEEF1',
   COLOR_2 : '#ac7c7c',
+}
+SETTINGS[ 1 ] = {
+  mode    : 'american',
+  label   : 'dad',
+  COLOR_0 : '#FBFBBF',
+  COLOR_1 : '#8ac6d1',
+  COLOR_2 : '#DD8500',
 }
 SETTINGS[ 2 ] = {
   mode    : 'american',
