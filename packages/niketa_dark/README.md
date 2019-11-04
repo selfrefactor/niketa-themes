@@ -1,15 +1,19 @@
-# Niketa
+# Niketa Dark
 
 [![Installs](https://img.shields.io/vscode-marketplace/i/selfrefactor.Niketa-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/selfrefactor.Niketa-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme)
 
-9 Dark VSCode Themes
+9 Dark VSCode Themes split into 3 groups
 
 ## Screens
 
 ### American Alien
 
-![advanced.bat](https://github.com/selfrefactor/niketa-themes/packages/blob/master/packages/niketa-dark/files/american.alien.png?raw=true)
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/american.alien.png?raw=true)
+
+### American Dad
+
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/american.alien.png?raw=true)
 
 ## Naming
 
