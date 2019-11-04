@@ -34,7 +34,7 @@ const sidebarColors = {
 const suggestionsColors = {
   "editorSuggestWidget.background": "#c3c1a9",
   "editorSuggestWidget.border": "#936776e9",
-  "editorSuggestWidget.foreground": "#445a63",
+  "editorSuggestWidget.foreground": "#344250",
   "editorSuggestWidget.highlightForeground":"#4d0e0b",
   "editorSuggestWidget.selectedBackground":"#aebabe",
   "editorHoverWidget.background": "#ebeeea",
