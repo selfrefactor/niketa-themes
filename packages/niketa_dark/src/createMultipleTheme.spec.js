@@ -37,7 +37,7 @@ const suggestionsColors = {
   "editorSuggestWidget.foreground": "#344250",
   "editorSuggestWidget.highlightForeground":"#4d0e0b",
   "editorSuggestWidget.selectedBackground":"#aebabe",
-  "editorHoverWidget.background": "#ebeeea",
+  "editorHoverWidget.background": "#344250",
   "editorHoverWidget.border": "#30322e",
   "editorWidget.background": "#fafafa",
   "editorWidget.border": "#40c8ae", 
