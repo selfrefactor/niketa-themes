@@ -24,3 +24,7 @@
 `American` group is dedicated to `American dad`
 `Hunger` group is dedicated to `Aqua team hunger force`
 `South` group is dedicated to `South park`
+
+## Light theme
+
+This set of themes is based on Niketa theme, which is set of 18 light themes.
