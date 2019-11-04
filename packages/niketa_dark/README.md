@@ -19,6 +19,30 @@
 
 ![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/american.spy.png?raw=true)
 
+### Hunger Epiphany
+
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/hunger.epiphany.png?raw=true)
+
+### Hunger Force
+
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/hunger.force.png?raw=true)
+
+### Hunger Shake
+
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/hunger.shake.png?raw=true)
+
+### South Authority
+
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/south.authority.png?raw=true)
+
+### South Park
+
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/south.park.png?raw=true)
+
+### South Tegridy
+
+![VSCode theme screen](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa_dark/screens/south.tegridy.png?raw=true)
+
 ## Naming
 
 `American` group is dedicated to `American dad`
@@ -27,4 +51,4 @@
 
 ## Light theme
 
-This set of themes is based on Niketa theme, which is set of 18 light themes.
+This set of themes is based on [Niketa theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme), which is set of 18 light themes.
