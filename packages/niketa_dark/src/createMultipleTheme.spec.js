@@ -62,7 +62,7 @@ export const baseColors = {
   'badge.foreground'                          : '#fafafa',
   'diffEditor.insertedTextBackground'         : '#9c824a55',
   'diffEditor.removedTextBackground'          : '#64B5F655',
-  'editor.findMatchBackground'                : '#95a5a677',
+  'editor.findMatchBackground'                : '#fafafa',
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706366',
   'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK',
