@@ -56,7 +56,7 @@ export const baseColors = {
   'git.color.modified'                        : '#b65a3d',
   'list.errorForeground'                      : '#859da9',
   'gitDecoration.modifiedResourceForeground'  : '#b06775',
-  'gitDecoration.untrackedResourceForeground' : '#877757',
+  'gitDecoration.untrackedResourceForeground' : '#f39990f1',
   'activityBar.background'                    : '#54a',
   'badge.background'                          : '#aaa',
   'badge.foreground'                          : '#fafafa',
