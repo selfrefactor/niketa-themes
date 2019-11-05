@@ -149,8 +149,7 @@ SETTINGS[ 3 ] = {
   mode    : 'hunger',
   label   : 'force',
   COLOR_0 : '#9eb4ad',
-  // COLOR_1 : '#bf616a',
-  COLOR_1 : '#845d66',
+  COLOR_1 : '#a0848b',
   COLOR_2 : '#8994bd',
 }
 
