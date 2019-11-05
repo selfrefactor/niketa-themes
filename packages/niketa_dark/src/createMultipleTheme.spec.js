@@ -149,7 +149,7 @@ SETTINGS[ 3 ] = {
   mode    : 'hunger',
   label   : 'force',
   COLOR_0 : '#dadedb',
-  COLOR_1 : '#a0848b',
+  COLOR_1 : '#a76a72',
   COLOR_2 : '#8994bd',
 }
 
