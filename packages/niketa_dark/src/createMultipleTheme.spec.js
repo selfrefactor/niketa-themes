@@ -148,12 +148,12 @@ SETTINGS[ 2 ] = {
 SETTINGS[ 3 ] = {
   mode    : 'hunger',
   label   : 'force',
-  COLOR_0 : '#9eb4ad',
+  COLOR_0 : '#dadedb',
   COLOR_1 : '#a0848b',
   COLOR_2 : '#8994bd',
 }
 
-SETTINGS[ 4 ] = {
+SETTINGS[ 4 ] = { 
   mode    : 'hunger',
   label   : 'epiphany',
   COLOR_0 : '#a3be8c',
