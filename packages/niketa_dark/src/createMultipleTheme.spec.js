@@ -6,9 +6,20 @@ import { generateThemeDataBee } from './bees/generateThemeData'
 import { readJsonAnt } from './ants/readJson'
 import { maybe, map, defaultTo, replace, switcher } from 'rambdax'
 
-const AMERICAN_BACK = '#2A3343'
+const AMERICAN_BACK = '#2C2B2A'
+// const AMERICAN_BACK_ORIGINAL = '#2A3343'
 const HUNGER_BACK = '#2c3d52'
 const SOUTH_BACK = '#1b2d41'
+
+/*
+  SUGGESTIONS:
+
+  #0a0026
+  #24283b
+  #252525
+  #282828
+  #2C2B2A
+*/
 
 const listStandard = {
   'list.activeSelectionBackground'   : '#eae3cd',
