@@ -174,7 +174,7 @@ SETTINGS[ 5 ] = {
   label   : 'shake',
   COLOR_0 : '#eec2bb',
   COLOR_1 : '#95c4da',
-  COLOR_2 : '#b76144',
+  COLOR_2 : '#b8a0af',
 }
 
 SETTINGS[ 6 ] = {

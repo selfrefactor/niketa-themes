@@ -43,8 +43,8 @@ test('x', () => {
 
 test('happy', () => {
   const input = [
-    '#e5e9f0',
-    '#fe7d9d',
+    '#b196a7',
+    '#fafafa',
     translate('pink.1'),
   ]
 
