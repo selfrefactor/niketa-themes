@@ -159,7 +159,7 @@ SETTINGS[ 3 ] = {
   mode    : 'hunger',
   label   : 'epiphany',
   COLOR_0 : '#a3be8c',
-  COLOR_1 : '#a5597d',
+  COLOR_1 : '#f98fab',
   COLOR_2 : '#9cbbd0',
 }
 SETTINGS[ 4 ] = {
