@@ -73,7 +73,7 @@ export const baseColors = {
   'badge.foreground'                          : '#fafafa',
   'diffEditor.insertedTextBackground'         : '#9c824a55',
   'diffEditor.removedTextBackground'          : '#64B5F655',
-  'editor.findMatchBackground'                : '#fafafa',
+  'editor.findMatchBackground'                : '#282c34',
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706366',
   'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK',
@@ -155,21 +155,19 @@ SETTINGS[ 2 ] = {
   COLOR_1 : '#ff7bb0',
   COLOR_2 : '#7eb19f',
 }
-
-SETTINGS[ 3 ] = {
-  mode    : 'hunger',
-  label   : 'force',
-  COLOR_0 : '#dadedb',
-  COLOR_1 : '#a76a72',
-  COLOR_2 : '#8994bd',
-}
-
-SETTINGS[ 4 ] = { 
+SETTINGS[ 3 ] = { 
   mode    : 'hunger',
   label   : 'epiphany',
   COLOR_0 : '#a3be8c',
-  COLOR_1 : '#827717',
+  COLOR_1 : '#a5597d',
   COLOR_2 : '#9cbbd0',
+}
+SETTINGS[ 4 ] = {
+  mode    : 'hunger',
+  label   : 'force',
+  COLOR_0 : '#dadedb',
+  COLOR_1 : '#f57799',
+  COLOR_2 : '#8994bd',
 }
 SETTINGS[ 5 ] = {
   mode    : 'hunger',

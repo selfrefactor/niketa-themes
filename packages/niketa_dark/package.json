@@ -40,14 +40,14 @@
         "path": "./themes/AmericanSpy.json"
       },
       {
-        "label": "HungerForce",
-        "uiTheme": "vs-dark",
-        "path": "./themes/HungerForce.json"
-      },
-      {
         "label": "HungerEpiphany",
         "uiTheme": "vs-dark",
         "path": "./themes/HungerEpiphany.json"
+      },
+      {
+        "label": "HungerForce",
+        "uiTheme": "vs-dark",
+        "path": "./themes/HungerForce.json"
       },
       {
         "label": "HungerShake",
