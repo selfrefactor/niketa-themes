@@ -8,8 +8,10 @@ import { maybe, map, defaultTo, replace, switcher } from 'rambdax'
 
 const AMERICAN_BACK = '#24283b'
 // const AMERICAN_BACK_ORIGINAL = '#2A3343'
-const HUNGER_BACK = '#2c3d52'
-const SOUTH_BACK = '#1b2d41'
+const HUNGER_BACK_ORIGINAL_BLUE = '#2c3d52'
+const HUNGER_BACK = '#282828'
+// const SOUTH_BACK_ORIGINAL = '#1b2d41'
+const SOUTH_BACK = '#263246'
  
 /*
   SUGGESTIONS:
@@ -43,31 +45,31 @@ const sidebarColors = {
 }
 
 const suggestionsColors = {
-  "editorSuggestWidget.background": "#c3c1a9",
-  "editorSuggestWidget.border": "#936776e9",
-  "editorSuggestWidget.foreground": "#344250",
-  "editorSuggestWidget.highlightForeground":"#4d0e0b",
-  "editorSuggestWidget.selectedBackground":"#aebabe",
-  "editorHoverWidget.background": "#344250",
-  "editorHoverWidget.border": "#30322e",
-  "editorWidget.background": "#fafafa",
-  "editorWidget.border": "#40c8ae", 
+  "editorSuggestWidget.background": "#c3c1a9f1",
+  "editorSuggestWidget.border": "#93677699",
+  "editorSuggestWidget.foreground": "#344250f2",
+  "editorSuggestWidget.highlightForeground":"#4d0e0bf2",
+  "editorSuggestWidget.selectedBackground":"#aebabef2",
+  "editorHoverWidget.background": "#344250f2",
+  "editorHoverWidget.border": "#30322ef2",
+  "editorWidget.background": "#fafafaf2",
+  "editorWidget.border": "#40c8aef2", 
 }
 
 const selectionsColors = {
-  'editor.selectionBackground': "#cacacc",
-"editor.selectionHighlightBackground": "#977d96",
-"editor.inactiveSelectionBackground":"#b06775"
+  'editor.selectionBackground': "#cacaccc3",
+"editor.selectionHighlightBackground": "#977d96c3",
+"editor.inactiveSelectionBackground":"#b06775c4"
 }
-
+const OPACITY = 'd1'
 export const baseColors = {
   ...suggestionsColors,
   ...sidebarColors,
   ...selectionsColors,
-  'git.color.modified'                        : '#b65a3d',
+  'git.color.modified'                        : `#b65a3d${OPACITY}`,
   'list.errorForeground'                      : '#859da9',
-  'gitDecoration.modifiedResourceForeground'  : '#b06775',
-  'gitDecoration.untrackedResourceForeground' : '#f39990f1',
+  'gitDecoration.modifiedResourceForeground'  : `#b06775${OPACITY}`,
+  'gitDecoration.untrackedResourceForeground' :`#f39990${OPACITY}`,
   'activityBar.background'                    : '#54a',
   'badge.background'                          : '#aaa',
   'badge.foreground'                          : '#fafafa',
