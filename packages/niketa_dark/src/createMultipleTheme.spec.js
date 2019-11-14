@@ -6,13 +6,13 @@ import { generateThemeDataBee } from './bees/generateThemeData'
 import { readJsonAnt } from './ants/readJson'
 import { maybe, map, defaultTo, replace, switcher } from 'rambdax'
 
-const AMERICAN_BACK = '#24283b'
 // const AMERICAN_BACK_ORIGINAL = '#2A3343'
-const HUNGER_BACK_ORIGINAL_BLUE = '#2c3d52'
-const HUNGER_BACK = '#282828'
+// const HUNGER_BACK_ORIGINAL_BLUE = '#2c3d52'
 // const SOUTH_BACK_ORIGINAL = '#1b2d41'
+const AMERICAN_BACK = '#24283b'
+const HUNGER_BACK = '#2c3d52'
 const SOUTH_BACK = '#263246'
- 
+  
 /*
   SUGGESTIONS:
 
