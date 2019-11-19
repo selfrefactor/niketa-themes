@@ -170,7 +170,9 @@ SETTINGS[ 4 ] = {
   COLOR_0 : '#fafaa5',
   COLOR_1 : '#91CDD6',
   COLOR_2 : '#E07C64',
-  // COLOR_2 : '#E1DDD9',
+  COLOR_5 : '#E07C64',
+  COLOR_3 : '#E1DDD9',
+  COLOR_4 : '#E1DDD9',
 }
 // SETTINGS[ 4 ] = {
 //   mode    : 'hunger',
