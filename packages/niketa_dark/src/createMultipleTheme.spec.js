@@ -199,10 +199,20 @@ SETTINGS[ 6 ] = {
 SETTINGS[ 7 ] = {
   mode    : 'south',
   label   : 'authority',
-  COLOR_0 : '#D27837',
-  COLOR_1 : '#cf455c',
-  COLOR_2 : '#f2b999',
+  COLOR_0 : '#DA608E',
+  COLOR_1 : '#ebac2a',
+  COLOR_2 : '#E284A8',
+  COLOR_3 : '#88B1C6',
+  COLOR_4 : '#F7DDB2',
+  COLOR_5 : '#88B1C6',
 }
+// SETTINGS[ 7 ] = {
+//   mode    : 'south',
+//   label   : 'authority',
+//   COLOR_0 : '#D27837',
+//   COLOR_1 : '#cf455c',
+//   COLOR_2 : '#f2b999',
+// }
 SETTINGS[ 8 ] = {
   mode    : 'south',
   label   : 'tegridy',
