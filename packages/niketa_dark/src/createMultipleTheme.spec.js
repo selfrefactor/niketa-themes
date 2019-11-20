@@ -217,7 +217,8 @@ SETTINGS[ 8 ] = {
   mode    : 'south',
   label   : 'tegridy',
   COLOR_0 : '#f38b80',
-  COLOR_1 : '#3782AF',
+  COLOR_1 : '#7ba9c6',
+  // COLOR_1 : '#3782AF',
   COLOR_2 : '#c4773b',
 }
 
