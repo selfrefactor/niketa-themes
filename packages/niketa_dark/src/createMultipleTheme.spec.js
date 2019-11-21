@@ -164,8 +164,11 @@ SETTINGS[ 2 ] = {
   mode    : 'american',
   label   : 'spy',
   COLOR_0 : '#cd7856',
-  COLOR_1 : '#ff7bb0',
+  COLOR_1 : '#ea75a7',
   COLOR_2 : '#7eb19f',
+  COLOR_3 : '#cd7856',
+  COLOR_4 : '#7eb19f',
+  COLOR_5 : '#c5930e',
 }
 SETTINGS[ 3 ] = { 
   mode    : 'hunger',
