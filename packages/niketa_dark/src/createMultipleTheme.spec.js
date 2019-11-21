@@ -174,23 +174,24 @@ SETTINGS[ 3 ] = {
   COLOR_1 : '#f98fab',
   COLOR_2 : '#9cbbd0',
 }
+
+/*
+  Originally:
+  COLOR_0 : '#dadedb',
+  COLOR_1 : '#f57799',
+  COLOR_2 : '#8994bd',
+*/
 SETTINGS[ 4 ] = {
   mode    : 'hunger',
   label   : 'force',
-  COLOR_0 : '#dedd99',
-  COLOR_1 : '#91CDD6',
-  COLOR_2 : '#E07C64',
+  COLOR_1 : '#cfe071',
+  COLOR_0 : '#eff0f2',
+  COLOR_3 : '#E07C64',
+  COLOR_2 : '#6faab5',
+  COLOR_4 : '#6faab5', 
   COLOR_5 : '#E07C64',
-  COLOR_3 : '#E1DDD9', 
-  COLOR_4 : '#E1DDD9',
 }
-// SETTINGS[ 4 ] = {
-//   mode    : 'hunger',
-//   label   : 'force',
-//   COLOR_0 : '#dadedb',
-//   COLOR_1 : '#f57799',
-//   COLOR_2 : '#8994bd',
-// }
+
 SETTINGS[ 5 ] = {
   mode    : 'hunger',
   label   : 'shake',
