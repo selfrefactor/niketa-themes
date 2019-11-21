@@ -168,7 +168,6 @@ SETTINGS[ 2 ] = {
   COLOR_0 : '#c5930e',
   COLOR_4 : '#cd7856',
   COLOR_3 : '#c5930e',
-  // COLOR_5 : '#cd7856',
 }
 SETTINGS[ 3 ] = { 
   mode    : 'hunger',
@@ -187,10 +186,10 @@ SETTINGS[ 3 ] = {
 SETTINGS[ 4 ] = {
   mode    : 'hunger',
   label   : 'force',
+  COLOR_0 : '#6faab5',
   COLOR_1 : '#cfe071',
-  COLOR_0 : '#eff0f2',
+  COLOR_2 : '#eff0f2',
   COLOR_3 : '#E07C64',
-  COLOR_2 : '#6faab5',
   COLOR_4 : '#6faab5', 
   COLOR_5 : '#E07C64',
 }
