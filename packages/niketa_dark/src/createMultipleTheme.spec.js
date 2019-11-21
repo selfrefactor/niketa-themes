@@ -158,7 +158,7 @@ SETTINGS[ 1 ] = {
   COLOR_2 : '#e4a445',
   COLOR_3 : '#8ac6d1',
   COLOR_4 : '#e4a445',
-  COLOR_5 : '#a0c3b6',
+  COLOR_5 : '#699a47',
 }
 SETTINGS[ 2 ] = {
   mode    : 'american',
