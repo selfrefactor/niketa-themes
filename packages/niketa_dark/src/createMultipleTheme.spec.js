@@ -144,12 +144,6 @@ SETTINGS[ 0 ] = {
   COLOR_2 : '#ac7c7c',
 }
 
-/*
-  Initially is
-  COLOR_0 : '#FBFBBF',
-  COLOR_1 : '#8ac6d1',
-  COLOR_2 : '#DD8500',
-*/
 SETTINGS[ 1 ] = {
   mode    : 'american',
   label   : 'dad',
@@ -179,12 +173,6 @@ SETTINGS[ 3 ] = {
   COLOR_4 : '#a95869',
 }
 
-/*
-  Originally:
-  COLOR_0 : '#dadedb',
-  COLOR_1 : '#f57799',
-  COLOR_2 : '#8994bd',
-*/
 SETTINGS[ 4 ] = {
   mode    : 'hunger',
   label   : 'force',
@@ -223,19 +211,11 @@ SETTINGS[ 7 ] = {
   COLOR_4 : '#F7DDB2',
   COLOR_5 : '#88B1C6',
 }
-// SETTINGS[ 7 ] = {
-//   mode    : 'south',
-//   label   : 'authority',
-//   COLOR_0 : '#D27837',
-//   COLOR_1 : '#cf455c',
-//   COLOR_2 : '#f2b999',
-// }
 SETTINGS[ 8 ] = {
   mode    : 'south',
   label   : 'tegridy',
   COLOR_0 : '#f38b80',
   COLOR_1 : '#7ba9c6',
-  // COLOR_1 : '#3782AF',
   COLOR_2 : '#c4773b',
 }
 
