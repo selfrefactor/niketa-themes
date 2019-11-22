@@ -172,9 +172,11 @@ SETTINGS[ 2 ] = {
 SETTINGS[ 3 ] = { 
   mode    : 'hunger',
   label   : 'epiphany',
-  COLOR_0 : '#a3be8c',
+  COLOR_2 : '#a3be8c',
   COLOR_1 : '#f98fab',
-  COLOR_2 : '#9cbbd0',
+  COLOR_0 : '#9cbbd0',
+  COLOR_3 : '#9cbbd0',
+  COLOR_4 : '#a3495e',
 }
 
 /*
