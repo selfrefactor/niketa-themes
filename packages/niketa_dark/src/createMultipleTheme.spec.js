@@ -176,7 +176,7 @@ SETTINGS[ 3 ] = {
   COLOR_1 : '#f98fab',
   COLOR_0 : '#9cbbd0',
   COLOR_3 : '#9cbbd0',
-  COLOR_4 : '#a3495e',
+  COLOR_4 : '#a95869',
 }
 
 /*
@@ -201,7 +201,9 @@ SETTINGS[ 5 ] = {
   label   : 'shake',
   COLOR_0 : '#eec2bb',
   COLOR_1 : '#95c4da',
-  COLOR_2 : '#b8a0af',
+  COLOR_2 : '#418cb7',
+  COLOR_3 : '#b8a0af',
+  COLOR_4 : '#eec2bb',
 }
 
 SETTINGS[ 6 ] = {
