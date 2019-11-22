@@ -140,7 +140,7 @@ SETTINGS[ 0 ] = {
   mode    : 'american',
   label   : 'alien',
   COLOR_0 : '#E3E278',
-  COLOR_1 : '#DAEEF1',
+  COLOR_1 : '#b6d5cf',
   COLOR_2 : '#ac7c7c',
 }
 
