@@ -170,7 +170,7 @@ SETTINGS[ 3 ] = {
   COLOR_1 : '#f98fab',
   COLOR_0 : '#9cbbd0',
   COLOR_3 : '#9cbbd0',
-  COLOR_4 : '#a95869',
+  COLOR_4 : '#b26b77',
 }
 
 SETTINGS[ 4 ] = {
