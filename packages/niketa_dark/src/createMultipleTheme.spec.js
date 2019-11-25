@@ -27,11 +27,13 @@ const listStandard = {
   'list.activeSelectionBackground'   : '#eae3cd',
   'list.activeSelectionForeground'   : '#30322e',
   'list.dropBackground'              : '#999a9d',
-  'list.focusBackground'             : '#885f66aa',
+  'list.focusBackground'             : '#885f66',
+  // 'list.focusBackground'             : '#885f66aa',
   'list.highlightForeground'         : '#89345d',
   'list.hoverBackground'             : '#e5e9f0',
   'list.hoverForeground'             : '#bf616a',
-  'list.inactiveSelectionBackground' : '#30322e',
+  'list.inactiveSelectionBackground' : '#4c566a',
+  // 'list.inactiveSelectionBackground' : '#30322e',
   'list.inactiveSelectionForeground' : '#f7f2f2',
 }
  

@@ -64,11 +64,11 @@
     "list.activeSelectionBackground": "#eae3cd",
     "list.activeSelectionForeground": "#30322e",
     "list.dropBackground": "#999a9d",
-    "list.focusBackground": "#885f66aa",
+    "list.focusBackground": "#885f66",
     "list.highlightForeground": "#89345d",
     "list.hoverBackground": "#e5e9f0",
     "list.hoverForeground": "#bf616a",
-    "list.inactiveSelectionBackground": "#30322e",
+    "list.inactiveSelectionBackground": "#4c566a",
     "list.inactiveSelectionForeground": "#f7f2f2",
     "editor.background": "#2c3d52"
   },
