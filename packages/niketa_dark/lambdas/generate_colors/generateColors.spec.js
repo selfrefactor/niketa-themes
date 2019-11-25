@@ -42,7 +42,7 @@ test('x', () => {
 })
 
 test('happy', () => {
-  const input = [ '#a95869', '#f5fae1', translate('pink.1') ]
+  const input = [ '#b26b77', '#f5fae1' ]
 
   expect(() =>
     generateColors({
