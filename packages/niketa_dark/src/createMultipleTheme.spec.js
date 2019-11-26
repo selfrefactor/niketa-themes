@@ -28,12 +28,10 @@ const listStandard = {
   'list.activeSelectionForeground'   : '#30322e',
   'list.dropBackground'              : '#999a9d',
   'list.focusBackground'             : '#885f66',
-  // 'list.focusBackground'             : '#885f66aa',
   'list.highlightForeground'         : '#89345d',
   'list.hoverBackground'             : '#e5e9f0',
   'list.hoverForeground'             : '#bf616a',
-  'list.inactiveSelectionBackground' : '#4c566a',
-  // 'list.inactiveSelectionBackground' : '#30322e',
+  'list.inactiveSelectionBackground' : '#4c896a',
   'list.inactiveSelectionForeground' : '#f7f2f2',
 }
  
@@ -59,9 +57,10 @@ const suggestionsColors = {
 }
 
 const selectionsColors = {
-  'editor.selectionBackground': "#cacaccc3",
-"editor.selectionHighlightBackground": "#977d96c3",
-"editor.inactiveSelectionBackground":"#b06775c4"
+  // 'editor.selectionBackground': "#ca5010",
+  'editor.selectionBackground': "#f699d9",
+"editor.selectionHighlightBackground": "#b48ead",
+"editor.inactiveSelectionBackground":"#eec2bb"
 }
 const OPACITY = 'd1'
 export const baseColors = {
