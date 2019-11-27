@@ -157,11 +157,11 @@ SETTINGS[ 1 ] = {
   COLOR_5 : '#699a47',
 }
 SETTINGS[ 2 ] = {
-  mode    : 'american',
+  mode    : 'american', 
   label   : 'spy',
   COLOR_2 : '#7eb19f',
-  COLOR_1 : '#cd7856',
-  COLOR_0 : '#c5930e',
+  COLOR_0 : '#cd7856',
+  COLOR_1 : '#c5930e',
   COLOR_4 : '#cd7856',
   COLOR_3 : '#c5930e',
 }
