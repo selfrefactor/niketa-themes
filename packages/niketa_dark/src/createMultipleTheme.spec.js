@@ -21,6 +21,8 @@ const SOUTH_BACK = '#263246'
   #252525
   #282828
   #2C2B2A
+
+  selection "#ca5010",
 */
 
 const listStandard = {
@@ -57,7 +59,6 @@ const suggestionsColors = {
 }
 
 const selectionsColors = {
-  // 'editor.selectionBackground': "#ca5010",
   'editor.selectionBackground': "#f699d9",
 "editor.selectionHighlightBackground": "#b48ead",
 "editor.inactiveSelectionBackground":"#eec2bb"
@@ -69,7 +70,7 @@ export const baseColors = {
   ...selectionsColors,
   'git.color.modified'                        : `#b65a3d${OPACITY}`,
   'list.errorForeground'                      : '#859da9',
-  'gitDecoration.modifiedResourceForeground'  : `#b06775${OPACITY}`,
+  'gitDecoration.modifiedResourceForeground'  : `#c0c5c9${OPACITY}`,
   'gitDecoration.untrackedResourceForeground' :`#f39990${OPACITY}`,
   'activityBar.background'                    : '#54a',
   'badge.background'                          : '#aaa',
@@ -83,7 +84,6 @@ export const baseColors = {
   'editor.lineHighlightBorderx'               : '#9a9b9411',
   'editor.wordHighlightBackground'            : '#bacfd6',
   'editor.wordHighlightStrongBackground'      : '#7c8489',
-  // 'editor.wordHighlightStrongBackground'      : '#ffe0e0',
   'editorBracketMatch.background'             : '#B1365B',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
@@ -141,9 +141,11 @@ export const SETTINGS = {}
 SETTINGS[ 0 ] = {
   mode    : 'american',
   label   : 'alien',
-  COLOR_0 : '#E3E278',
-  COLOR_1 : '#b6d5cf',
-  COLOR_2 : '#ac7c7c',
+  COLOR_2 : '#bbada4',
+  COLOR_1 : '#f7f2f2',
+  COLOR_0 : '#ac7c7c',
+  COLOR_3 : '#f7f2f2',
+  COLOR_4 : '#ac7c7c',
 }
 
 SETTINGS[ 1 ] = {

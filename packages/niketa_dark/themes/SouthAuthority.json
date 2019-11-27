@@ -22,7 +22,7 @@
     "editor.inactiveSelectionBackground": "#eec2bb",
     "git.color.modified": "#b65a3dd1",
     "list.errorForeground": "#859da9",
-    "gitDecoration.modifiedResourceForeground": "#b06775d1",
+    "gitDecoration.modifiedResourceForeground": "#c0c5c9d1",
     "gitDecoration.untrackedResourceForeground": "#f39990d1",
     "activityBar.background": "#54a",
     "badge.background": "#aaa",
