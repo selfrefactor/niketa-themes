@@ -141,11 +141,11 @@ export const SETTINGS = {}
 SETTINGS[ 0 ] = {
   mode    : 'american',
   label   : 'alien',
-  COLOR_2 : '#bbada4',
-  COLOR_1 : '#f7f2f2',
-  COLOR_0 : '#ac7c7c',
-  COLOR_3 : '#f7f2f2',
-  COLOR_4 : '#ac7c7c',
+  COLOR_2 : '#95c4da',
+  COLOR_1 : '#f9f6f1',
+  COLOR_0 : '#ca5010',
+  COLOR_3 : '#f9f6f1',
+  COLOR_4 : '#ca5010',
 }
 
 SETTINGS[ 1 ] = {
