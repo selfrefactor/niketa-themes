@@ -22,7 +22,12 @@ const SOUTH_BACK = '#263246'
   #252525
   #282828
   #2C2B2A
-
+  #9b5fe0
+  #d8b7fd
+  #fed888
+  #b4df51
+  #35ba66
+  #e15d97
   selection "#ca5010",
 */
 
@@ -162,12 +167,23 @@ SETTINGS[ 1 ] = {
 SETTINGS[ 2 ] = {
   mode    : 'american', 
   label   : 'spy',
-  COLOR_2 : '#7eb19f',
+  COLOR_2 : '#35ba66',
+  // COLOR_2 : '#fed888',
   COLOR_0 : '#cd7856',
-  COLOR_1 : '#c5930e',
+  COLOR_1 : '#d8b7fd',
   COLOR_4 : '#cd7856',
-  COLOR_3 : '#c5930e',
+  COLOR_3 : '#d8b7fd',
 }
+
+// SETTINGS[ 2 ] = {
+//   mode    : 'american', 
+//   label   : 'spy',
+//   COLOR_2 : '#7eb19f',
+//   COLOR_0 : '#cd7856',
+//   COLOR_1 : '#c5930e',
+//   COLOR_4 : '#cd7856',
+//   COLOR_3 : '#c5930e',
+// }
 SETTINGS[ 3 ] = { 
   mode    : 'hunger',
   label   : 'epiphany',
