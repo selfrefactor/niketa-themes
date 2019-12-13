@@ -49,7 +49,7 @@
     "selection.background": "#ebe6d9",
     "statusBar.background": "#445A63",
     "statusBar.foreground": "#fafafa",
-    "tab.activeBackground": "#24283b",
+    "tab.activeBackground": "#261b2c",
     "tab.activeBorder": "#35495f",
     "tab.activeForeground": "#f2aa44",
     "tab.border": "#445A63",
@@ -70,7 +70,7 @@
     "list.hoverForeground": "#bf616a",
     "list.inactiveSelectionBackground": "#4c896a",
     "list.inactiveSelectionForeground": "#f7f2f2",
-    "editor.background": "#24283b"
+    "editor.background": "#261b2c"
   },
   "tokenColors": [
     {
