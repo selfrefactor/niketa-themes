@@ -6,28 +6,54 @@ import { generateThemeDataBee } from './bees/generateThemeData'
 import { readJsonAnt } from './ants/readJson'
 import { maybe, map, defaultTo, replace, switcher } from 'rambdax'
 
-// const AMERICAN_BACK_ORIGINAL = '#2A3343'
-// const HUNGER_BACK_ORIGINAL_BLUE = '#2c3d52'
-// const SOUTH_BACK_ORIGINAL = '#1b2d41'
-// const AMERICAN_BACK = '#24283b'
-const AMERICAN_BACK = '#261b2c'
-const HUNGER_BACK = '#2c3d52'
-const SOUTH_BACK = '#263246'
+/*
+  First iteration:
+  const AMERICAN_BACK_ORIGINAL = '#2A3343'
+  const HUNGER_BACK_ORIGINAL_BLUE = '#2c3d52'
+  const SOUTH_BACK_ORIGINAL = '#1b2d41'
+  const AMERICAN_BACK = '#24283b'
+
+  Second iteration:
+  const AMERICAN_BACK = '#261b2c'
+  const HUNGER_BACK = '#2c3d52'
+  const SOUTH_BACK = '#263246'
+
+
+*/
+
+const AMERICAN_BACK = '#0d1016'
+const HUNGER_BACK = '#191e2a'
+const SOUTH_BACK = '#263246' 
    
 /*
   SUGGESTIONS:
+  #2C2B2A
+  #232834
+  #080c11
+  #0d1016
+  #5c6773
 
   #0a0026
   #24283b
   #252525
   #282828
   #2C2B2A
+  #95e6cb
+  #a6cc70
+  #fac761
+  #f29668
+  #e6b450
+  #ed8274
   #9b5fe0
   #d8b7fd
   #fed888
+  #90e1c6
   #b4df51
   #35ba66
   #e15d97
+  #cbccc6
+  #ffa759
+  #f07178
   selection "#ca5010",
 */
 
@@ -164,17 +190,6 @@ SETTINGS[ 1 ] = {
   COLOR_4 : '#e4a445',
   COLOR_5 : '#699a47',
 }
-SETTINGS[ 2 ] = {
-  mode    : 'american', 
-  label   : 'spy',
-  COLOR_2 : '#35ba66',
-  // COLOR_2 : '#fed888',
-  COLOR_0 : '#cd7856',
-  COLOR_1 : '#d8b7fd',
-  COLOR_4 : '#cd7856',
-  COLOR_3 : '#d8b7fd',
-}
-
 // SETTINGS[ 2 ] = {
 //   mode    : 'american', 
 //   label   : 'spy',
@@ -184,15 +199,30 @@ SETTINGS[ 2 ] = {
 //   COLOR_4 : '#cd7856',
 //   COLOR_3 : '#c5930e',
 // }
-SETTINGS[ 3 ] = { 
-  mode    : 'hunger',
-  label   : 'epiphany',
+
+SETTINGS[ 2 ] = { 
+  mode    : 'american', 
+  label   : 'spy',
   COLOR_2 : '#a3be8c',
   COLOR_1 : '#f98fab',
   COLOR_0 : '#9cbbd0',
   COLOR_3 : '#9cbbd0',
   COLOR_4 : '#dec9bd', 
 }
+
+SETTINGS[ 3 ] = {
+  mode    : 'hunger',
+  label   : 'epiphany',
+  COLOR_2 : '#35ba66',
+  // // COLOR_2 : '#fed888',
+  COLOR_0 : '#f07178',
+  COLOR_1 : '#d8b7fd',
+  COLOR_4 : '#f07178',
+  // COLOR_4 : '#cd7856',
+  COLOR_3 : '#d8b7fd',
+}
+
+
 
 SETTINGS[ 4 ] = {
   mode    : 'hunger',
