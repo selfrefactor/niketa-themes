@@ -1,14 +1,15 @@
-import { generateColors } from './generateColors'
-import { readJsonAnt } from '../../src/ants/readJson'
-import { translate } from '../../src/ants/mini/translate'
 import {
-  random,
-  shuffle,
   filter,
   flatten,
   mapToObject,
   piped,
+  random,
+  shuffle,
 } from 'rambdax'
+
+import { translate } from '../../src/ants/mini/translate'
+import { readJsonAnt } from '../../src/ants/readJson'
+import { generateColors } from './generateColors'
 
 const getLabel = () => random(1000, 9999)
 
@@ -42,7 +43,7 @@ test('x', () => {
 })
 
 test('happy', () => {
-  const input = [ '#dec9bd', '#9b928c' ]
+  const input = [ '#418cb7', '#fafafa' ]
 
   expect(() =>
     generateColors({

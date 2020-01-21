@@ -19,10 +19,15 @@ import { generateThemeDataBee } from './bees/generateThemeData'
   const HUNGER_BACK = '#2c3d52'
   const SOUTH_BACK = '#263246'
 
+  Third iteration:
+  const AMERICAN_BACK = '#261b2c'
+  const HUNGER_BACK = '#2c3d52'
+  const SOUTH_BACK = '#263246'
+
 */
 
-const AMERICAN_BACK = '#0d1016'
-const HUNGER_BACK = '#191e2a'
+const AMERICAN_BACK = '#0a0026'
+const HUNGER_BACK = '#263246'
 const SOUTH_BACK = '#263246'
 
 /*
@@ -195,7 +200,8 @@ SETTINGS[ 1 ] = {
   COLOR_2 : '#e4a445',
   COLOR_3 : '#8ac6d1',
   COLOR_4 : '#e4a445',
-  COLOR_5 : '#699a47',
+  COLOR_5 : '#a6cc70',
+  // COLOR_5 : '#699a47',
 }
 // SETTINGS[ 2 ] = {
 //   mode    : 'american',
@@ -214,17 +220,19 @@ SETTINGS[ 2 ] = {
   COLOR_1 : '#f98fab',
   COLOR_0 : '#9cbbd0',
   COLOR_3 : '#9cbbd0',
-  COLOR_4 : '#dec9bd',
+  COLOR_4 : '#cbccc6',
+  // COLOR_4 : '#dec9bd',
 }
 
 SETTINGS[ 3 ] = {
   mode    : 'hunger',
   label   : 'epiphany',
-  COLOR_2 : '#35ba66',
+  COLOR_2 : '#9abc69',
   // // COLOR_2 : '#fed888',
-  COLOR_0 : '#f07178',
+  COLOR_0 : '#f07b73',
   COLOR_1 : '#d8b7fd',
-  COLOR_4 : '#f07178',
+  COLOR_4 : '#f07b73',
+  // COLOR_4 : '#f07178',
   // COLOR_4 : '#cd7856',
   COLOR_3 : '#d8b7fd',
 }
@@ -243,21 +251,14 @@ SETTINGS[ 4 ] = {
 SETTINGS[ 5 ] = {
   mode    : 'hunger',
   label   : 'shake',
-  COLOR_0 : '#eec2bb',
+  COLOR_0 : '#e17096',
   COLOR_1 : '#95c4da',
-  COLOR_2 : '#418cb7',
+  COLOR_2 : '#5699be',
   COLOR_3 : '#b8a0af',
-  COLOR_4 : '#eec2bb',
+  COLOR_4 : '#eea6a4',
 }
 
 SETTINGS[ 6 ] = {
-  mode    : 'south',
-  label   : 'park',
-  COLOR_0 : '#2b8fb3',
-  COLOR_1 : '#ae7a6d',
-  COLOR_2 : '#c0c5c9',
-}
-SETTINGS[ 7 ] = {
   mode    : 'south',
   label   : 'authority',
   COLOR_0 : '#DA608E',
@@ -266,6 +267,13 @@ SETTINGS[ 7 ] = {
   COLOR_3 : '#88B1C6',
   COLOR_4 : '#F7DDB2',
   COLOR_5 : '#88B1C6',
+}
+SETTINGS[ 7 ] = {
+  mode    : 'south',
+  label   : 'park',
+  COLOR_0 : '#2b8fb3',
+  COLOR_1 : '#ae7a6d',
+  COLOR_2 : '#c0c5c9',
 }
 SETTINGS[ 8 ] = {
   mode    : 'south',

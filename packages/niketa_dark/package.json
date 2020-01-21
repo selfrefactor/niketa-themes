@@ -55,14 +55,14 @@
         "path": "./themes/HungerShake.json"
       },
       {
-        "label": "SouthPark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/SouthPark.json"
-      },
-      {
         "label": "SouthAuthority",
         "uiTheme": "vs-dark",
         "path": "./themes/SouthAuthority.json"
+      },
+      {
+        "label": "SouthPark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/SouthPark.json"
       },
       {
         "label": "SouthTegridy",
