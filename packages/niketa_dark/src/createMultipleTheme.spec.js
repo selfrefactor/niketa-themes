@@ -32,6 +32,7 @@ const SOUTH_BACK = '#263246'
 
 /*
   SUGGESTIONS:
+  #000720
   #2C2B2A
   #232834
   #080c11
@@ -46,7 +47,10 @@ const SOUTH_BACK = '#263246'
   #252525
   #282828
   #2C2B2A
-  
+  #daa520
+	#5ac95a
+	#f64747
+  #6ba9ff
   #68a14e
 	#7e995b
   #cca152
