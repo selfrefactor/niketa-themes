@@ -24,7 +24,7 @@ import { generateThemeDataBee } from './bees/generateThemeData'
   const HUNGER_BACK = '#2c3d52'
   const SOUTH_BACK = '#263246'
 
-  Fourth: 
+  Fourth:
 
   const AMERICAN_BACK = '#0a0026'
 */
@@ -80,6 +80,8 @@ const SOUTH_BACK = '#263246'
   #cbccc6
   #ffa759
   #f07178
+  #ff605a
+
   selection "#ca5010",
 */
 
@@ -175,23 +177,25 @@ function getBaseColors(mode, actualBack){
     .is('hunger', '#445A63')
     .default('#4d607b')
 
-  const darker = changeColorAnt(chromeMainColor, 'DARK', 0.3)
+  const darker = changeColorAnt(
+    chromeMainColor, 'DARK', 0.3
+  )
 
   const currentBase = {
     ...baseColors,
     ...listStandard,
   }
-  const withMainDarkColor = map(color =>
-    replace('MAIN_COLOR_DARK', darker, color)
-  )(currentBase)
+  const withMainDarkColor = map(color => replace(
+    'MAIN_COLOR_DARK', darker, color
+  ))(currentBase)
 
-  const withMainColor = map(color =>
-    replace('MAIN_COLOR', chromeMainColor, color)
-  )(withMainDarkColor)
+  const withMainColor = map(color => replace(
+    'MAIN_COLOR', chromeMainColor, color
+  ))(withMainDarkColor)
 
-  return map(color => replace('BACK_COLOR', actualBack, color))(
-    withMainColor
-  )
+  return map(color => replace(
+    'BACK_COLOR', actualBack, color
+  ))(withMainColor)
 }
 
 export const SETTINGS = {}
@@ -199,12 +203,11 @@ export const SETTINGS = {}
 SETTINGS[ 0 ] = {
   mode    : 'american',
   label   : 'alien',
-  COLOR_2 : '#5CCFE6CC',
-  COLOR_1 : '#D9D7CE',
   COLOR_0 : '#FFAE57',
+  COLOR_1 : '#D9D7CE',
+  COLOR_2 : '#F07178',
   COLOR_3 : '#BAE67E',
-  COLOR_4 : '#F07178',
-  // COLOR_4 : '#ff605a',
+  COLOR_4 : '#5CCFE6CC',
 }
 /*
   SETTINGS[ 0 ] = {
@@ -345,7 +348,9 @@ test('happy', () => {
     const paletteMode = maybe(
       colors.COLOR_5,
       'six',
-      colors.COLOR_4 ? 'five' : maybe(colors.COLOR_3, 'four', 'three')
+      colors.COLOR_4 ? 'five' : maybe(
+        colors.COLOR_3, 'four', 'three'
+      )
     )
     // console.log({paletteMode})
     const chrome = getChrome(mode, back)
