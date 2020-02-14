@@ -24,9 +24,11 @@ import { generateThemeDataBee } from './bees/generateThemeData'
   const HUNGER_BACK = '#2c3d52'
   const SOUTH_BACK = '#263246'
 
-*/
+  Fourth: 
 
-const AMERICAN_BACK = '#0a0026'
+  const AMERICAN_BACK = '#0a0026'
+*/
+const AMERICAN_BACK = '#212733'
 const HUNGER_BACK = '#263246'
 const SOUTH_BACK = '#263246'
 
@@ -197,6 +199,17 @@ export const SETTINGS = {}
 SETTINGS[ 0 ] = {
   mode    : 'american',
   label   : 'alien',
+  COLOR_2 : '#5CCFE6CC',
+  COLOR_1 : '#D9D7CE',
+  COLOR_0 : '#FFAE57',
+  COLOR_3 : '#BAE67E',
+  COLOR_4 : '#F07178',
+  // COLOR_4 : '#ff605a',
+}
+/*
+  SETTINGS[ 0 ] = {
+  mode    : 'american',
+  label   : 'alien',
   COLOR_2 : '#95c4da',
   COLOR_1 : '#f9f6f1',
   COLOR_0 : '#ca5010',
@@ -204,6 +217,7 @@ SETTINGS[ 0 ] = {
   COLOR_4 : '#ca5010',
 }
 
+*/
 SETTINGS[ 1 ] = {
   mode    : 'american',
   label   : 'dad',

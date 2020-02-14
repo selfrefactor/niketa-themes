@@ -12,7 +12,7 @@ const COLORS_RAW = {
   COLOR_1 : '#303e27',
   COLOR_2 : '#0b032d',
   COLOR_3 : '#9e386a',
-}
+} 
 
 test('happy', () => {
   bestSquare({
