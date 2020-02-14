@@ -26,9 +26,9 @@ import { generateThemeDataBee } from './bees/generateThemeData'
 
   Fourth:
 
-  const AMERICAN_BACK = '#0a0026'
-*/
-const AMERICAN_BACK = '#212733'
+  const AMERICAN_BACK = '#212733'
+  */
+const AMERICAN_BACK = '#0a0026'
 const HUNGER_BACK = '#263246'
 const SOUTH_BACK = '#263246'
 
