@@ -205,8 +205,8 @@ SETTINGS[ 0 ] = {
   label   : 'alien',
   COLOR_0 : '#FFAE57',
   COLOR_1 : '#D9D7CE',
-  COLOR_2 : '#F07178',
-  COLOR_3 : '#BAE67E',
+  COLOR_2 : '#BAE67E',
+  COLOR_3 : '#F07178',
   COLOR_4 : '#5CCFE6CC',
 }
 /*
