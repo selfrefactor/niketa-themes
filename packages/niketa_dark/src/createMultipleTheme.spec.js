@@ -87,7 +87,7 @@ const SOUTH_BACK = '#263246'
 
 const listStandard = {
   'list.activeSelectionBackground'   : '#eae3cd',
-  'list.activeSelectionForeground'   : '#30322e',
+  'list.activeSelectionForeground'   : '#812428',
   'list.dropBackground'              : '#999a9d',
   'list.focusBackground'             : '#885f66',
   'list.highlightForeground'         : '#89345d',
@@ -141,7 +141,7 @@ export const baseColors = {
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706366',
   'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK',
-  'editor.lineHighlightBorderx'               : '#9a9b9411',
+  'editor.lineHighlightBorder'               : '#9a9b9411',
   'editor.wordHighlightBackground'            : '#bacfd6',
   'editor.wordHighlightStrongBackground'      : '#7c8489',
   'editorBracketMatch.background'             : '#B1365B',

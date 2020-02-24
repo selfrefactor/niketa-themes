@@ -1,11 +1,4 @@
-import {
-  filter,
-  flatten,
-  mapToObject,
-  piped,
-  random,
-  shuffle,
-} from 'rambdax'
+import { filter, flatten, mapToObject, piped, random, shuffle } from 'rambdax'
 
 import { translate } from '../../src/ants/mini/translate'
 import { readJsonAnt } from '../../src/ants/readJson'
@@ -17,8 +10,8 @@ function generateRandomPair(){
   const data = readJsonAnt('colors.json')
 
   const predicate = colorKey => {
-    const setOfColors = piped(data[ colorKey ], filter(Boolean), x =>
-      Object.values(x)
+    const setOfColors = piped(
+      data[ colorKey ], filter(Boolean), x => Object.values(x)
     )
 
     return { [ colorKey ] : setOfColors }
@@ -30,10 +23,7 @@ function generateRandomPair(){
   const firstRandomIndex = random(0, randomized.length - 1)
   const secondRandomIndex = random(0, randomized.length - 1)
 
-  const toReturn = [
-    randomized[ firstRandomIndex ],
-    randomized[ secondRandomIndex ],
-  ]
+  const toReturn = [ randomized[ firstRandomIndex ], randomized[ secondRandomIndex ] ]
 
   return toReturn
 }
@@ -43,7 +33,7 @@ test('x', () => {
 })
 
 test('happy', () => {
-  const input = [ '#418cb7', '#fafafa' ]
+  const input = [ '#c11925', '#30322e' ]
 
   expect(() =>
     generateColors({
@@ -51,8 +41,7 @@ test('happy', () => {
       label       : '_HAPPY',
       opacityFlag : false,
       levels      : 60,
-    })
-  ).not.toThrow()
+    })).not.toThrow()
 })
 
 test.skip('random persisted', () => {
@@ -63,8 +52,7 @@ test.skip('random persisted', () => {
       label       : '_RANDOM_PERSISTED',
       opacityFlag : true,
       levels      : 20,
-    })
-  ).not.toThrow()
+    })).not.toThrow()
 })
 
 test.skip('with static base', () => {
@@ -82,8 +70,7 @@ test.skip('with static base', () => {
       label       : '_WITH_ONE',
       opacityFlag : true,
       levels      : 10,
-    })
-  ).not.toThrow()
+    })).not.toThrow()
 })
 
 test.skip('random with hash', () => {
@@ -96,6 +83,5 @@ test.skip('random with hash', () => {
       input,
       label,
       levels : 200,
-    })
-  ).not.toThrow()
+    })).not.toThrow()
 })
