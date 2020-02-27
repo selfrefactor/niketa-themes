@@ -162,8 +162,8 @@ export const baseColors = {
   'editor.findMatchBackground'                : '#d0c7b5',
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706366',
-  'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK',
-  'editor.lineHighlightBorder'                : '#6e6f6e',
+  'editor.lineHighlightBackground'            : 'BACK_COLOR',
+  'editor.lineHighlightBorder'                : '#5e6062',
   'editor.wordHighlightBackground'            : '#bacfd6',
   'editor.wordHighlightStrongBackground'      : '#7c8489',
   'editorBracketMatch.background'             : '#B1365B',
@@ -214,7 +214,6 @@ function getBaseColors(mode, actualBack){
   const withMainColor = map(color => replace(
     'MAIN_COLOR', chromeMainColor, color
   ))(withMainDarkColor)
-
   return map(color => replace(
     'BACK_COLOR', actualBack, color
   ))(withMainColor)

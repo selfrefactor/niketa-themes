@@ -33,7 +33,7 @@ test('x', () => {
 })
 
 test('happy', () => {
-  const input = [ '#cacacc', '#30322e' ]
+  const input = [ '#6e6f6e', '#232834' ]
 
   expect(() =>
     generateColors({
