@@ -162,8 +162,8 @@ export const baseColors = {
   'editor.findMatchBackground'                : '#d0c7b5',
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706366',
-  'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK', 
-  'editor.lineHighlightBorder'                : '#71aac3', 
+  'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK',
+  'editor.lineHighlightBorder'                : '#6e6f6e',
   'editor.wordHighlightBackground'            : '#bacfd6',
   'editor.wordHighlightStrongBackground'      : '#7c8489',
   'editorBracketMatch.background'             : '#B1365B',
@@ -229,7 +229,7 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#D9D7CE',
   COLOR_2 : '#BAE67E',
   COLOR_3 : '#ce4458',
-  // RESTORE COLOR_3 : '#F07178', 
+  // RESTORE COLOR_3 : '#F07178',
   COLOR_4 : '#5CCFE6CC',
 }
 /*
@@ -278,7 +278,7 @@ SETTINGS[ 2 ] = {
 
 SETTINGS[ 3 ] = {
   /*
-    
+
   #fed888
   #f07178
   #cd7856
