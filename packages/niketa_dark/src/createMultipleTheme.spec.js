@@ -51,8 +51,8 @@ import { generateThemeDataBee } from './bees/generateThemeData'
   const AMERICAN_BACK = '#212733'
   */
 const AMERICAN_BACK = '#0a0026'
-const HUNGER_BACK = '#263246'
-const SOUTH_BACK = '#1a2b3c'
+const HUNGER_BACK = '#1a2b3c'
+const SOUTH_BACK = '#263246'
 
 /*
   SUGGESTIONS:
@@ -289,7 +289,7 @@ SETTINGS[ 3 ] = {
   COLOR_0 : '#ce4458',
   COLOR_1 : '#0e9bd1',
   COLOR_4 : '#d8cb32',
-  COLOR_3 : '#6071cc',
+  COLOR_3 : '#0099ad',
 }
 
 SETTINGS[ 4 ] = {
