@@ -163,7 +163,7 @@ export const baseColors = {
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706366',
   'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK', 
-  'editor.lineHighlightBorder'                : '#e7e7e7', 
+  'editor.lineHighlightBorder'                : '#bacfd6', 
   'editor.wordHighlightBackground'            : '#bacfd6',
   'editor.wordHighlightStrongBackground'      : '#7c8489',
   'editorBracketMatch.background'             : '#B1365B',
