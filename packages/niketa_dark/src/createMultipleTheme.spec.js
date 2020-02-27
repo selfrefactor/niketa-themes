@@ -8,6 +8,28 @@ import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeDataBee } from './bees/generateThemeData'
 
 /*
+  Thanatos
+  blueish background - #1a2b3c
+  #ce4458
+  #d8cb32
+  #dc835b
+  #0099ad
+  #d47186
+  #0e9bd1
+  #39bebf
+  #f07178
+
+  other
+  #E05B9D
+  #7AD3F3
+  #FAC863
+  #E06C75
+  #f92aad
+  #6071cc
+  #58c7e0
+*/
+
+/*
   First iteration:
   const AMERICAN_BACK_ORIGINAL = '#2A3343'
   const HUNGER_BACK_ORIGINAL_BLUE = '#2c3d52'
@@ -30,7 +52,7 @@ import { generateThemeDataBee } from './bees/generateThemeData'
   */
 const AMERICAN_BACK = '#0a0026'
 const HUNGER_BACK = '#263246'
-const SOUTH_BACK = '#263246'
+const SOUTH_BACK = '#1a2b3c'
 
 /*
   SUGGESTIONS:
@@ -206,7 +228,8 @@ SETTINGS[ 0 ] = {
   COLOR_0 : '#FFAE57',
   COLOR_1 : '#D9D7CE',
   COLOR_2 : '#BAE67E',
-  COLOR_3 : '#F07178',
+  COLOR_3 : '#ce4458',
+  // RESTORE COLOR_3 : '#F07178', 
   COLOR_4 : '#5CCFE6CC',
 }
 /*
