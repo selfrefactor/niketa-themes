@@ -277,16 +277,19 @@ SETTINGS[ 2 ] = {
 }
 
 SETTINGS[ 3 ] = {
+  /*
+    
+  #fed888
+  #f07178
+  #cd7856
+  */
   mode    : 'hunger',
   label   : 'epiphany',
   COLOR_2 : '#9abc69',
-  // // COLOR_2 : '#fed888',
-  COLOR_0 : '#f07b73',
-  COLOR_1 : '#d8b7fd',
-  COLOR_4 : '#f07b73',
-  // COLOR_4 : '#f07178',
-  // COLOR_4 : '#cd7856',
-  COLOR_3 : '#d8b7fd',
+  COLOR_0 : '#ce4458',
+  COLOR_1 : '#0e9bd1',
+  COLOR_4 : '#d8cb32',
+  COLOR_3 : '#6071cc',
 }
 
 SETTINGS[ 4 ] = {
