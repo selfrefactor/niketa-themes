@@ -163,7 +163,7 @@ export const baseColors = {
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706366',
   'editor.lineHighlightBackground'            : 'MAIN_COLOR_DARK', 
-  'editor.lineHighlightBorder'                : '#bacfd6', 
+  'editor.lineHighlightBorder'                : '#71aac3', 
   'editor.wordHighlightBackground'            : '#bacfd6',
   'editor.wordHighlightStrongBackground'      : '#7c8489',
   'editorBracketMatch.background'             : '#B1365B',
@@ -378,7 +378,6 @@ test('happy', () => {
         colors.COLOR_3, 'four', 'three'
       )
     )
-    // console.log({paletteMode})
     const chrome = getChrome(mode, back)
     const palette = readJsonAnt(`palettes/${ paletteMode }.json`)
     const themeData = generateThemeDataBee({
