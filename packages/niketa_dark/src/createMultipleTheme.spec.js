@@ -9,7 +9,6 @@ import { generateThemeDataBee } from './bees/generateThemeData'
 
 /*
   Thanatos
-  blueish background - #1a2b3c
   #ce4458
   #d8cb32
   #dc835b
@@ -50,15 +49,16 @@ import { generateThemeDataBee } from './bees/generateThemeData'
 
   const AMERICAN_BACK = '#212733'
   */
-const AMERICAN_BACK = '#263246'
-const HUNGER_BACK = '#263246'
-const SOUTH_BACK = '#263246'
+const AMERICAN_BACK = '#1a2b3c'
+const HUNGER_BACK = '#1a2b3c'
+const SOUTH_BACK = '#1a2b3c'
 // const SOUTH_BACK = '#0a0026'
 // const HUNGER_BACK = '#1a2b3c'
 // const SOUTH_BACK = '#263246'
 
 /*
   SUGGESTIONS:
+  #1a2b3c
   #000720
   #2C2B2A
   #232834
@@ -310,7 +310,8 @@ SETTINGS[ 7 ] = {
   COLOR_1 : '#7AD3F3',
   COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
-  COLOR_4 : '#ca5050',
+  // COLOR_4 : '#ca5050',
+  COLOR_4 : '#cd5953',
 }
 SETTINGS[ 8 ] = {
   mode    : 'south',
