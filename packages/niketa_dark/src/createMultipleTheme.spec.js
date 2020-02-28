@@ -7,113 +7,85 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeDataBee } from './bees/generateThemeData'
 
-/*
-  Thanatos
-  #ce4458
-  #d8cb32
-  #dc835b
-  #0099ad
-  #d47186
-  #0e9bd1
-  #39bebf
-  #f07178
-
-  other
-  #E05B9D
-  #7AD3F3
-  #FAC863
-  #E06C75
-  #f92aad
-  #6071cc
-  #58c7e0
-*/
-
-/*
-  First iteration:
-  const AMERICAN_BACK_ORIGINAL = '#2A3343'
-  const HUNGER_BACK_ORIGINAL_BLUE = '#2c3d52'
-  const SOUTH_BACK_ORIGINAL = '#1b2d41'
-  const AMERICAN_BACK = '#24283b'
-
-  Second iteration:
-  const AMERICAN_BACK = '#261b2c'
-  const HUNGER_BACK = '#2c3d52'
-  const SOUTH_BACK = '#263246'
-
-  Third iteration:
-  const AMERICAN_BACK = '#261b2c'
-  const HUNGER_BACK = '#2c3d52'
-  const SOUTH_BACK = '#263246'
-
-  Fourth:
-
-  const AMERICAN_BACK = '#212733'
-  */
 const AMERICAN_BACK = '#1a2b3c'
 const HUNGER_BACK = '#1a2b3c'
 const SOUTH_BACK = '#1a2b3c'
-// const SOUTH_BACK = '#0a0026'
-// const HUNGER_BACK = '#1a2b3c'
-// const SOUTH_BACK = '#263246'
 
 /*
   SUGGESTIONS:
-  #1a2b3c
   #000720
-  #2C2B2A
-  #232834
-  #080c11
-  #0d1016
-  #5c6773
   #011627
   #050523
-  #1e1d1c
-
+  #080c11
   #0a0026
+  #0a0026
+  #0d1016
+  #1b2d41
+  #1e1d1c
+  #212733
+  #232834
   #24283b
   #252525
+  #261b2c
+  #263246
   #282828
+  #2A3343
   #2C2B2A
-  #daa520
+  #2c3d52
+  #5c6773
+
 	#5ac95a
-	#f64747
-  #6ba9ff
-  #68a14e
 	#7e995b
-  #cca152
-  #ca5050
-  #527ecc
-  #7e2e7e
-  #95e6cb
-  #b871d0
+	#f64747
+  #0099ad
+  #0e9bd1
   #249ef5
+  #35ba66
+  #39bebf
   #3dc7b9
-  #f5e447
+  #527ecc
+  #58c7e0
+  #6071cc
+  #68a14e
+  #6ba9ff
+  #7AD3F3
+  #7e2e7e
+  #7eb19f
+  #90e1c6
+  #95c4da
+  #95e6cb
+  #9b5fe0
+  #E05B9D
+  #E06C75
+  #FAC863
   #a6cc70
-  #fac761
-  #f29668
+  #b4df51
+  #b871d0
+  #c5930e
+  #ca5050
+  #cbccc6
+  #cca152
+  #cd7856
+  #cd7856
+  #ce4458
+  #d47186
+  #d8b7fd
+  #d8cb32
+  #daa520
+  #dc835b
+  #e15d97
+  #e17096
   #e6b450
   #ed8274
-  #e17096
-  #9b5fe0
-  #d8b7fd
+  #f07178
+  #f29668
+  #f5e447
+  #f92aad
+  #fac761
   #fed888
-  #90e1c6
-  #b4df51
-  #35ba66
-  #e15d97
-  #cbccc6
-  #ffa759
-  #f07178
   #ff605a
-  #95c4da
-  #7eb19f
-  #7eb19f
-  #cd7856
-  #c5930e
- #fed888
-  #f07178
-  #cd7856
+  #ffa759
+
   selection "#ca5010",
 */
 
@@ -310,7 +282,6 @@ SETTINGS[ 7 ] = {
   COLOR_1 : '#7AD3F3',
   COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
-  // COLOR_4 : '#ca5050',
   COLOR_4 : '#cd5953',
 }
 SETTINGS[ 8 ] = {
