@@ -51,8 +51,10 @@ import { generateThemeDataBee } from './bees/generateThemeData'
   const AMERICAN_BACK = '#212733'
   */
 const AMERICAN_BACK = '#0a0026'
-const HUNGER_BACK = '#1a2b3c'
-const SOUTH_BACK = '#263246'
+const HUNGER_BACK = '#0a0026'
+const SOUTH_BACK = '#0a0026'
+// const HUNGER_BACK = '#1a2b3c'
+// const SOUTH_BACK = '#263246'
 
 /*
   SUGGESTIONS:
@@ -103,7 +105,14 @@ const SOUTH_BACK = '#263246'
   #ffa759
   #f07178
   #ff605a
-
+  #95c4da
+  #7eb19f
+  #7eb19f
+  #cd7856
+  #c5930e
+ #fed888
+  #f07178
+  #cd7856
   selection "#ca5010",
 */
 
@@ -214,6 +223,7 @@ function getBaseColors(mode, actualBack){
   const withMainColor = map(color => replace(
     'MAIN_COLOR', chromeMainColor, color
   ))(withMainDarkColor)
+
   return map(color => replace(
     'BACK_COLOR', actualBack, color
   ))(withMainColor)
@@ -228,21 +238,8 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#D9D7CE',
   COLOR_2 : '#BAE67E',
   COLOR_3 : '#ce4458',
-  // RESTORE COLOR_3 : '#F07178',
   COLOR_4 : '#5CCFE6CC',
 }
-/*
-  SETTINGS[ 0 ] = {
-  mode    : 'american',
-  label   : 'alien',
-  COLOR_2 : '#95c4da',
-  COLOR_1 : '#f9f6f1',
-  COLOR_0 : '#ca5010',
-  COLOR_3 : '#f9f6f1',
-  COLOR_4 : '#ca5010',
-}
-
-*/
 SETTINGS[ 1 ] = {
   mode    : 'american',
   label   : 'dad',
@@ -252,17 +249,7 @@ SETTINGS[ 1 ] = {
   COLOR_3 : '#8ac6d1',
   COLOR_4 : '#e4a445',
   COLOR_5 : '#a6cc70',
-  // COLOR_5 : '#699a47',
 }
-// SETTINGS[ 2 ] = {
-//   mode    : 'american',
-//   label   : 'spy',
-//   COLOR_2 : '#7eb19f',
-//   COLOR_0 : '#cd7856',
-//   COLOR_1 : '#c5930e',
-//   COLOR_4 : '#cd7856',
-//   COLOR_3 : '#c5930e',
-// }
 
 SETTINGS[ 2 ] = {
   mode    : 'american',
@@ -272,16 +259,9 @@ SETTINGS[ 2 ] = {
   COLOR_0 : '#9cbbd0',
   COLOR_3 : '#9cbbd0',
   COLOR_4 : '#cbccc6',
-  // COLOR_4 : '#dec9bd',
 }
 
 SETTINGS[ 3 ] = {
-  /*
-
-  #fed888
-  #f07178
-  #cd7856
-  */
   mode    : 'hunger',
   label   : 'epiphany',
   COLOR_2 : '#9abc69',
@@ -325,16 +305,20 @@ SETTINGS[ 6 ] = {
 SETTINGS[ 7 ] = {
   mode    : 'south',
   label   : 'park',
-  COLOR_0 : '#2b8fb3',
-  COLOR_1 : '#ae7a6d',
-  COLOR_2 : '#c0c5c9',
+  COLOR_0 : '#E05B9D',
+  COLOR_1 : '#7AD3F3',
+  COLOR_2 : '#f92aad',
+  COLOR_3 : '#cca152',
 }
 SETTINGS[ 8 ] = {
   mode    : 'south',
   label   : 'tegridy',
-  COLOR_0 : '#f38b80',
-  COLOR_1 : '#7ba9c6',
-  COLOR_2 : '#c4773b',
+  COLOR_0 : '#E05B9D',
+  COLOR_1 : '#6071cc',
+  COLOR_2 : '#FAC863',
+  COLOR_3 : '#E06C75',
+  COLOR_4 : '#7e2e7e',
+  COLOR_5 : '#95e6cb',
 }
 
 export function getChrome(mode, back){
