@@ -305,10 +305,11 @@ SETTINGS[ 6 ] = {
 SETTINGS[ 7 ] = {
   mode    : 'south',
   label   : 'park',
-  COLOR_0 : '#E05B9D',
+  COLOR_0 : '#e17096',
   COLOR_1 : '#7AD3F3',
-  COLOR_2 : '#f92aad',
+  COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
+  COLOR_4 : '#ca5050',
 }
 SETTINGS[ 8 ] = {
   mode    : 'south',
@@ -317,7 +318,7 @@ SETTINGS[ 8 ] = {
   COLOR_1 : '#6071cc',
   COLOR_2 : '#FAC863',
   COLOR_3 : '#E06C75',
-  COLOR_4 : '#7e2e7e',
+  COLOR_4 : '#f64747',
   COLOR_5 : '#95e6cb',
 }
 
