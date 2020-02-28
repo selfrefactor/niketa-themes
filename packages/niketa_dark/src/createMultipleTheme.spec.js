@@ -50,9 +50,10 @@ import { generateThemeDataBee } from './bees/generateThemeData'
 
   const AMERICAN_BACK = '#212733'
   */
-const AMERICAN_BACK = '#0a0026'
-const HUNGER_BACK = '#0a0026'
-const SOUTH_BACK = '#0a0026'
+const AMERICAN_BACK = '#263246'
+const HUNGER_BACK = '#263246'
+const SOUTH_BACK = '#263246'
+// const SOUTH_BACK = '#0a0026'
 // const HUNGER_BACK = '#1a2b3c'
 // const SOUTH_BACK = '#263246'
 
