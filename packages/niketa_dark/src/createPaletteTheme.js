@@ -6,7 +6,7 @@ import { savePaletteThemeBee } from './bees/saveTheme'
 import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { getGradientBee } from './bees/getGradient'
 import colors from '../colors.json'
-
+ 
 export function createPaletteRule(prop, colorBase, rate = 0.045){
   const willReturn = {}
   const modes = [

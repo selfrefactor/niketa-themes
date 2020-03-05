@@ -34,6 +34,22 @@ const SOUTH_BACK = '#1a2b3c'
   #2c3d52
   #5c6773
 
+  New suggestions
+  #D66A81
+  #D55975
+  #57B6CD
+  #5B89DB
+  #9285CC
+  #DF91CA
+  #78B98A
+  #CD926D
+
+  #216479
+  #792138
+  #EB8E47
+  #EB4755
+  #66D5AC
+
 	#5ac95a
 	#7e995b
 	#f64747
@@ -90,15 +106,65 @@ const SOUTH_BACK = '#1a2b3c'
 */
 
 const listStandard = {
-  'list.activeSelectionBackground'   : '#eae3cd',
-  'list.activeSelectionForeground'   : '#812428',
-  'list.dropBackground'              : '#999a9d',
-  'list.focusBackground'             : '#885f66',
-  'list.highlightForeground'         : '#89345d',
-  'list.hoverBackground'             : '#e5e9f0',
-  'list.hoverForeground'             : '#bf616a',
-  'list.inactiveSelectionBackground' : '#4c896a',
-  'list.inactiveSelectionForeground' : '#f7f2f2',
+  'breadcrumb.foreground'                 : '#C5C5C980',
+  'breadcrumb.background'                 : '#282829',
+  'breadcrumb.focusForeground'            : '#64AEF7',
+  'breadcrumb.activeSelectionForeground'  : '#C5C5C9',
+  'breadcrumbPicker.background'           : '#3E3E41',
+  'symbolIcon.arrayForeground'            : '#57B6CD',
+  'symbolIcon.booleanForeground'          : '#DF91CA',
+  'symbolIcon.classForeground'            : '#D8C67E',
+  'symbolIcon.colorForeground'            : '#C5C5C9',
+  'symbolIcon.constantForeground'         : '#57B6CD',
+  'symbolIcon.constructorForeground'      : '#9285CC',
+  'symbolIcon.enumeratorForeground'       : '#C5C5C9',
+  'symbolIcon.enumeratorMemberForeground' : '#C5C5C9',
+  'symbolIcon.eventForeground'            : '#C5C5C9',
+  'symbolIcon.fieldForeground'            : '#C5C5C9',
+  'symbolIcon.fileForeground'             : '#C5C5C9',
+  'symbolIcon.folderForeground'           : '#C5C5C9',
+  'symbolIcon.functionForeground'         : '#78B98A',
+  'symbolIcon.interfaceForeground'        : '#C5C5C9',
+  'symbolIcon.keyForeground'              : '#C5C5C9',
+  'symbolIcon.keywordForeground'          : '#C5C5C9',
+  'symbolIcon.methodForeground'           : '#78B98A',
+  'symbolIcon.moduleForeground'           : '#57B6CD',
+  'symbolIcon.namespaceForeground'        : '#C5C5C9',
+  'symbolIcon.nullForeground'             : '#DF91CA',
+  'symbolIcon.numberForeground'           : '#5B89DB',
+  'symbolIcon.objectForeground'           : '#C5C5C9',
+  'symbolIcon.operatorForeground'         : '#D66A81',
+  'symbolIcon.packageForeground'          : '#C5C5C9',
+  'symbolIcon.propertyForeground'         : '#C5C5C9',
+  'symbolIcon.referenceForeground'        : '#C5C5C9',
+  'symbolIcon.snippetForeground'          : '#C5C5C9',
+  'symbolIcon.stringForeground'           : '#CD926D',
+  'symbolIcon.structForeground'           : '#C5C5C9',
+  'symbolIcon.textForeground'             : '#C5C5C9',
+  'symbolIcon.typeParameterForeground'    : '#C5C5C9',
+  'symbolIcon.unitForeground'             : '#DF91CA',
+  'symbolIcon.variableForeground'         : '#57B6CD',
+  'list.highlightForeground'              : '#E9BF3A',
+  'listFilterWidget.background'           : '#3E3E41',
+  'listFilterWidget.outline'              : '#E7BB5A',
+  'listFilterWidget.noMatchesOutline'     : '#3E3E41',
+  'list.filterMatchBackground'            : '#E7BB5A4D',
+  'list.filterMatchBorder'                : '#E7BB5A',
+  'list.dropBackground'                   : '#006AFF66',
+  /*
+      Above are untested changes taken from
+      https://github.com/TimGr/valley-vscode/blob/master/themes/valley_dark.json
+    */
+  // 'list.dropBackground'              : '#999a9d',
+  'list.activeSelectionBackground'        : '#eae3cd',
+  'list.activeSelectionForeground'        : '#812428',
+  'list.dropBackground'                   : '#999a9d',
+  'list.focusBackground'                  : '#885f66',
+  'list.highlightForeground'              : '#89345d',
+  'list.hoverBackground'                  : '#e5e9f0',
+  'list.hoverForeground'                  : '#bf616a',
+  'list.inactiveSelectionBackground'      : '#4c896a',
+  'list.inactiveSelectionForeground'      : '#f7f2f2',
 }
 
 const sidebarColors = {
