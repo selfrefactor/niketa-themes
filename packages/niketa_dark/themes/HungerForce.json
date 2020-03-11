@@ -105,7 +105,7 @@
     "listFilterWidget.noMatchesOutline": "#3E3E41",
     "list.filterMatchBackground": "#E7BB5A4D",
     "list.filterMatchBorder": "#E7BB5A",
-    "list.dropBackground": "#999a9d",
+    "list.dropBackground": "#fafafa",
     "list.activeSelectionBackground": "#eae3cd",
     "list.activeSelectionForeground": "#812428",
     "list.focusBackground": "#885f66",

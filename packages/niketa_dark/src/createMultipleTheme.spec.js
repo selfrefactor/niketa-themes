@@ -155,10 +155,10 @@ const listStandard = {
       Above are untested changes taken from
       https://github.com/TimGr/valley-vscode/blob/master/themes/valley_dark.json
     */
-  // 'list.dropBackground'              : '#999a9d',
   'list.activeSelectionBackground'        : '#eae3cd',
-  'list.activeSelectionForeground'        : '#812428',
-  'list.dropBackground'                   : '#999a9d',
+  'list.activeSelectionForeground'        : '#812428', 
+  // 'list.dropBackground'                   : '#999a9d',
+  'list.dropBackground'                   : '#fafafa',
   'list.focusBackground'                  : '#885f66',
   'list.highlightForeground'              : '#89345d',
   'list.hoverBackground'                  : '#e5e9f0',
