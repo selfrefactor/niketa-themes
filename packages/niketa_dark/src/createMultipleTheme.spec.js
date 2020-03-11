@@ -214,7 +214,7 @@ export const baseColors = {
   'editor.lineHighlightBorder'                : '#5e6062',
   'editor.wordHighlightBackground'            : '#bacfd6',
   'editor.wordHighlightStrongBackground'      : '#7c8489',
-  'editorBracketMatch.background'             : '#B1365B',
+  'editorBracketMatch.background'             : '#c3c1a9',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
   'editorGroupHeader.tabsBackground'          : 'MAIN_COLOR',
