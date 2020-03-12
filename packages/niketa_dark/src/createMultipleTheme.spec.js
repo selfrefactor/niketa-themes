@@ -106,8 +106,8 @@ const SOUTH_BACK = '#1a2b3c'
   selection "#ca5010",
 */
 
-const listStandard = {
-  'breadcrumb.foreground'                 : '#C5C5C980',
+const untestedSettings = {
+  'breadcrumb.foreground'                 : '#C5C5C9',
   'breadcrumb.background'                 : '#282829',
   'breadcrumb.focusForeground'            : '#64AEF7',
   'breadcrumb.activeSelectionForeground'  : '#C5C5C9',
@@ -152,10 +152,13 @@ const listStandard = {
   'list.filterMatchBackground'            : '#E7BB5A4D',
   'list.filterMatchBorder'                : '#E7BB5A',
   'list.dropBackground'                   : '#006AFF66',
-  /*
-      Above are untested changes taken from
-      https://github.com/TimGr/valley-vscode/blob/master/themes/valley_dark.json
-    */
+}
+/*
+    Above are untested changes taken from
+    https://github.com/TimGr/valley-vscode/blob/master/themes/valley_dark.json
+  */
+
+const listStandard = {
   'list.activeSelectionBackground'        : '#eae3cd',
   'list.activeSelectionForeground'        : '#812428',
   'list.dropBackground'                   : '#999a9d',
@@ -165,7 +168,7 @@ const listStandard = {
   'list.hoverBackground'                  : '#aaa99a',
   'list.hoverForeground'                  : '#0d1016',
   'list.inactiveSelectionBackground'      : '#c7c5af',
-  'list.inactiveSelectionForeground'      : '#2C2B2A',
+  'list.inactiveSelectionForeground'      : '#2d1016',
 }
 
 const sidebarColors = {
@@ -241,7 +244,7 @@ export const baseColors = {
   'tab.unfocusedActiveForeground'             : '#aa769b',
   'widget.shadow'                             : '#8382aebb',
 }
-
+ 
 function getBaseColors(mode, actualBack){
   const chromeMainColor = switcher(mode)
     .is('american', '#445A63')
