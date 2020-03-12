@@ -7,12 +7,13 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeDataBee } from './bees/generateThemeData'
 
-const AMERICAN_BACK = '#1a2b3c'
+const AMERICAN_BACK = '#2c3050'
+// const AMERICAN_BACK = '#1a2b3c'
 const HUNGER_BACK = '#1a2b3c'
 const SOUTH_BACK = '#1a2b3c'
-
 /*
   SUGGESTIONS:
+  #303454
   #000720
   #011627
   #050523
@@ -156,15 +157,15 @@ const listStandard = {
       https://github.com/TimGr/valley-vscode/blob/master/themes/valley_dark.json
     */
   'list.activeSelectionBackground'        : '#eae3cd',
-  'list.activeSelectionForeground'        : '#812428', 
-  // 'list.dropBackground'                   : '#999a9d',
-  'list.dropBackground'                   : '#fafafa',
+  'list.activeSelectionForeground'        : '#812428',
+  'list.dropBackground'                   : '#999a9d',
   'list.focusBackground'                  : '#885f66',
   'list.highlightForeground'              : '#89345d',
-  'list.hoverBackground'                  : '#e5e9f0',
-  'list.hoverForeground'                  : '#bf616a',
-  'list.inactiveSelectionBackground'      : '#4c896a',
-  'list.inactiveSelectionForeground'      : '#f7f2f2',
+  // list.hoverBackground is visible in autocomplete
+  'list.hoverBackground'                  : '#aaa99a',
+  'list.hoverForeground'                  : '#0d1016',
+  'list.inactiveSelectionBackground'      : '#c7c5af',
+  'list.inactiveSelectionForeground'      : '#2C2B2A',
 }
 
 const sidebarColors = {
@@ -177,11 +178,11 @@ const sidebarColors = {
 }
 
 const suggestionsColors = {
-  'editorSuggestWidget.background'          : '#c3c1a9f1',
-  'editorSuggestWidget.border'              : '#93677699',
-  'editorSuggestWidget.foreground'          : '#344250f2',
-  'editorSuggestWidget.highlightForeground' : '#4d0e0bf2',
-  'editorSuggestWidget.selectedBackground'  : '#aebabef2',
+  'editorSuggestWidget.background'          : '#c3c1a9',
+  'editorSuggestWidget.border'              : '#936776',
+  'editorSuggestWidget.foreground'          : '#050523',
+  'editorSuggestWidget.highlightForeground' : '#4d0e0b',
+  'editorSuggestWidget.selectedBackground'  : '#f6f6f4',
   'editorHoverWidget.background'            : '#344250f2',
   'editorHoverWidget.border'                : '#30322ef2',
   'editorWidget.background'                 : '#fafafaf2',
@@ -214,7 +215,7 @@ export const baseColors = {
   'editor.lineHighlightBorder'                : '#5e6062',
   'editor.wordHighlightBackground'            : '#bacfd6',
   'editor.wordHighlightStrongBackground'      : '#7c8489',
-  'editorBracketMatch.background'             : '#c3c1a9',
+  'editorBracketMatch.background'             : '#41445e',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
   'editorGroupHeader.tabsBackground'          : 'MAIN_COLOR',
