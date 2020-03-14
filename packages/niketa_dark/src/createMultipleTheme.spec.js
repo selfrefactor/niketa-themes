@@ -7,12 +7,12 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeDataBee } from './bees/generateThemeData'
 
-const AMERICAN_BACK = '#2c3050'
-// const AMERICAN_BACK = '#1a2b3c'
+const AMERICAN_BACK = '#1a2b3c'
 const HUNGER_BACK = '#1a2b3c'
 const SOUTH_BACK = '#1a2b3c'
 /*
   SUGGESTIONS:
+  #2c3050
   #303454
   #000720
   #011627
@@ -67,7 +67,7 @@ const SOUTH_BACK = '#1a2b3c'
   #68a14e
   #6ba9ff
   #7AD3F3
-  #7e2e7e
+  #884484
   #7eb19f
   #90e1c6
   #95c4da
@@ -291,7 +291,7 @@ SETTINGS[ 1 ] = {
   COLOR_1 : '#57B6CD',
   COLOR_2 : '#cca152',
   COLOR_3 : '#57B6CD',
-  COLOR_4 : '#7e2e7e',
+  COLOR_4 : '#8c4b86',
   COLOR_5 : '#a6cc70',
 }
 

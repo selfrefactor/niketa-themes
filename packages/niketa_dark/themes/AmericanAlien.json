@@ -32,7 +32,7 @@
     "editor.findMatchBackground": "#d0c7b5",
     "editor.findMatchHighlightBackground": "#71aac355",
     "editor.findRangeHighlightBackground": "#3f706366",
-    "editor.lineHighlightBackground": "#2c3050",
+    "editor.lineHighlightBackground": "#1a2b3c",
     "editor.lineHighlightBorder": "#5e6062",
     "editor.wordHighlightBackground": "#bacfd6",
     "editor.wordHighlightStrongBackground": "#7c8489",
@@ -49,7 +49,7 @@
     "selection.background": "#ebe6d9",
     "statusBar.background": "#445A63",
     "statusBar.foreground": "#fafafa",
-    "tab.activeBackground": "#2c3050",
+    "tab.activeBackground": "#1a2b3c",
     "tab.activeBorder": "#35495f",
     "tab.activeForeground": "#f2aa44",
     "tab.border": "#445A63",
@@ -70,7 +70,7 @@
     "list.hoverForeground": "#0d1016",
     "list.inactiveSelectionBackground": "#c7c5af",
     "list.inactiveSelectionForeground": "#2d1016",
-    "editor.background": "#2c3050"
+    "editor.background": "#1a2b3c"
   },
   "tokenColors": [
     {
