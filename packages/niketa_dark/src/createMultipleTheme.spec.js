@@ -159,16 +159,16 @@ const untestedSettings = {
   */
 
 const listStandard = {
-  'list.activeSelectionBackground'        : '#eae3cd',
-  'list.activeSelectionForeground'        : '#812428',
-  'list.dropBackground'                   : '#999a9d',
-  'list.focusBackground'                  : '#885f66',
-  'list.highlightForeground'              : '#89345d',
+  'list.activeSelectionBackground'   : '#eae3cd',
+  'list.activeSelectionForeground'   : '#812428',
+  'list.dropBackground'              : '#999a9d',
+  'list.focusBackground'             : '#885f66',
+  'list.highlightForeground'         : '#89345d',
   // list.hoverBackground is visible in autocomplete
-  'list.hoverBackground'                  : '#aaa99a',
-  'list.hoverForeground'                  : '#0d1016',
-  'list.inactiveSelectionBackground'      : '#c7c5af',
-  'list.inactiveSelectionForeground'      : '#2d1016',
+  'list.hoverBackground'             : '#aaa99a',
+  'list.hoverForeground'             : '#0d1016',
+  'list.inactiveSelectionBackground' : '#c7c5af',
+  'list.inactiveSelectionForeground' : '#2d1016',
 }
 
 const sidebarColors = {
@@ -244,7 +244,7 @@ export const baseColors = {
   'tab.unfocusedActiveForeground'             : '#aa769b',
   'widget.shadow'                             : '#8382aebb',
 }
- 
+
 function getBaseColors(mode, actualBack){
   const chromeMainColor = switcher(mode)
     .is('american', '#445A63')
@@ -281,8 +281,8 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#D9D7CE',
   COLOR_2 : '#BAE67E',
   COLOR_3 : '#D55975',
-  // COLOR_3 : '#ce4458',
-  COLOR_4 : '#5CCFE6CC',
+  COLOR_4 : '#04CBCB',
+  // COLOR_4 : '#5CCFE6',
 }
 SETTINGS[ 1 ] = {
   mode    : 'american',
@@ -335,7 +335,8 @@ SETTINGS[ 5 ] = {
   COLOR_1 : '#95c4da',
   COLOR_2 : '#5699be',
   COLOR_3 : '#b8a0af',
-  COLOR_4 : '#eea6a4',
+  COLOR_4 : '#DF8E6D',
+  // COLOR_4 : '#eea6a4',
 }
 
 SETTINGS[ 6 ] = {
@@ -343,7 +344,6 @@ SETTINGS[ 6 ] = {
   label   : 'authority',
   COLOR_0 : '#DA608E',
   COLOR_1 : '#ebac2a',
-  // COLOR_2 : '#E284A8',
   COLOR_2 : '#DF91CA',
   COLOR_3 : '#88B1C6',
   COLOR_4 : '#F7DDB2',
