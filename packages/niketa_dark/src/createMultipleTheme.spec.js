@@ -194,9 +194,9 @@ const suggestionsColors = {
 }
 
 const selectionsColors = {
-  'editor.selectionBackground'          : '#f699d9',
-  'editor.selectionHighlightBackground' : '#b48ead',
-  'editor.inactiveSelectionBackground'  : '#eec2bb',
+  'editor.selectionBackground'          : '#5c6773',
+  'editor.selectionHighlightBackground' : '#aebabe',
+  'editor.inactiveSelectionBackground'  : '#aaab9c',
 }
 const OPACITY = 'd1'
 export const baseColors = {
