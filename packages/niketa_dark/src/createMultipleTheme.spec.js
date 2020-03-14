@@ -291,7 +291,7 @@ SETTINGS[ 1 ] = {
   COLOR_1 : '#57B6CD',
   COLOR_2 : '#cca152',
   COLOR_3 : '#57B6CD',
-  COLOR_4 : '#8c4b86',
+  COLOR_4 : '#955f8c',
   COLOR_5 : '#a6cc70',
 }
 
