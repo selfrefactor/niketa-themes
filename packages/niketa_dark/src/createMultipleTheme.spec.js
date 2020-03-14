@@ -54,6 +54,7 @@ const SOUTH_BACK = '#1a2b3c'
 	#5ac95a
 	#7e995b
 	#f64747
+	#8ac6d1
   #0099ad
   #0e9bd1
   #249ef5
@@ -282,17 +283,15 @@ SETTINGS[ 0 ] = {
   COLOR_2 : '#BAE67E',
   COLOR_3 : '#D55975',
   COLOR_4 : '#04CBCB',
-  // COLOR_4 : '#5CCFE6',
 }
 SETTINGS[ 1 ] = {
   mode    : 'american',
   label   : 'dad',
   COLOR_0 : '#f6f6bb',
   COLOR_1 : '#57B6CD',
-  // COLOR_1 : '#8ac6d1',
-  COLOR_2 : '#e4a445',
+  COLOR_2 : '#cca152',
   COLOR_3 : '#57B6CD',
-  COLOR_4 : '#e4a445',
+  COLOR_4 : '#7e2e7e',
   COLOR_5 : '#a6cc70',
 }
 
@@ -300,10 +299,9 @@ SETTINGS[ 2 ] = {
   mode    : 'american',
   label   : 'spy',
   COLOR_2 : '#66D5AC',
-  // COLOR_2 : '#a3be8c',
   COLOR_1 : '#f98fab',
   COLOR_0 : '#9cbbd0',
-  COLOR_3 : '#9cbbd0',
+  COLOR_3 : '#a3be8c',
   COLOR_4 : '#cbccc6',
 }
 
