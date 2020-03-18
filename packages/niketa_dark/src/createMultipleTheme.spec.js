@@ -282,7 +282,8 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#D9D7CE',
   COLOR_2 : '#BAE67E',
   COLOR_3 : '#D55975',
-  COLOR_4 : '#04CBCB',
+  COLOR_4 : '#10afb5',
+  COLOR_5 : '#bb8f7e',
 }
 SETTINGS[ 1 ] = {
   mode    : 'american',
@@ -298,21 +299,23 @@ SETTINGS[ 1 ] = {
 SETTINGS[ 2 ] = {
   mode    : 'american',
   label   : 'spy',
-  COLOR_2 : '#66D5AC',
+  COLOR_2 : '#29c7ac',
   COLOR_1 : '#f98fab',
   COLOR_0 : '#9cbbd0',
   COLOR_3 : '#a3be8c',
   COLOR_4 : '#cbccc6',
+  COLOR_5 : '#00a8cc',
 }
 
 SETTINGS[ 3 ] = {
   mode    : 'hunger',
   label   : 'epiphany',
-  COLOR_2 : '#9abc69',
-  COLOR_0 : '#ce4458',
+  COLOR_0 : '#cc645c',
   COLOR_1 : '#0e9bd1',
-  COLOR_4 : '#d8cb32',
-  COLOR_3 : '#0099ad',
+  COLOR_2 : '#9abc69',
+  COLOR_3 : '#80DEEA',
+  COLOR_4 : '#df8543',
+  COLOR_5 : '#fdd365',
 }
 
 SETTINGS[ 4 ] = {
@@ -320,10 +323,10 @@ SETTINGS[ 4 ] = {
   label   : 'force',
   COLOR_0 : '#6faab5',
   COLOR_1 : '#cfe071',
-  COLOR_2 : '#eff0f2',
+  COLOR_2 : '#f4f0e6',
   COLOR_3 : '#E07C64',
   COLOR_4 : '#6faab5',
-  COLOR_5 : '#E07C64',
+  COLOR_5 : '#FF9E80',
 }
 
 SETTINGS[ 5 ] = {
@@ -334,7 +337,7 @@ SETTINGS[ 5 ] = {
   COLOR_2 : '#5699be',
   COLOR_3 : '#b8a0af',
   COLOR_4 : '#DF8E6D',
-  // COLOR_4 : '#eea6a4',
+  COLOR_5 : '#f4dada',
 }
 
 SETTINGS[ 6 ] = {
@@ -345,7 +348,7 @@ SETTINGS[ 6 ] = {
   COLOR_2 : '#DF91CA',
   COLOR_3 : '#88B1C6',
   COLOR_4 : '#F7DDB2',
-  COLOR_5 : '#88B1C6',
+  COLOR_5 : '#d4f8e8',
 }
 SETTINGS[ 7 ] = {
   mode    : 'south',
@@ -355,16 +358,17 @@ SETTINGS[ 7 ] = {
   COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
   COLOR_4 : '#cd5953',
+  COLOR_5 : '#dcedc1',
 }
 SETTINGS[ 8 ] = {
   mode    : 'south',
   label   : 'tegridy',
-  COLOR_0 : '#E05B9D',
+  COLOR_0 : '#9dc6a7',
   COLOR_1 : '#6071cc',
-  COLOR_2 : '#FAC863',
+  COLOR_2 : '#f8dc88',
   COLOR_3 : '#E06C75',
-  COLOR_4 : '#f64747',
-  COLOR_5 : '#95e6cb',
+  COLOR_4 : '#cd8d7b',
+  COLOR_5 : '#ffd1bd',
 }
 
 export function getChrome(mode, back){
