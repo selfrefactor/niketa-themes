@@ -299,12 +299,11 @@ SETTINGS[ 1 ] = {
 SETTINGS[ 2 ] = {
   mode    : 'american',
   label   : 'spy',
-  COLOR_2 : '#50d0ff',
-  COLOR_1 : '#f98fab',
   COLOR_0 : '#F0F4C3',
+  COLOR_1 : '#f98fab',
+  COLOR_2 : '#50d0ff',
   COLOR_3 : '#a3be8c',
-  COLOR_4 : '#FFCDD2',
-  COLOR_5 : '#bbdefb',
+  COLOR_4 : '#bbdefb',
 }
 
 SETTINGS[ 3 ] = {
@@ -314,8 +313,7 @@ SETTINGS[ 3 ] = {
   COLOR_1 : '#0e9bd1',
   COLOR_2 : '#9abc69',
   COLOR_3 : '#80DEEA',
-  COLOR_4 : '#786fa6',
-  COLOR_5 : '#fdd365',
+  COLOR_4 : '#fdd365',
 }
 
 SETTINGS[ 4 ] = {
@@ -357,8 +355,7 @@ SETTINGS[ 7 ] = {
   COLOR_1 : '#7AD3F3',
   COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
-  COLOR_4 : '#ff7675',
-  COLOR_5 : '#dcedc1',
+  COLOR_4 : '#dcedc1',
 }
 SETTINGS[ 8 ] = {
   mode    : 'south',
