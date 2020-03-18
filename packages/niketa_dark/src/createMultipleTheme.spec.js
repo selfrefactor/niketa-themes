@@ -282,7 +282,7 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#D9D7CE',
   COLOR_2 : '#BAE67E',
   COLOR_3 : '#D55975',
-  COLOR_4 : '#10afb5',
+  COLOR_4 : '#1cb3b8',
   COLOR_5 : '#bb8f7e',
 }
 SETTINGS[ 1 ] = {
@@ -292,29 +292,29 @@ SETTINGS[ 1 ] = {
   COLOR_1 : '#57B6CD',
   COLOR_2 : '#cca152',
   COLOR_3 : '#57B6CD',
-  COLOR_4 : '#955f8c',
+  COLOR_4 : '#a87ca1',
   COLOR_5 : '#a6cc70',
 }
 
 SETTINGS[ 2 ] = {
   mode    : 'american',
   label   : 'spy',
-  COLOR_2 : '#29c7ac',
+  COLOR_2 : '#50d0ff',
   COLOR_1 : '#f98fab',
-  COLOR_0 : '#9cbbd0',
+  COLOR_0 : '#F0F4C3',
   COLOR_3 : '#a3be8c',
-  COLOR_4 : '#cbccc6',
-  COLOR_5 : '#00a8cc',
+  COLOR_4 : '#FFCDD2',
+  COLOR_5 : '#bbdefb',
 }
 
 SETTINGS[ 3 ] = {
   mode    : 'hunger',
   label   : 'epiphany',
-  COLOR_0 : '#cc645c',
+  COLOR_0 : '#df8543',
   COLOR_1 : '#0e9bd1',
   COLOR_2 : '#9abc69',
   COLOR_3 : '#80DEEA',
-  COLOR_4 : '#df8543',
+  COLOR_4 : '#786fa6',
   COLOR_5 : '#fdd365',
 }
 
@@ -325,8 +325,8 @@ SETTINGS[ 4 ] = {
   COLOR_1 : '#cfe071',
   COLOR_2 : '#f4f0e6',
   COLOR_3 : '#E07C64',
-  COLOR_4 : '#6faab5',
-  COLOR_5 : '#FF9E80',
+  COLOR_4 : '#dfe6e9',
+  COLOR_5 : '#eccc68',
 }
 
 SETTINGS[ 5 ] = {
@@ -357,14 +357,14 @@ SETTINGS[ 7 ] = {
   COLOR_1 : '#7AD3F3',
   COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
-  COLOR_4 : '#cd5953',
+  COLOR_4 : '#ff7675',
   COLOR_5 : '#dcedc1',
 }
 SETTINGS[ 8 ] = {
   mode    : 'south',
   label   : 'tegridy',
   COLOR_0 : '#9dc6a7',
-  COLOR_1 : '#6071cc',
+  COLOR_1 : '#fd79a8',
   COLOR_2 : '#f8dc88',
   COLOR_3 : '#E06C75',
   COLOR_4 : '#cd8d7b',
