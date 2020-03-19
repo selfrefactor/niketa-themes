@@ -14,16 +14,19 @@ const SOUTH_BACK = '#1a2b3c'
 const listStandard = {
   // in change of themes
   // in the circle of unsaved changes
-  'foreground'                       : '#53245b',
+  // in extensions preview
+  'foreground'                       : '#203144',
   'list.activeSelectionBackground'   : '#eae3cd',
   'list.activeSelectionForeground'   : '#252525',
   'list.dropBackground'              : '#999a9d',
-  'list.focusBackground'             : '#885f6699',
+  // in change of themes?
+  'list.focusBackground'             : '#25252566',
+  // 'list.focusBackground'             : '#885f6699',
   'list.highlightForeground'         : '#252525',
   'list.inactiveFocusBackground'     : '#885f66',
   // in autocomplete
-  'list.hoverBackground'             : '#aaa99a77',
-  'list.hoverForeground'             : '#0d1016',
+  'list.hoverBackground'             : '#334357',
+  'list.hoverForeground'             : '#aaa99a',
   'list.inactiveSelectionBackground' : '#c7c5af',
   'list.inactiveSelectionForeground' : '#2d1016',
 }
