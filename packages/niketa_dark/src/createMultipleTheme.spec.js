@@ -19,19 +19,19 @@ const listStandard = {
   // ?
   'list.dropBackground'              : '#bae637',
   // when select theme, this is active theme background
-  'list.focusBackground'             : '#744da9',
+  'list.focusBackground'             : '#6d50a1',
   'list.highlightForeground'         : '#4d0e0b',
   'list.inactiveFocusBackground'     : '#885f66',
   // when file is selected and then it turns inactive,
   // as code window became active
-  'list.inactiveSelectionBackground' : '#03469433',
+  'list.inactiveSelectionBackground' : '#1d4f93',
   'list.inactiveSelectionForeground' : '#e7e7e7',
   // in the previous comment, this is when code window is not yet active
   'list.activeSelectionBackground'   : '#d1343822',
   'list.activeSelectionForeground'   : '#e7e7e7',
   // visible in autocomplete, in suggest, change of theme
   'list.hoverBackground'             : '#999966',
-  'list.hoverForeground'             : '#440b0b',
+  'list.hoverForeground'             : '#440b0b', 
 }
 const suggestionsColors = {
   // in autocomplete box, the active line background
