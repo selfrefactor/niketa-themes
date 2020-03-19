@@ -12,16 +12,16 @@ const HUNGER_BACK = '#1a2b3c'
 const SOUTH_BACK = '#1a2b3c'
 
 const listStandard = {
-  'foreground': '#60b49b',
+  // in change of themes
+  // in the circle of unsaved changes
+  'foreground'                       : '#53245b',
   'list.activeSelectionBackground'   : '#eae3cd',
-  // 'list.activeSelectionForeground'   : '#812428',
   'list.activeSelectionForeground'   : '#252525',
   'list.dropBackground'              : '#999a9d',
-  'list.focusBackground'             : '#885f66',
-  // 'list.highlightForeground'         : '#89345d',
+  'list.focusBackground'             : '#885f6699',
   'list.highlightForeground'         : '#252525',
-  'list.inactiveFocusBackground'         : '#aa00ff',
-  // list.hoverBackground is visible in autocomplete
+  'list.inactiveFocusBackground'     : '#885f66',
+  // in autocomplete
   'list.hoverBackground'             : '#aaa99a77',
   'list.hoverForeground'             : '#0d1016',
   'list.inactiveSelectionBackground' : '#c7c5af',
@@ -95,12 +95,12 @@ export const baseColors = {
   ...suggestionsColors,
   ...sidebarColors,
   ...selectionsColors,
-  'gitDecoration.addedResourceForeground'     : '#cbccc6',
+  'gitDecoration.addedResourceForeground'     : '#53245b',
   'git.color.modified'                        : '#fac761',
   'list.errorForeground'                      : '#859da9',
   'gitDecoration.modifiedResourceForeground'  : '#f39990',
   'gitDecoration.untrackedResourceForeground' : '#f39c12',
-  'activityBar.background'                    : '#54a',
+  'activityBar.background'                    : '#53245b',
   'badge.background'                          : '#aaa',
   'badge.foreground'                          : '#fafafa',
   'diffEditor.insertedTextBackground'         : '#9c824a55',
