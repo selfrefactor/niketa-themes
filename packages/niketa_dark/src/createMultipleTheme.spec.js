@@ -12,11 +12,15 @@ const HUNGER_BACK = '#1a2b3c'
 const SOUTH_BACK = '#1a2b3c'
 
 const listStandard = {
+  'foreground': '#60b49b',
   'list.activeSelectionBackground'   : '#eae3cd',
-  'list.activeSelectionForeground'   : '#812428',
+  // 'list.activeSelectionForeground'   : '#812428',
+  'list.activeSelectionForeground'   : '#252525',
   'list.dropBackground'              : '#999a9d',
   'list.focusBackground'             : '#885f66',
-  'list.highlightForeground'         : '#89345d',
+  // 'list.highlightForeground'         : '#89345d',
+  'list.highlightForeground'         : '#252525',
+  'list.inactiveFocusBackground'         : '#aa00ff',
   // list.hoverBackground is visible in autocomplete
   'list.hoverBackground'             : '#aaa99a77',
   'list.hoverForeground'             : '#0d1016',
@@ -91,7 +95,7 @@ export const baseColors = {
   ...suggestionsColors,
   ...sidebarColors,
   ...selectionsColors,
-  'gitDecoration.addedResourceForeground'     : '#cbccc6', 
+  'gitDecoration.addedResourceForeground'     : '#cbccc6',
   'git.color.modified'                        : '#fac761',
   'list.errorForeground'                      : '#859da9',
   'gitDecoration.modifiedResourceForeground'  : '#f39990',
