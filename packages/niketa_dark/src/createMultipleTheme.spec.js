@@ -19,9 +19,7 @@ const listStandard = {
   'list.activeSelectionBackground'   : '#eae3cd',
   'list.activeSelectionForeground'   : '#252525',
   'list.dropBackground'              : '#999a9d',
-  // in change of themes?
   'list.focusBackground'             : '#25252566',
-  // 'list.focusBackground'             : '#885f6699',
   'list.highlightForeground'         : '#252525',
   'list.inactiveFocusBackground'     : '#885f66',
   // in autocomplete
@@ -29,18 +27,6 @@ const listStandard = {
   'list.hoverForeground'             : '#aaa99a',
   'list.inactiveSelectionBackground' : '#c7c5af',
   'list.inactiveSelectionForeground' : '#2d1016',
-}
-const listStandardx = {
-  'list.activeSelectionBackground'   : '#812428',
-  'list.activeSelectionForeground'   : '#12a99a',
-  'list.dropBackground'              : '#812428',
-  'list.focusBackground'             : '#f4581c',
-  'list.highlightForeground'         : '#12a99a',
-  // list.hoverBackground is visible in autocomplete
-  'list.hoverBackground'             : '#f4581c',
-  'list.hoverForeground'             : '#812428',
-  'list.inactiveSelectionBackground' : '#12a99a',
-  'list.inactiveSelectionForeground' : '#f4581c',
 }
 
 const sidebarColors = {
@@ -50,14 +36,6 @@ const sidebarColors = {
   'sideBarSectionHeader.background' : '#aebabe',
   'sideBarSectionHeader.foreground' : '#2a3343',
   'sideBarTitle.foreground'         : '#cacacc',
-}
-const sidebarColorsx = {
-  'sideBar.background'              : 'MAIN_COLOR',
-  'sideBar.foreground'              : '#f4581c',
-  'sideBar.border'                  : '#12a99a',
-  'sideBarSectionHeader.background' : '#812428',
-  'sideBarSectionHeader.foreground' : '#f4581c',
-  'sideBarTitle.foreground'         : '#812428',
 }
 
 const suggestionsColors = {
@@ -71,29 +49,13 @@ const suggestionsColors = {
   'editorWidget.background'                 : '#fafafaf2',
   'editorWidget.border'                     : '#40c8aef2',
 }
-const suggestionsColorsx = {
-  'editorSuggestWidget.background'          : '#812428',
-  'editorSuggestWidget.border'              : '#f4581c',
-  'editorSuggestWidget.foreground'          : '#812428',
-  'editorSuggestWidget.highlightForeground' : '#f4581c',
-  'editorSuggestWidget.selectedBackground'  : '#12a99a',
-  'editorHoverWidget.background'            : '#f4581c',
-  'editorHoverWidget.border'                : '#12a99a',
-  'editorWidget.background'                 : '#f4581c',
-  'editorWidget.border'                     : '#812428',
-}
 
 const selectionsColors = {
   'editor.selectionBackground'          : '#5c677366',
   'editor.selectionHighlightBackground' : '#aebabe66',
   'editor.inactiveSelectionBackground'  : '#aaab9c66',
 }
-const selectionsColorsx = {
-  'editor.selectionBackground'          : '#12a99a',
-  'editor.selectionHighlightBackground' : '#f4581c',
-  'editor.inactiveSelectionBackground'  : '#812428',
-}
-const OPACITY = 'd1'
+
 export const baseColors = {
   ...suggestionsColors,
   ...sidebarColors,
@@ -109,62 +71,12 @@ export const baseColors = {
   'diffEditor.insertedTextBackground'         : '#9c824a55',
   'diffEditor.removedTextBackground'          : '#64B5F655',
   'editor.findMatchBackground'                : '#b65a3d66',
-  // 'editor.findMatchHighlightBackground'       : '#525e5466',
-  // 'editor.findRangeHighlightBackground'       : '#30345488',
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706344',
   'editor.lineHighlightBackground'            : 'BACK_COLOR',
   'editor.lineHighlightBorder'                : '#5e6062aa',
   'editor.wordHighlightBackground'            : '#bacfd644',
   'editor.wordHighlightStrongBackground'      : '#7c848977',
-  'editorBracketMatch.background'             : '#41445e',
-  'editorBracketMatch.border'                 : '#978373',
-  'editorCursor.foreground'                   : '#f9f6f1',
-  'editorGroupHeader.tabsBackground'          : 'MAIN_COLOR',
-  'editorLineNumber.foreground'               : '#DD85007a',
-  'editorLink.activeForeground'               : '#7a2',
-  'errorForeground'                           : '#B1365Bf3',
-  'focusBorder'                               : '#525e54',
-  'scrollbarSlider.background'                : '#455a64',
-  'scrollbarSlider.hoverBackground'           : '#C4BE9D',
-  'selection.background'                      : '#ebe6d9',
-  'statusBar.background'                      : 'MAIN_COLOR',
-  'statusBar.foreground'                      : '#fafafa',
-  'tab.activeBackground'                      : 'BACK_COLOR',
-  'tab.activeBorder'                          : '#35495f',
-  'tab.activeForeground'                      : '#f2aa44',
-  'tab.border'                                : 'MAIN_COLOR',
-  'tab.inactiveBackground'                    : 'MAIN_COLOR',
-  'tab.inactiveForeground'                    : '#b48ead',
-  'tab.unfocusedActiveBackground'             : 'MAIN_COLOR',
-  'tab.unfocusedActiveBorder'                 : 'MAIN_COLOR',
-  'editorGutter.background'                   : 'MAIN_COLOR',
-  'scrollbar.shadow'                          : '#cf6f4b',
-  'tab.unfocusedActiveForeground'             : '#aa769b',
-  'widget.shadow'                             : '#8382aebb',
-}
-// 'editor.selectionHighlightBackground' : '#f4581c',
-// 'editor.inactiveSelectionBackground'  : '#812428',
-const baseColorsx = {
-  ...suggestionsColors,
-  ...sidebarColors,
-  ...selectionsColors,
-  'git.color.modified'                        : '#12a99a',
-  'list.errorForeground'                      : '#12a99a',
-  'gitDecoration.modifiedResourceForeground'  : '#12a99a',
-  'gitDecoration.untrackedResourceForeground' : `#f39990${ OPACITY }`,
-  'activityBar.background'                    : '#54a',
-  'badge.background'                          : '#aaa',
-  'badge.foreground'                          : '#fafafa',
-  'diffEditor.insertedTextBackground'         : '#9c824a55',
-  'diffEditor.removedTextBackground'          : '#64B5F655',
-  'editor.findMatchBackground'                : '#d0c7b5',
-  'editor.findMatchHighlightBackground'       : '#71aac355',
-  'editor.findRangeHighlightBackground'       : '#3f706366',
-  'editor.lineHighlightBackground'            : 'BACK_COLOR',
-  'editor.lineHighlightBorder'                : '#5e6062ea',
-  'editor.wordHighlightBackground'            : '#bacfd655',
-  'editor.wordHighlightStrongBackground'      : '#7c8489aa',
   'editorBracketMatch.background'             : '#41445e',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
