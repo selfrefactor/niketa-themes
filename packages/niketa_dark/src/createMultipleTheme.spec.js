@@ -16,7 +16,9 @@ const listStandard = {
   // in the circle of unsaved changes
   // in extensions preview
   'foreground'                       : '#e7e7e7',
+  // ?
   'list.dropBackground'              : '#bae637',
+  // when select theme, this is active theme background
   'list.focusBackground'             : '#744da9',
   'list.highlightForeground'         : '#4d0e0b',
   'list.inactiveFocusBackground'     : '#885f66',
@@ -32,11 +34,11 @@ const listStandard = {
   'list.hoverForeground'             : '#440b0b',
 }
 const suggestionsColors = {
-  // in autocomplete box active line background
+  // in autocomplete box, the active line background
   'editorSuggestWidget.selectedBackground'  : '#2c3d52',
   'editorSuggestWidget.background'          : '#0a0026',
   'editorHoverWidget.background'            : '#282c34',
-  // when search with ctrl+f
+  // when search with ctrl+f, this is widget chrome color
   'editorWidget.background'                 : 'MAIN_COLOR',
   // in autocomplete - the color of matched chars
   // i.e. if I write `co`, then suggest will be `consts`
