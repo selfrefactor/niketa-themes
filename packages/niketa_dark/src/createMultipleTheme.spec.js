@@ -15,18 +15,39 @@ const listStandard = {
   // in change of themes
   // in the circle of unsaved changes
   // in extensions preview
-  'foreground'                       : '#203144',
-  'list.activeSelectionBackground'   : '#eae3cd',
-  'list.activeSelectionForeground'   : '#252525',
-  'list.dropBackground'              : '#999a9d',
-  'list.focusBackground'             : '#25252566',
-  'list.highlightForeground'         : '#252525',
+  'foreground'                       : '#e7e7e7',
+  'list.dropBackground'              : '#bae637',
+  'list.focusBackground'             : '#744da9',
+  'list.highlightForeground'         : '#4d0e0b',
   'list.inactiveFocusBackground'     : '#885f66',
-  // in autocomplete
-  'list.hoverBackground'             : '#334357',
-  'list.hoverForeground'             : '#aaa99a',
-  'list.inactiveSelectionBackground' : '#c7c5af',
-  'list.inactiveSelectionForeground' : '#2d1016',
+  // when file is selected and then it turns inactive,
+  // as code window became active
+  'list.inactiveSelectionBackground' : '#03469433',
+  'list.inactiveSelectionForeground' : '#e7e7e7',
+  // in the previous comment, this is when code window is not yet active
+  'list.activeSelectionBackground'   : '#d1343822',
+  'list.activeSelectionForeground'   : '#e7e7e7',
+  // visible in autocomplete, in suggest, change of theme
+  'list.hoverBackground'             : '#999966',
+  'list.hoverForeground'             : '#440b0b',
+}
+const suggestionsColors = {
+  // in autocomplete box active line background
+  'editorSuggestWidget.selectedBackground'  : '#2c3d52',
+  'editorSuggestWidget.background'          : '#0a0026',
+  'editorHoverWidget.background'            : '#282c34',
+  // when search with ctrl+f
+  'editorWidget.background'                 : 'MAIN_COLOR',
+  // in autocomplete - the color of matched chars
+  // i.e. if I write `co`, then suggest will be `consts`
+  // and the `co` will be in this color
+  'editorSuggestWidget.highlightForeground' : '#d1c2e0',
+  // in the above example, this is the color of the rest
+  // also most common foreground color in autocomplete and suggestion
+  'editorSuggestWidget.foreground'          : '#e7e7e7',
+  'editorSuggestWidget.border'              : '#d78d9f',
+  'editorHoverWidget.border'                : '#d78d9f',
+  'editorWidget.border'                     : '#d78d9f',
 }
 
 const sidebarColors = {
@@ -37,22 +58,9 @@ const sidebarColors = {
   'sideBarSectionHeader.foreground' : '#2a3343',
   'sideBarTitle.foreground'         : '#cacacc',
 }
-
-const suggestionsColors = {
-  'editorSuggestWidget.background'          : '#c3c1a9',
-  'editorSuggestWidget.border'              : '#936776',
-  'editorSuggestWidget.foreground'          : '#050523',
-  'editorSuggestWidget.highlightForeground' : '#4d0e0b',
-  'editorSuggestWidget.selectedBackground'  : '#f6f6f4',
-  'editorHoverWidget.background'            : '#344250f2',
-  'editorHoverWidget.border'                : '#30322ef2',
-  'editorWidget.background'                 : '#fafafaf2',
-  'editorWidget.border'                     : '#40c8aef2',
-}
-
 const selectionsColors = {
   'editor.selectionBackground'          : '#5c677366',
-  'editor.selectionHighlightBackground' : '#aebabe66',
+  'editor.selectionHighlightBackground' : '#a1ba4e66',
   'editor.inactiveSelectionBackground'  : '#aaab9c66',
 }
 
@@ -63,8 +71,8 @@ export const baseColors = {
   'gitDecoration.addedResourceForeground'     : '#53245b',
   'git.color.modified'                        : '#fac761',
   'list.errorForeground'                      : '#859da9',
-  'gitDecoration.modifiedResourceForeground'  : '#f39990',
-  'gitDecoration.untrackedResourceForeground' : '#f39c12',
+  'gitDecoration.modifiedResourceForeground'  : '#f6cbc7',
+  'gitDecoration.untrackedResourceForeground' : '#c2aa4d',
   'activityBar.background'                    : '#53245b',
   'badge.background'                          : '#aaa',
   'badge.foreground'                          : '#fafafa',
@@ -75,8 +83,10 @@ export const baseColors = {
   'editor.findRangeHighlightBackground'       : '#3f706344',
   'editor.lineHighlightBackground'            : 'BACK_COLOR',
   'editor.lineHighlightBorder'                : '#5e6062aa',
-  'editor.wordHighlightBackground'            : '#bacfd644',
-  'editor.wordHighlightStrongBackground'      : '#7c848977',
+  // next two
+  // When search by word is active or when double click on a word
+  'editor.wordHighlightBackground'            : '#35495f',
+  'editor.wordHighlightStrongBackground'      : '#410a0b',
   'editorBracketMatch.background'             : '#41445e',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
@@ -87,7 +97,7 @@ export const baseColors = {
   'focusBorder'                               : '#525e54',
   'scrollbarSlider.background'                : '#455a64',
   'scrollbarSlider.hoverBackground'           : '#C4BE9D',
-  'selection.background'                      : '#ebe6d9',
+  'selection.background'                      : '#db82d6',
   'statusBar.background'                      : 'MAIN_COLOR',
   'statusBar.foreground'                      : '#fafafa',
   'tab.activeBackground'                      : 'BACK_COLOR',
