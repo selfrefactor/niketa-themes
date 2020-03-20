@@ -6,8 +6,8 @@
     "editorSuggestWidget.background": "#0a0026",
     "editorHoverWidget.background": "#282c34",
     "editorWidget.background": "#4d607b",
-    "editorSuggestWidget.highlightForeground": "#d1c2e0",
-    "editorSuggestWidget.foreground": "#e7e7e7",
+    "editorSuggestWidget.highlightForeground": "#f38b80",
+    "editorSuggestWidget.foreground": "#fafafa",
     "editorSuggestWidget.border": "#d78d9f",
     "editorHoverWidget.border": "#d78d9f",
     "editorWidget.border": "#d78d9f",
@@ -71,8 +71,8 @@
     "list.inactiveSelectionForeground": "#e7e7e7",
     "list.activeSelectionBackground": "#d1343822",
     "list.activeSelectionForeground": "#e7e7e7",
-    "list.hoverBackground": "#999966",
-    "list.hoverForeground": "#440b0b",
+    "list.hoverForeground": "#999966",
+    "list.hoverBackground": "#ad680055",
     "editor.background": "#1a2b3c"
   },
   "tokenColors": [

@@ -30,8 +30,8 @@ const listStandard = {
   'list.activeSelectionBackground'   : '#d1343822',
   'list.activeSelectionForeground'   : '#e7e7e7',
   // visible in autocomplete, in suggest, change of theme
-  'list.hoverBackground'             : '#999966',
-  'list.hoverForeground'             : '#440b0b', 
+  'list.hoverForeground'             : '#999966',
+  'list.hoverBackground'             : '#ad680055',
 }
 const suggestionsColors = {
   // in autocomplete box, the active line background
@@ -43,10 +43,10 @@ const suggestionsColors = {
   // in autocomplete - the color of matched chars
   // i.e. if I write `co`, then suggest will be `consts`
   // and the `co` will be in this color
-  'editorSuggestWidget.highlightForeground' : '#d1c2e0',
+  'editorSuggestWidget.highlightForeground' : '#f38b80',
   // in the above example, this is the color of the rest
   // also most common foreground color in autocomplete and suggestion
-  'editorSuggestWidget.foreground'          : '#e7e7e7',
+  'editorSuggestWidget.foreground'          : '#fafafa',
   'editorSuggestWidget.border'              : '#d78d9f',
   'editorHoverWidget.border'                : '#d78d9f',
   'editorWidget.border'                     : '#d78d9f',
