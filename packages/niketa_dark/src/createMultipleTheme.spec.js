@@ -108,15 +108,14 @@ export const baseColors = {
   'tab.border'                                : 'MAIN_COLOR',
   'tab.inactiveBackground'                    : 'MAIN_COLOR',
   'tab.inactiveForeground'                    : '#cfb8cb',
-  // 'tab.inactiveForeground'                    : '#b48ead',
   'tab.unfocusedActiveBackground'             : 'MAIN_COLOR',
   'tab.unfocusedActiveBorder'                 : 'MAIN_COLOR',
   'editorGutter.background'                   : 'MAIN_COLOR',
   'scrollbar.shadow'                          : '#cf6f4b',
   'tab.unfocusedActiveForeground'             : '#aa769b',
   'widget.shadow'                             : '#8382aebb',
-}
-
+} 
+   
 function getBaseColors(mode, actualBack){
   const chromeMainColor = switcher(mode)
     .is('american', '#445A63')
@@ -131,13 +130,15 @@ function getBaseColors(mode, actualBack){
     ...baseColors,
     ...listStandard,
   }
-  const withMainDarkColor = map(color => replace(
-    'MAIN_COLOR_DARK', darker, color
-  ))(currentBase)
+  const withMainDarkColor = map(color =>
+    replace(
+      'MAIN_COLOR_DARK', darker, color
+    ))(currentBase)
 
-  const withMainColor = map(color => replace(
-    'MAIN_COLOR', chromeMainColor, color
-  ))(withMainDarkColor)
+  const withMainColor = map(color =>
+    replace(
+      'MAIN_COLOR', chromeMainColor, color
+    ))(withMainDarkColor)
 
   return map(color => replace(
     'BACK_COLOR', actualBack, color
@@ -179,9 +180,8 @@ SETTINGS[ 2 ] = {
 
 SETTINGS[ 3 ] = {
   mode    : 'hunger',
-  label   : 'epiphany', 
+  label   : 'epiphany',
   COLOR_0 : '#df8543',
-  // COLOR_1 : '#0e9bd1',
   COLOR_1 : '#95e6cb',
   COLOR_2 : '#9abc69',
   COLOR_3 : '#80DEEA',

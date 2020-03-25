@@ -27,6 +27,8 @@
   #D66A81
   #D55975
   #57B6CD
+  #0e9bd1
+
   #5B89DB
   #9285CC
   #DF91CA
@@ -146,3 +148,4 @@ const untestedSettings = {
     Above are untested changes taken from
     https://github.com/TimGr/valley-vscode/blob/master/themes/valley_dark.json
   */
+// 'tab.inactiveForeground'                    : '#b48ead',
