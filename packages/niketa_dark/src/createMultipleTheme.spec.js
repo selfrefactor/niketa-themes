@@ -54,6 +54,8 @@ const suggestionsColors = {
 
 const sidebarColors = {
   'sideBar.background'              : 'MAIN_COLOR',
+  // It means the color of files in explorer, not yet modified
+  // ============================================
   'sideBar.foreground'              : '#e7e7e7',
   'sideBar.border'                  : '#8382ae',
   'sideBarSectionHeader.background' : '#aebabe',
@@ -114,8 +116,8 @@ export const baseColors = {
   'scrollbar.shadow'                          : '#cf6f4b',
   'tab.unfocusedActiveForeground'             : '#aa769b',
   'widget.shadow'                             : '#8382aebb',
-} 
-   
+}
+
 function getBaseColors(mode, actualBack){
   const chromeMainColor = switcher(mode)
     .is('american', '#445A63')
