@@ -41,7 +41,7 @@ const suggestionsColors = {
   // when search with ctrl+f, this is widget chrome color
   'editorWidget.background'                 : 'MAIN_COLOR',
   // in autocomplete - the color of matched chars
-  // i.e. if I write `co`, then suggest will be `consts`
+  // i.e. if I write `co`, then suggest will be `const`
   // and the `co` will be in this color
   'editorSuggestWidget.highlightForeground' : '#f38b80',
   // in the above example, this is the color of the rest
@@ -60,7 +60,7 @@ const sidebarColors = {
   'sideBarSectionHeader.foreground' : '#2a3343',
   'sideBarTitle.foreground'         : '#cacacc',
 }
-const selectionsColors = {
+const selectionColors = {
   'editor.selectionBackground'          : '#5c677366',
   'editor.selectionHighlightBackground' : '#a1ba4e66',
   'editor.inactiveSelectionBackground'  : '#aaab9c66',
@@ -69,10 +69,10 @@ const selectionsColors = {
 export const baseColors = {
   ...suggestionsColors,
   ...sidebarColors,
-  ...selectionsColors,
-  'gitDecoration.addedResourceForeground'     : '#53245b',
-  'git.color.modified'                        : '#fac761',
+  ...selectionColors,
   'list.errorForeground'                      : '#859da9',
+  'git.color.modified'                        : '#fac761',
+  'gitDecoration.addedResourceForeground'     : '#53245b',
   'gitDecoration.modifiedResourceForeground'  : '#f6cbc7',
   'gitDecoration.untrackedResourceForeground' : '#c2aa4d',
   'activityBar.background'                    : '#53245b',
