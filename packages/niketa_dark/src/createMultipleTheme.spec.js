@@ -1,14 +1,14 @@
-import { map, maybe, replace } from 'rambdax'
+import { map } from 'rambdax'
 import { pascalCase } from 'string-fn'
 
 import { readJsonAnt } from './ants/readJson'
 import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
-import { generateThemeDataBee } from './bees/generateThemeData'
+import { generateThemeData } from './generateThemeData'
 
 const BACK_COLOR = '#1a2b3c'
 const CHROME_COLOR = '#445A63'
- 
+
 const listColors = {
   // in change of themes
   // in the circle of unsaved changes
@@ -218,15 +218,12 @@ test('happy', () => {
   const allThemes = []
   map(val => {
     const { mode, label, back, ...colors } = val
-    const paletteMode = maybe(
-      colors.COLOR_5,
-      'six',
-      colors.COLOR_4 ? 'five' : maybe(
-        colors.COLOR_3, 'four', 'three'
-      )
-    )
+    const paletteMode = colors.COLOR_5 ? 'six' : 'five'
+    if (!colors.COLOR_4){
+      throw new Error('All themes require at least 5 colors')
+    }
     const palette = readJsonAnt(`palettes/${ paletteMode }.json`)
-    const themeData = generateThemeDataBee({
+    const themeData = generateThemeData({
       palette,
       chrome : chromeColors,
       colors,

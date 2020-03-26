@@ -23,6 +23,13 @@
   },
   "tokenColors": [
     {
+      "name": "entity.other.ng-binding-name.property.html",
+      "scope": "entity.other.ng-binding-name.property.html",
+      "settings": {
+        "foreground": "COLOR_4"
+      }
+    },
+    {
       "name": "source.json",
       "scope": "source.json",
       "settings": {

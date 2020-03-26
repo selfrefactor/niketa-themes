@@ -4,6 +4,13 @@
   "colors": {},
   "tokenColors": [
     {
+      "name": "entity.other.ng-binding-name.property.html",
+      "scope": "entity.other.ng-binding-name.property.html",
+      "settings": {
+        "foreground": "COLOR_3"
+      }
+    },
+    {
       "name": "entity.name.tag",
       "scope": "entity.name.tag",
       "settings": {

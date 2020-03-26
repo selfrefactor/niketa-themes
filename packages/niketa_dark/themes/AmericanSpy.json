@@ -77,6 +77,13 @@
   },
   "tokenColors": [
     {
+      "name": "entity.other.ng-binding-name.property.html",
+      "scope": "entity.other.ng-binding-name.property.html",
+      "settings": {
+        "foreground": "#a3be8c"
+      }
+    },
+    {
       "name": "entity.name.tag",
       "scope": "entity.name.tag",
       "settings": {
