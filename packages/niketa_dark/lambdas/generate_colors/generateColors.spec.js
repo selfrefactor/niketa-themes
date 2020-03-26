@@ -10,4 +10,3 @@ test('happy', () => {
       levels : 60,
     })).not.toThrow()
 })
- 

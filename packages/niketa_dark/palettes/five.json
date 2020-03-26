@@ -4,6 +4,34 @@
   "colors": {},
   "tokenColors": [
     {
+      "name": "expression.ng",
+      "scope": "expression.ng",
+      "settings": {
+        "foreground": "COLOR_1"
+      }
+    },
+    {
+      "name": "string.quoted.double.html",
+      "scope": "string.quoted.double.html",
+      "settings": {
+        "foreground": "COLOR_2"
+      }
+    },
+    {
+      "name": "entity.other.ng-binding-name.outputReplEvent.html",
+      "scope": "entity.other.ng-binding-name.outputReplEvent.html",
+      "settings": {
+        "foreground": "COLOR_4"
+      }
+    },
+    {
+      "name": "text.html.derivative",
+      "scope": "text.html.derivative",
+      "settings": {
+        "foreground": "COLOR_1"
+      }
+    },
+    {
       "name": "entity.other.ng-binding-name.property.html",
       "scope": "entity.other.ng-binding-name.property.html",
       "settings": {

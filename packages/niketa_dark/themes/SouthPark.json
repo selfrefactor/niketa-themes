@@ -9,7 +9,7 @@
     "list.inactiveFocusBackground": "#885f66",
     "list.inactiveSelectionBackground": "#1d4f93",
     "list.inactiveSelectionForeground": "#e7e7e7",
-    "list.activeSelectionBackground": "#d1343822",
+    "list.activeSelectionBackground": "#d1343855",
     "list.activeSelectionForeground": "#e7e7e7",
     "list.hoverForeground": "#999966",
     "list.hoverBackground": "#ad680055",
@@ -76,6 +76,34 @@
     "widget.shadow": "#8382aebb"
   },
   "tokenColors": [
+    {
+      "name": "expression.ng",
+      "scope": "expression.ng",
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
+    {
+      "name": "string.quoted.double.html",
+      "scope": "string.quoted.double.html",
+      "settings": {
+        "foreground": "#7eb19f"
+      }
+    },
+    {
+      "name": "entity.other.ng-binding-name.outputReplEvent.html",
+      "scope": "entity.other.ng-binding-name.outputReplEvent.html",
+      "settings": {
+        "foreground": "#dcedc1"
+      }
+    },
+    {
+      "name": "text.html.derivative",
+      "scope": "text.html.derivative",
+      "settings": {
+        "foreground": "#7AD3F3"
+      }
+    },
     {
       "name": "entity.other.ng-binding-name.property.html",
       "scope": "entity.other.ng-binding-name.property.html",
