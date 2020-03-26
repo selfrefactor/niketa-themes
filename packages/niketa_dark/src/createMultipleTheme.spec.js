@@ -8,7 +8,7 @@ import { generateThemeDataBee } from './bees/generateThemeData'
 
 const BACK_COLOR = '#1a2b3c'
 const CHROME_COLOR = '#445A63'
-
+ 
 const listColors = {
   // in change of themes
   // in the circle of unsaved changes
@@ -38,7 +38,7 @@ const suggestionsColors = {
   'editorSuggestWidget.background'          : '#0a0026',
   'editorHoverWidget.background'            : '#282c34',
   // when search with ctrl+f, this is widget chrome color
-  'editorWidget.background'                 : 'CHROME_COLOR',
+  'editorWidget.background'                 : CHROME_COLOR,
   // in autocomplete - the color of matched chars
   // i.e. if I write `co`, then suggest will be `const`
   // and the `co` will be in this color
@@ -52,7 +52,7 @@ const suggestionsColors = {
 }
 
 const sidebarColors = {
-  'sideBar.background'              : 'CHROME_COLOR',
+  'sideBar.background'              : CHROME_COLOR,
   // It means the color of files in explorer, not yet modified
   // ============================================
   'sideBar.foreground'              : '#e7e7e7',
@@ -65,14 +65,14 @@ const selectionColors = {
   'editor.selectionBackground'          : '#5c677366',
   'editor.selectionHighlightBackground' : '#a1ba4e66',
   'editor.inactiveSelectionBackground'  : '#aaab9c66',
-} 
+}
 
 const chromeColors = {
   ...listColors,
   ...suggestionsColors,
   ...sidebarColors,
   ...selectionColors,
-  'editor.background' : BACK_COLOR,
+  'editor.background'                         : BACK_COLOR,
   'list.errorForeground'                      : '#859da9',
   'git.color.modified'                        : '#fac761',
   'gitDecoration.addedResourceForeground'     : '#53245b',
@@ -213,7 +213,7 @@ SETTINGS[ 8 ] = {
   COLOR_4 : '#cd8d7b',
   COLOR_5 : '#ffd1bd',
 }
-  
+
 test('happy', () => {
   const allThemes = []
   map(val => {
@@ -228,7 +228,7 @@ test('happy', () => {
     const palette = readJsonAnt(`palettes/${ paletteMode }.json`)
     const themeData = generateThemeDataBee({
       palette,
-      chrome: chromeColors,
+      chrome : chromeColors,
       colors,
     })
     themeData.name = pascalCase(`${ mode }.${ label }`)
