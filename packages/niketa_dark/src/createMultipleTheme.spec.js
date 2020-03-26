@@ -121,7 +121,7 @@ const chromeColors = {
 }
 
 export const SETTINGS = {}
-
+ 
 SETTINGS[ 0 ] = {
   mode    : 'american',
   label   : 'alien',
@@ -151,6 +151,7 @@ SETTINGS[ 2 ] = {
   COLOR_2 : '#50d0ff',
   COLOR_3 : '#a3be8c',
   COLOR_4 : '#bbdefb',
+  COLOR_5 : '#FFAE57',
 }
 
 SETTINGS[ 3 ] = {
@@ -161,6 +162,7 @@ SETTINGS[ 3 ] = {
   COLOR_2 : '#9abc69',
   COLOR_3 : '#80DEEA',
   COLOR_4 : '#fdd365',
+  COLOR_5 : '#a87ca1',
 }
 
 SETTINGS[ 4 ] = {
@@ -203,6 +205,7 @@ SETTINGS[ 7 ] = {
   COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
   COLOR_4 : '#dcedc1',
+  COLOR_5 : '#7AD3F3',
 }
 SETTINGS[ 8 ] = {
   mode    : 'south',
@@ -219,11 +222,10 @@ test('happy', () => {
   const allThemes = []
   map(val => {
     const { mode, label, back, ...colors } = val
-    const paletteMode = colors.COLOR_5 ? 'six' : 'five'
-    if (!colors.COLOR_4){
-      throw new Error('All themes require at least 5 colors')
+    if (!colors.COLOR_5){
+      throw new Error('All themes require 6 colors')
     }
-    const palette = readJsonAnt(`palettes/${ paletteMode }.json`)
+    const palette = readJsonAnt(`src/palette.json`)
     const themeData = generateThemeData({
       palette,
       chrome : chromeColors,
