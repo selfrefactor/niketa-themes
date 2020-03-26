@@ -1,17 +1,15 @@
-import { defaultTo, map, maybe, replace, switcher } from 'rambdax'
+import { map, maybe, replace } from 'rambdax'
 import { pascalCase } from 'string-fn'
 
-import { changeColorAnt } from './ants/changeColor'
 import { readJsonAnt } from './ants/readJson'
 import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeDataBee } from './bees/generateThemeData'
 
-const AMERICAN_BACK = '#1a2b3c'
-const HUNGER_BACK = '#1a2b3c'
-const SOUTH_BACK = '#1a2b3c'
+const BACK_COLOR = '#1a2b3c'
+const CHROME_COLOR = '#445A63'
 
-const listStandard = {
+const listColors = {
   // in change of themes
   // in the circle of unsaved changes
   // in extensions preview
@@ -40,7 +38,7 @@ const suggestionsColors = {
   'editorSuggestWidget.background'          : '#0a0026',
   'editorHoverWidget.background'            : '#282c34',
   // when search with ctrl+f, this is widget chrome color
-  'editorWidget.background'                 : 'MAIN_COLOR',
+  'editorWidget.background'                 : 'CHROME_COLOR',
   // in autocomplete - the color of matched chars
   // i.e. if I write `co`, then suggest will be `const`
   // and the `co` will be in this color
@@ -54,7 +52,7 @@ const suggestionsColors = {
 }
 
 const sidebarColors = {
-  'sideBar.background'              : 'MAIN_COLOR',
+  'sideBar.background'              : 'CHROME_COLOR',
   // It means the color of files in explorer, not yet modified
   // ============================================
   'sideBar.foreground'              : '#e7e7e7',
@@ -67,12 +65,14 @@ const selectionColors = {
   'editor.selectionBackground'          : '#5c677366',
   'editor.selectionHighlightBackground' : '#a1ba4e66',
   'editor.inactiveSelectionBackground'  : '#aaab9c66',
-}
+} 
 
-export const baseColors = {
+const chromeColors = {
+  ...listColors,
   ...suggestionsColors,
   ...sidebarColors,
   ...selectionColors,
+  'editor.background' : BACK_COLOR,
   'list.errorForeground'                      : '#859da9',
   'git.color.modified'                        : '#fac761',
   'gitDecoration.addedResourceForeground'     : '#53245b',
@@ -86,7 +86,7 @@ export const baseColors = {
   'editor.findMatchBackground'                : '#b65a3d66',
   'editor.findMatchHighlightBackground'       : '#71aac355',
   'editor.findRangeHighlightBackground'       : '#3f706344',
-  'editor.lineHighlightBackground'            : 'BACK_COLOR',
+  'editor.lineHighlightBackground'            : BACK_COLOR,
   'editor.lineHighlightBorder'                : '#5e6062aa',
   // next two
   // When search by word is active or when double click on a word
@@ -95,7 +95,7 @@ export const baseColors = {
   'editorBracketMatch.background'             : '#41445e',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
-  'editorGroupHeader.tabsBackground'          : 'MAIN_COLOR',
+  'editorGroupHeader.tabsBackground'          : CHROME_COLOR,
   'editorLineNumber.foreground'               : '#DD85007a',
   'editorLink.activeForeground'               : '#7a2',
   'errorForeground'                           : '#B1365Bf3',
@@ -103,49 +103,20 @@ export const baseColors = {
   'scrollbarSlider.background'                : '#455a64',
   'scrollbarSlider.hoverBackground'           : '#C4BE9D',
   'selection.background'                      : '#db82d6',
-  'statusBar.background'                      : 'MAIN_COLOR',
+  'statusBar.background'                      : CHROME_COLOR,
   'statusBar.foreground'                      : '#fafafa',
-  'tab.activeBackground'                      : 'BACK_COLOR',
+  'tab.activeBackground'                      : BACK_COLOR,
   'tab.activeBorder'                          : '#35495f',
   'tab.activeForeground'                      : '#f2aa44',
-  'tab.border'                                : 'MAIN_COLOR',
-  'tab.inactiveBackground'                    : 'MAIN_COLOR',
+  'tab.border'                                : CHROME_COLOR,
+  'tab.inactiveBackground'                    : CHROME_COLOR,
   'tab.inactiveForeground'                    : '#cfb8cb',
-  'tab.unfocusedActiveBackground'             : 'MAIN_COLOR',
-  'tab.unfocusedActiveBorder'                 : 'MAIN_COLOR',
-  'editorGutter.background'                   : 'MAIN_COLOR',
+  'tab.unfocusedActiveBackground'             : CHROME_COLOR,
+  'tab.unfocusedActiveBorder'                 : CHROME_COLOR,
+  'editorGutter.background'                   : CHROME_COLOR,
   'scrollbar.shadow'                          : '#cf6f4b',
   'tab.unfocusedActiveForeground'             : '#aa769b',
   'widget.shadow'                             : '#8382aebb',
-}
-
-function getBaseColors(mode, actualBack){
-  const chromeMainColor = switcher(mode)
-    .is('american', '#445A63')
-    .is('hunger', '#445A63')
-    .default('#4d607b')
-
-  const darker = changeColorAnt(
-    chromeMainColor, 'DARK', 0.3
-  )
-
-  const currentBase = {
-    ...baseColors,
-    ...listStandard,
-  }
-  const withMainDarkColor = map(color =>
-    replace(
-      'MAIN_COLOR_DARK', darker, color
-    ))(currentBase)
-
-  const withMainColor = map(color =>
-    replace(
-      'MAIN_COLOR', chromeMainColor, color
-    ))(withMainDarkColor)
-
-  return map(color => replace(
-    'BACK_COLOR', actualBack, color
-  ))(withMainColor)
 }
 
 export const SETTINGS = {}
@@ -242,36 +213,7 @@ SETTINGS[ 8 ] = {
   COLOR_4 : '#cd8d7b',
   COLOR_5 : '#ffd1bd',
 }
-
-export function getChrome(mode, back){
-  if (mode === 'american'){
-    const actualBack = defaultTo(AMERICAN_BACK, back)
-    const baseToApply = getBaseColors(mode, actualBack)
-
-    return {
-      ...baseToApply,
-      'editor.background' : actualBack,
-    }
-  }
-  if (mode === 'hunger'){
-    const actualBack = defaultTo(HUNGER_BACK, back)
-    const baseToApply = getBaseColors(mode, actualBack)
-
-    return {
-      ...baseToApply,
-      'editor.background' : actualBack,
-    }
-  }
-
-  const actualBack = defaultTo(SOUTH_BACK, back)
-  const baseToApply = getBaseColors(mode, actualBack)
-
-  return {
-    ...baseToApply,
-    'editor.background' : actualBack,
-  }
-}
-
+  
 test('happy', () => {
   const allThemes = []
   map(val => {
@@ -283,11 +225,10 @@ test('happy', () => {
         colors.COLOR_3, 'four', 'three'
       )
     )
-    const chrome = getChrome(mode, back)
     const palette = readJsonAnt(`palettes/${ paletteMode }.json`)
     const themeData = generateThemeDataBee({
       palette,
-      chrome,
+      chrome: chromeColors,
       colors,
     })
     themeData.name = pascalCase(`${ mode }.${ label }`)
