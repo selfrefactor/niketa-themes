@@ -28,6 +28,7 @@ const listStandard = {
   'list.inactiveSelectionForeground' : '#e7e7e7',
   // in the previous comment, this is when code window is not yet active
   'list.activeSelectionBackground'   : '#d1343822',
+  // Right click on file in file explorer, this is foreground on hover
   'list.activeSelectionForeground'   : '#e7e7e7',
   // visible in autocomplete, in suggest, change of theme
   'list.hoverForeground'             : '#999966',
