@@ -1,4 +1,6 @@
-# Niketa
+# Niketa theme - old
+
+[Niketa theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme) version 8.22.1 distributed as separate theme
 
 18 Light VSCode Themes
 
@@ -75,6 +77,23 @@
 ### Niketa Owl
 
 ![niketa.owl](https://github.com/selfrefactor/niketa-themes/blob/master/packages/niketa-theme-past/screens/niketa.owl.png?raw=true)
+
+## Naming conventions
+
+Replace `foo, bar, baz` with their equally irrelevant substitutes.
+
+```
+group themes by background:
+
+
+`Advanced` for bright early day themes
+
+`Brave` for mild themes
+
+`Circus`  for darker mild themes
+
+`Niketa` for after sunset themes
+```
 
 ## Dark themes
 
