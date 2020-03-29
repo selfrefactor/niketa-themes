@@ -1,6 +1,6 @@
 # Niketa theme - old
 
-[Niketa theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme) version 8.22.1 distributed as separate theme
+[Niketa theme](https://marketplace.visualstudio.com/items?itemName=selfrefactor.Niketa-theme) version 8.22.1 distributed as a separate theme
 
 18 Light VSCode Themes
 
