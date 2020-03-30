@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`happy 1`] = `
+Object {
+  "dark": "#f04b3b",
+  "darker": "#ef3e2d",
+  "darkest": "#ee311f",
+  "light": "#f4776b",
+  "lighter": "#f58479",
+  "lightest": "#f69187",
+  "origin": "#f26153",
+}
+`;
