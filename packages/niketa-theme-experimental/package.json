@@ -1,0 +1,104 @@
+{
+  "name": "niketa-theme-experimental",
+  "displayName": "Niketa Theme Light",
+  "description": "Large collection of handmade light themes",
+  "version": "1.4.0",
+  "license": "MIT",
+  "publisher": "selfrefactor",
+  "scripts": {
+    "test": "jest src/createMultipleThemes.spec.js",
+    "out": "maided out"
+  },
+  "engines": {
+    "vscode": "^1.27.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  },
+  "icon": "screens/niketa.jpg",
+  "contributes": {
+    "themes": [
+      {
+        "label": "CommunicationBreakdown",
+        "uiTheme": "vs",
+        "path": "./themes/CommunicationBreakdown.json"
+      },
+      {
+        "label": "FunkyDrummer",
+        "uiTheme": "vs",
+        "path": "./themes/FunkyDrummer.json"
+      },
+      {
+        "label": "GlassOnion",
+        "uiTheme": "vs",
+        "path": "./themes/GlassOnion.json"
+      },
+      {
+        "label": "HelloSpaceboy",
+        "uiTheme": "vs",
+        "path": "./themes/HelloSpaceboy.json"
+      },
+      {
+        "label": "DancingDays",
+        "uiTheme": "vs",
+        "path": "./themes/DancingDays.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "color-theme",
+    "light",
+    "collection",
+    "themes",
+    "bundle"
+  ],
+  "devDependencies": {
+    "babel-cli": "^7.0.0-beta.3",
+    "babel-preset-env": "^7.0.0-beta.3",
+    "color": "^3.1.2",
+    "fs-extra": "^8.1.0",
+    "get-contrast-ratio": "^0.2.1",
+    "helpers-fn": "^0.1.1",
+    "hexsorter": "^1.5.0",
+    "jest": "^24.8.0",
+    "maided": "^0.1.3",
+    "rambdax": "^2.11.0",
+    "rgb-hex": "^3.0.0",
+    "string-fn": "^2.9.0"
+  },
+  "badges": [
+    {
+      "description": "Trending daily",
+      "href": "https://github.com/selfrefactor/niketa-theme",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-daily/selfrefactor.Niketa-theme.svg"
+    },
+    {
+      "description": "Trending weekly",
+      "href": "https://github.com/selfrefactor/niketa-theme",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-weekly/selfrefactor.Niketa-theme.svg"
+    },
+    {
+      "description": "Trending monthly",
+      "href": "https://github.com/selfrefactor/niketa-theme",
+      "url": "https://vsmarketplacebadge.apphb.com/trending-monthly/selfrefactor.Niketa-theme.svg"
+    },
+    {
+      "description": "GitHub stars",
+      "href": "https://github.com/selfrefactor/niketa-theme/stargazers",
+      "url": "https://img.shields.io/github/stars/selfrefactor/niketa-theme.svg?style=social"
+    },
+    {
+      "description": "GitHub issues",
+      "href": "https://github.com/selfrefactor/niketa-theme/issues",
+      "url": "https://img.shields.io/github/issues/selfrefactor/niketa-theme.svg?style=social"
+    }
+  ]
+}
