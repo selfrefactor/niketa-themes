@@ -32,7 +32,7 @@ export async function exportToMono(){
   await exec({
     command : 'run d feat@bump experimental',
     cwd     : destination,
-  })
+  }) 
 }
 
 function performRename(
