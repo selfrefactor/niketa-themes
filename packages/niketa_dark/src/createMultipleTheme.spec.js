@@ -123,8 +123,7 @@ const chromeColors = {
 export const SETTINGS = {}
  
 SETTINGS[ 0 ] = {
-  mode    : 'american',
-  label   : 'alien',
+  name: 'american.dad',
   COLOR_0 : '#FFAE57',
   COLOR_1 : '#D9D7CE',
   COLOR_2 : '#BAE67E',
@@ -133,8 +132,7 @@ SETTINGS[ 0 ] = {
   COLOR_5 : '#bb8f7e',
 }
 SETTINGS[ 1 ] = {
-  mode    : 'american',
-  label   : 'dad',
+  'name': 'aqua.teen.hunger.force',
   COLOR_0 : '#f6f6bb',
   COLOR_1 : '#57B6CD',
   COLOR_2 : '#cca152',
@@ -144,8 +142,7 @@ SETTINGS[ 1 ] = {
 }
 
 SETTINGS[ 2 ] = {
-  mode    : 'american',
-  label   : 'spy',
+  name: 'archer',
   COLOR_0 : '#F0F4C3',
   COLOR_1 : '#f98fab',
   COLOR_2 : '#50d0ff',
@@ -155,8 +152,7 @@ SETTINGS[ 2 ] = {
 }
 
 SETTINGS[ 3 ] = {
-  mode    : 'hunger',
-  label   : 'epiphany',
+  name: 'cleveland.show',
   COLOR_0 : '#df8543',
   COLOR_1 : '#95e6cb',
   COLOR_2 : '#9abc69',
@@ -166,8 +162,7 @@ SETTINGS[ 3 ] = {
 }
 
 SETTINGS[ 4 ] = {
-  mode    : 'hunger',
-  label   : 'force',
+  'name': 'curb.your.enthusiasm',
   COLOR_0 : '#6faab5',
   COLOR_1 : '#cfe071',
   COLOR_2 : '#f4f0e6',
@@ -177,8 +172,7 @@ SETTINGS[ 4 ] = {
 }
 
 SETTINGS[ 5 ] = {
-  mode    : 'hunger',
-  label   : 'shake',
+  'name': 'dilbert',
   COLOR_0 : '#e17096',
   COLOR_1 : '#95c4da',
   COLOR_2 : '#5699be',
@@ -188,8 +182,7 @@ SETTINGS[ 5 ] = {
 }
 
 SETTINGS[ 6 ] = {
-  mode    : 'south',
-  label   : 'authority',
+  name    : 'south.park',
   COLOR_0 : '#DA608E',
   COLOR_1 : '#ebac2a',
   COLOR_2 : '#DF91CA',
@@ -197,9 +190,9 @@ SETTINGS[ 6 ] = {
   COLOR_4 : '#F7DDB2',
   COLOR_5 : '#d4f8e8',
 }
+
 SETTINGS[ 7 ] = {
-  mode    : 'south',
-  label   : 'park',
+  name: 'trip.tank',
   COLOR_0 : '#e17096',
   COLOR_1 : '#7AD3F3',
   COLOR_2 : '#7eb19f',
@@ -208,8 +201,7 @@ SETTINGS[ 7 ] = {
   COLOR_5 : '#7AD3F3',
 }
 SETTINGS[ 8 ] = {
-  mode    : 'south',
-  label   : 'tegridy',
+  name    : 'ugly.americans',
   COLOR_0 : '#9dc6a7',
   COLOR_1 : '#fd79a8',
   COLOR_2 : '#f8dc88',
@@ -221,7 +213,7 @@ SETTINGS[ 8 ] = {
 test('happy', () => {
   const allThemes = []
   map(val => {
-    const { mode, label, back, ...colors } = val
+    const { name, back, ...colors } = val
     if (!colors.COLOR_5){
       throw new Error('All themes require 6 colors')
     }
@@ -231,7 +223,7 @@ test('happy', () => {
       chrome : chromeColors,
       colors,
     })
-    themeData.name = pascalCase(`${ mode }.${ label }`)
+    themeData.name = pascalCase(name)
 
     writeJsonAnt(`themes/${ themeData.name }.json`, themeData)
 

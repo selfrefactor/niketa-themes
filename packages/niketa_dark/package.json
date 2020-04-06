@@ -25,39 +25,34 @@
   "contributes": {
     "themes": [
       {
-        "label": "AmericanAlien",
-        "uiTheme": "vs-dark",
-        "path": "./themes/AmericanAlien.json"
-      },
-      {
         "label": "AmericanDad",
         "uiTheme": "vs-dark",
         "path": "./themes/AmericanDad.json"
       },
       {
-        "label": "AmericanSpy",
+        "label": "AquaTeenHungerForce",
         "uiTheme": "vs-dark",
-        "path": "./themes/AmericanSpy.json"
+        "path": "./themes/AquaTeenHungerForce.json"
       },
       {
-        "label": "HungerEpiphany",
+        "label": "Archer",
         "uiTheme": "vs-dark",
-        "path": "./themes/HungerEpiphany.json"
+        "path": "./themes/Archer.json"
       },
       {
-        "label": "HungerForce",
+        "label": "ClevelandShow",
         "uiTheme": "vs-dark",
-        "path": "./themes/HungerForce.json"
+        "path": "./themes/ClevelandShow.json"
       },
       {
-        "label": "HungerShake",
+        "label": "CurbYourEnthusiasm",
         "uiTheme": "vs-dark",
-        "path": "./themes/HungerShake.json"
+        "path": "./themes/CurbYourEnthusiasm.json"
       },
       {
-        "label": "SouthAuthority",
+        "label": "Dilbert",
         "uiTheme": "vs-dark",
-        "path": "./themes/SouthAuthority.json"
+        "path": "./themes/Dilbert.json"
       },
       {
         "label": "SouthPark",
@@ -65,9 +60,14 @@
         "path": "./themes/SouthPark.json"
       },
       {
-        "label": "SouthTegridy",
+        "label": "TripTank",
         "uiTheme": "vs-dark",
-        "path": "./themes/SouthTegridy.json"
+        "path": "./themes/TripTank.json"
+      },
+      {
+        "label": "UglyAmericans",
+        "uiTheme": "vs-dark",
+        "path": "./themes/UglyAmericans.json"
       }
     ]
   },
@@ -85,7 +85,6 @@
     "color": "^3.1.2",
     "fs-extra": "^8.1.0",
     "get-contrast-ratio": "^0.2.1",
-    "helpers": "https://github.com/selfrefactor/helpers#2.4.0",
     "hexsorter": "^1.5.0",
     "jest": "^25.1.0",
     "rambdax": "^3.7.0",
