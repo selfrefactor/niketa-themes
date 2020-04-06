@@ -121,9 +121,9 @@ const chromeColors = {
 }
 
 export const SETTINGS = {}
- 
+
 SETTINGS[ 0 ] = {
-  name: 'american.dad',
+  name    : 'american.dad',
   COLOR_0 : '#FFAE57',
   COLOR_1 : '#D9D7CE',
   COLOR_2 : '#BAE67E',
@@ -132,7 +132,7 @@ SETTINGS[ 0 ] = {
   COLOR_5 : '#bb8f7e',
 }
 SETTINGS[ 1 ] = {
-  'name': 'aqua.teen.hunger.force',
+  name    : 'aqua.teen.hunger.force',
   COLOR_0 : '#f6f6bb',
   COLOR_1 : '#57B6CD',
   COLOR_2 : '#cca152',
@@ -142,7 +142,7 @@ SETTINGS[ 1 ] = {
 }
 
 SETTINGS[ 2 ] = {
-  name: 'archer',
+  name    : 'archer',
   COLOR_0 : '#F0F4C3',
   COLOR_1 : '#f98fab',
   COLOR_2 : '#50d0ff',
@@ -152,7 +152,7 @@ SETTINGS[ 2 ] = {
 }
 
 SETTINGS[ 3 ] = {
-  name: 'cleveland.show',
+  name    : 'cleveland.show',
   COLOR_0 : '#df8543',
   COLOR_1 : '#95e6cb',
   COLOR_2 : '#9abc69',
@@ -162,7 +162,7 @@ SETTINGS[ 3 ] = {
 }
 
 SETTINGS[ 4 ] = {
-  'name': 'curb.your.enthusiasm',
+  name    : 'curb.your.enthusiasm',
   COLOR_0 : '#6faab5',
   COLOR_1 : '#cfe071',
   COLOR_2 : '#f4f0e6',
@@ -172,7 +172,7 @@ SETTINGS[ 4 ] = {
 }
 
 SETTINGS[ 5 ] = {
-  'name': 'dilbert',
+  name    : 'dilbert',
   COLOR_0 : '#e17096',
   COLOR_1 : '#95c4da',
   COLOR_2 : '#5699be',
@@ -192,7 +192,7 @@ SETTINGS[ 6 ] = {
 }
 
 SETTINGS[ 7 ] = {
-  name: 'trip.tank',
+  name    : 'trip.tank',
   COLOR_0 : '#e17096',
   COLOR_1 : '#7AD3F3',
   COLOR_2 : '#7eb19f',
@@ -217,7 +217,7 @@ test('happy', () => {
     if (!colors.COLOR_5){
       throw new Error('All themes require 6 colors')
     }
-    const palette = readJsonAnt(`src/palette.json`)
+    const palette = readJsonAnt('src/palette.json')
     const themeData = generateThemeData({
       palette,
       chrome : chromeColors,
