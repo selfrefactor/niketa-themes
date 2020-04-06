@@ -2,7 +2,7 @@
   "name": "niketa-theme-experimental",
   "displayName": "Niketa Theme Light",
   "description": "Large collection of handmade light themes",
-  "version": "1.2.0",
+  "version": "1.4.0",
   "license": "MIT",
   "publisher": "selfrefactor",
   "scripts": {
@@ -121,5 +121,8 @@
       "href": "https://github.com/selfrefactor/niketa-theme/issues",
       "url": "https://img.shields.io/github/issues/selfrefactor/niketa-theme.svg?style=social"
     }
-  ]
+  ],
+  "commitMessage": {
+    "workInProgress": "find missing rules"
+  }
 }
