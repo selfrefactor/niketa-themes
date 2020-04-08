@@ -129,7 +129,7 @@ SETTINGS[ 0 ] = {
   COLOR_2 : '#BAE67E',
   COLOR_3 : '#D55975',
   COLOR_4 : '#1cb3b8',
-  COLOR_5 : '#bb8f7e',
+  // COLOR_5 : '#bb8f7e',
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
@@ -138,7 +138,7 @@ SETTINGS[ 1 ] = {
   COLOR_2 : '#cca152',
   COLOR_3 : '#57B6CD',
   COLOR_4 : '#a87ca1',
-  COLOR_5 : '#a6cc70',
+  // COLOR_5 : '#a6cc70',
 }
 
 SETTINGS[ 2 ] = {
@@ -147,8 +147,8 @@ SETTINGS[ 2 ] = {
   COLOR_1 : '#f98fab',
   COLOR_2 : '#50d0ff',
   COLOR_3 : '#a3be8c',
-  COLOR_4 : '#bbdefb',
-  COLOR_5 : '#FFAE57',
+  COLOR_4 : '#FFAE57',
+  // COLOR_4 : '#bbdefb',
 }
 
 SETTINGS[ 3 ] = {
@@ -156,9 +156,9 @@ SETTINGS[ 3 ] = {
   COLOR_0 : '#df8543',
   COLOR_1 : '#95e6cb',
   COLOR_2 : '#9abc69',
-  COLOR_3 : '#80DEEA',
+  COLOR_3 : '#a87ca1',
   COLOR_4 : '#fdd365',
-  COLOR_5 : '#a87ca1',
+  // COLOR_3 : '#80DEEA',
 }
 
 SETTINGS[ 4 ] = {
@@ -168,17 +168,17 @@ SETTINGS[ 4 ] = {
   COLOR_2 : '#f4f0e6',
   COLOR_3 : '#E07C64',
   COLOR_4 : '#dfe6e9',
-  COLOR_5 : '#eccc68',
+  // COLOR_5 : '#eccc68',
 }
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
   COLOR_0 : '#e17096',
   COLOR_1 : '#95c4da',
-  COLOR_2 : '#5699be',
-  COLOR_3 : '#b8a0af',
+  COLOR_2 : '#f4dada',
+  COLOR_3 : '#5699be',
   COLOR_4 : '#DF8E6D',
-  COLOR_5 : '#f4dada',
+  // COLOR_3 : '#b8a0af',
 }
 
 SETTINGS[ 6 ] = {
@@ -186,9 +186,9 @@ SETTINGS[ 6 ] = {
   COLOR_0 : '#DA608E',
   COLOR_1 : '#ebac2a',
   COLOR_2 : '#DF91CA',
-  COLOR_3 : '#88B1C6',
-  COLOR_4 : '#F7DDB2',
-  COLOR_5 : '#d4f8e8',
+  COLOR_3 : '#F7DDB2',
+  COLOR_4 : '#d4f8e8',
+  // COLOR_3 : '#88B1C6',
 }
 
 SETTINGS[ 7 ] = {
@@ -198,23 +198,22 @@ SETTINGS[ 7 ] = {
   COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
   COLOR_4 : '#dcedc1',
-  COLOR_5 : '#7AD3F3',
 }
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#9dc6a7',
   COLOR_1 : '#fd79a8',
   COLOR_2 : '#f8dc88',
-  COLOR_3 : '#E06C75',
-  COLOR_4 : '#cd8d7b',
-  COLOR_5 : '#ffd1bd',
+  COLOR_3 : '#cd8d7b',
+  COLOR_4 : '#ffd1bd',
+  // COLOR_3 : '#E06C75',
 }
-
+ 
 test('happy', () => {
   const allThemes = []
   map(val => {
     const { name, back, ...colors } = val
-    if (!colors.COLOR_5){
+    if (!colors.COLOR_4){
       throw new Error('All themes require 6 colors')
     }
     const palette = readJsonAnt('src/palette.json')
