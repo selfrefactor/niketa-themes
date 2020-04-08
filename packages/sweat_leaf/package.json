@@ -1,0 +1,45 @@
+{
+  "name": "SweatLeaf",
+  "version": "0.0.18",
+  "keywords": [
+    "niketa",
+    "theme",
+    "color-theme",
+    "light"
+  ],
+  "publisher": "selfrefactor",
+  "displayName": "SweatLeaf",
+  "description": "Light theme from Niketa themes collection",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "theme/sweat.leaf.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "SweatLeaf",
+        "uiTheme": "vs",
+        "path": "./theme/SweatLeaf.json"
+      }
+    ]
+  },
+  "author": "Dejan Toteff <deyan8284@gmail.com>",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
+  "license": "MIT",
+  "directories": {
+    "lib": "theme"
+  },
+  "files": [
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  }
+}
