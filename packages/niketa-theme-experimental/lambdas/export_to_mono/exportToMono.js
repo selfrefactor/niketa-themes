@@ -1,125 +1,95 @@
-import { sort, replace } from 'rambdax'
-import { readJsonAnt, resolve } from '../../src/ants/readJson'
+import { readFileSync } from 'fs'
+import { copy, outputFile, outputJson, readJson } from 'fs-extra'
+import { exec } from 'helpers-fn'
 import { resolve as resolveMethod } from 'path'
-import { existsSync, readFileSync } from 'fs'
-import { exec } from 'helpers'
-import { snakeCase, dotCase, titleCase } from 'string-fn'
-import {
-  copySync,
-  outputJsonSync,
-  outputFileSync,
-} from 'fs-extra'
-import { readdirSync } from 'fs'
-const sortFn = (a, b) => a > b ? -1 : 1
+import { piped, replace } from 'rambdax'
+import { dotCase, pascalCase, snakeCase } from 'string-fn'
 
-export function getLastestScreen(){
-  const dir = `${ process.env.HOME }/Pictures`
-  const pictures = readdirSync(dir)
-  const allScreens = pictures.filter(x => x.startsWith('Screenshot'))
-  const [ lastScreen ] = sort(sortFn, allScreens)
-  if (!lastScreen) throw new Error('!lastScreen')
+const PROJECT_ROOT = resolveMethod(__dirname, '../../')
 
-  return `${ dir }/${ lastScreen }`
+function createReadme({ themeName, asDot, asSnake }){
+  const templateData = readFileSync(`${ __dirname }/template/README.md`).toString()
+
+  return piped(
+    templateData,
+    replace(/FooBar/g, themeName),
+    replace(/foo\.bar/g, asDot),
+    replace(/foo_bar/g, asSnake)
+  )
 }
 
-export async function exportToMono(themeName, withScreenshot = false, republishAs = ''){
-  getLastestScreen()
-  const republishSnake = snakeCase(republishAs)
+async function getPackageJson({ version, themeName, asDot }){
+  const content = await readJson(`${ __dirname }/template/package.json`)
+  const contributes = {
+    themes : [
+      {
+        label   : themeName,
+        uiTheme : 'vs',
+        path    : `./theme/${ themeName }.json`,
+      },
+    ],
+  }
+
+  return {
+    ...content,
+    name        : themeName,
+    displayName : themeName,
+    version,
+    icon        : replace(
+      'foo.bar', asDot, content.icon
+    ),
+    contributes,
+  }
+}
+
+export async function exportToMono(themeNameRaw, version){
+  const themeName = pascalCase(themeNameRaw)
   const asDot = dotCase(themeName)
   const asSnake = snakeCase(themeName)
-  const filePathBase = resolveMethod(
-    __dirname,
-    '../../../niketa-themes/packages'
+  const readmeContent = createReadme({
+    themeName,
+    asDot,
+    asSnake,
+  })
+  const packageJsonContent = await getPackageJson({
+    version,
+    themeName,
+    asDot,
+  })
+  const filePathBase = resolveMethod(__dirname,
+    '../../../niketa-themes/packages')
+
+  const DESTINATION_ROOT = `${ filePathBase }/${ asSnake }`
+
+  const themeSource = `${ PROJECT_ROOT }/themes/${ themeName }.json`
+  const screenSource = `${ PROJECT_ROOT }/files/${ asDot }.png`
+
+  const themeDestination = `${ DESTINATION_ROOT }/theme/${ themeName }.json`
+  const screenDestination = `${ DESTINATION_ROOT }/theme/${ asDot }.png`
+  const readmeDestination = `${ DESTINATION_ROOT }/README.md`
+  const packageJsonDestination = `${ DESTINATION_ROOT }/package.json`
+
+  await copy(
+    screenSource, screenDestination, { overwrite : true }
+  )
+  await copy(
+    themeSource, themeDestination, { overwrite : true }
+  )
+  await outputFile(readmeDestination, readmeContent)
+  await outputJson(
+    packageJsonDestination, packageJsonContent, { spaces : 2 }
   )
 
-  if (!existsSync(filePathBase))
-    return console.log(`${ filePathBase } is not a directory`)
-
-  const actualData = readJsonAnt(`themes/${ themeName }.json`)
-  const destination = `${ filePathBase }/${ asSnake }`
-  const themeDestination = `${ destination }/theme/${ asDot }.json`
-  const republishFolder = `${ filePathBase }/${ republishSnake }`
-  const republishPackageJson = `${ republishFolder }/package.json`
-
-  const niketaScreenLocation = resolve(`files/${ asDot }.png`)
-  const screenSource = withScreenshot ?
-    getLastestScreen() :
-    niketaScreenLocation
-
-  if (withScreenshot){
-    // So when trending screen is updated
-    //  so is the screen part of Niketa screens
-    // ============================================
-    copySync(screenSource, niketaScreenLocation)
-  }
-
-  const screenDestination = resolve(
-    `${ destination }/theme/${ asDot }.png`
-  )
-
-  outputJsonSync(themeDestination, actualData, { spaces : 2 })
-  if (existsSync(screenSource)){
-    copySync(screenSource, screenDestination)
-  } else {
-    console.log('You need to save a screen before that')
-  }
   await exec({
-    command : 'run d feat@bump minor',
-    cwd     : destination,
+    command : 'run d feat@bump patch',
+    cwd     : DESTINATION_ROOT,
   })
   await exec({
-    command : 'vsce publish minor',
-    cwd     : destination,
+    command : 'vsce publish patch',
+    cwd     : DESTINATION_ROOT,
   })
   await exec({
-    command : 'run d small',
-    cwd     : destination,
-  })
-
-  if (republishAs){
-    republish({
-      republishFolder,
-      source : destination,
-      republishPackageJson,
-      themeName,
-      republishAs,
-    })
-  }
-}
-
-function performRename(content, newName, oldName, skipDotCase = false){
-  const afterDot = replace(new RegExp(dotCase(oldName), 'g'), dotCase(newName), content)
-
-  const afterSnake = replace(new RegExp(snakeCase(oldName), 'g'), snakeCase(newName), skipDotCase ? content : afterDot)
-  const afterTitle = replace(new RegExp(titleCase(oldName), 'g'), titleCase(newName), afterSnake)
-
-  return replace(new RegExp(oldName, 'g'), newName, afterTitle)
-}
-
-async function republish({ republishFolder, republishPackageJson, source, themeName, republishAs }){
-  if (existsSync(republishFolder)){
-    return console.log('Please empty destination folder', republishAs)
-  }
-  copySync(source, republishFolder)
-
-  const readme = readFileSync(`${ source }/README.md`).toString()
-  const editedReadme = performRename(readme, republishAs, themeName, true)
-  outputFileSync(`${ republishFolder }/README.md`, editedReadme)
-
-  const packageJson = readFileSync(republishPackageJson).toString()
-  const editedPackageJson = performRename(packageJson, republishAs, themeName, true)
-  outputFileSync(republishPackageJson, editedPackageJson)
-
-  await exec({
-    command : `run d feat@publish ${ dotCase(republishAs) }`,
-    cwd     : republishFolder,
-  })
-  await exec({
-    command : 'vsce publish',
-    cwd     : republishFolder,
-  })
-  await exec({
-    command : 'run d small',
-    cwd     : republishFolder,
+    command : 'run d chore@bump',
+    cwd     : DESTINATION_ROOT,
   })
 }

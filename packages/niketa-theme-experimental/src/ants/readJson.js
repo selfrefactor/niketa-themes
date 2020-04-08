@@ -11,4 +11,5 @@ function readJsonAnt(filePath){
   return JSON.parse(content)
 }
 
+exports.resolve = resolve
 exports.readJsonAnt = readJsonAnt

@@ -73,24 +73,22 @@ const chromeColors = {
   ...listColors,
   'editor.background'                         : BACK_COLOR,
   'editor.lineHighlightBorder'                : '#9c824a',
-  // Above are missing in Niketa light theme
-  // ============================================
   'editor.foldBackground'                     : '#fafafa',
   'activityBar.background'                    : '#C4BE9D',
   'badge.background'                          : '#e7e7e7',
   'badge.foreground'                          : '#3f7063',
   'diffEditor.insertedTextBackground'         : '#9c824a55',
   'diffEditor.removedTextBackground'          : '#64B5F655',
-  'editor.findMatchBackground'                : '#87a192',
-  'editor.findMatchHighlightBackground'       : '#71aac355',
-  'editor.findRangeHighlightBackground'       : '#3f706366',
+  'editor.findMatchBackground'                : '#aaff1144',
+  'editor.findMatchHighlightBackground'       : '#71aac333',
+  'editor.findRangeHighlightBackground'       : '#3f706355',
   'editor.lineHighlightBackground'            : BACK_COLOR,
   // next two
   // When search by word is active or when double click on a word
   'editor.wordHighlightBackground'            : '#aa769b55',
   'editor.wordHighlightStrongBackground'      : '#410a0b44',
-  'editorBracketMatch.background'             : '#e7e7e7',
-  'editorBracketMatch.border'                 : '#fafafa',
+  'editorBracketMatch.background'             : '#87775750',
+  'editorBracketMatch.border'                 : BACK_COLOR,
   'editorCursor.foreground'                   : '#544',
   'editorGroupHeader.tabsBackground'          : CHROME_COLOR,
   'editorLineNumber.foreground'               : '#2a3343a9',
@@ -132,12 +130,10 @@ const CommunicationBreakdown = [
 const DancingDays = [ '#b13695', '#38978D', '#614ad3', '#083358', '#df5831' ]
 const FunkyDrummer = [ '#b66ae4', '#480032', '#0068a8', '#38978D', '#B1365B' ]
 const GlassOnion = [ '#bb9132', '#20366b', '#2c91af', '#861D4F', '#E9630D' ]
-
 const HelloSpaceboy = [ '#01676b', '#6833b9', '#b1336b', '#192112', '#0031df' ]
 const KozmicBlues = [ '#a83c56', '#28305d', '#0068a8', '#d239a0', '#b66ae4' ]
 const LedZeppelin = [ '#0d8a81', '#00a8cc', '#a12b6d', '#d44578', '#3a0088' ]
 const StrangeBrew = [ '#00a8cc', '#222d60', '#953b69', '#b24826', '#01676b' ]
-
 const SweatLeaf = [ '#2f586f', '#a83c56', '#0031df', '#d239a0', '#bb9132' ]
 
 const SETTINGS = [

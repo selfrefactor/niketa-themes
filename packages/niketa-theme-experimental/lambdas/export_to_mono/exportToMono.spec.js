@@ -1,44 +1,34 @@
-import { exportToMono, getLastestScreen } from './exportToMono'
+import { load, save } from 'package-storage'
+import { mapAsync } from 'rambdax'
+import { ms } from 'string-fn'
 
-/*
-  Use it to create a new trending theme
-  Take a screen of the about-to-be deprecated theme
-  Run `await exportToMono('BraveLove', true, 'LemonSong')`
+import { themesNames } from '../../src/constants.js'
+import { exportToMono } from './exportToMono'
 
-  this updates brave.love mono repo and creates a new theme
+jest.setTimeout(ms('5 minutes'))
 
-  Second scenario is when updating a thrending theme,
-   but you don't want to create a new theme,
-   just update trending theme mono repo
+const STANDALONES_VERSION_KEY = 'standaloneVersion'
 
-   Run `await exportToMono('BraveLove', true')` for screen update or run `await exportToMono('BraveLove')` for style update only
+async function bumpVersion(version){
+  const [ major, minor, patch ] = version.split('.').map(Number)
+  const newVersion = `${ major }.${ minor }.${ patch + 1 }`
 
-  Third scenario is when you have changed any other theme and you need monorepo to be synced with.
-  Optionally, you can also publish it as a new theme
-*/
-test('happy', async () => {
-  jest.setTimeout(2 * 60 * 1000)
-  // await exportToMono('AdvancedHook', true, 'TeaForOne')
-  // await exportToMono('NiketaMoon', true, 'DancingDays')
-  // await exportToMono('AdvancedBat')
-  // await exportToMono('AdvancedHook', true)
+  return save(
+    STANDALONES_VERSION_KEY, newVersion, undefined, true
+  )
+}
 
-  // 1.1.1 Publish new trending theme
-  // ============================================
-  // await exportToMono('BraveLove', true, 'MobyDick')
+async function getVersion(){
+  return load(
+    STANDALONES_VERSION_KEY, undefined, true
+  )
+}
 
-  // 1.2.1 Republish CircusAjax as a new theme
-  // before going forward to change the theme
-  // ============================================
-  // await exportToMono('CircusAjax', false, 'GretaVanFleet')
-  // await exportToMono('AdvancedHook', false, 'Brickleberry')
+test.skip('happy', async () => {
+  const version = await getVersion()
 
-  // // 1.2.2 Update the theme
-  // // ============================================
-  // await exportToMono('AdvancedHook', true)
-  await exportToMono('CircusAjax', true)
-})
+  await mapAsync(async themeName => await exportToMono(themeName, version),
+    themesNames)
 
-test.skip('latest screen', async () => {
-  await getLastestScreen()
+  await bumpVersion(version)
 })

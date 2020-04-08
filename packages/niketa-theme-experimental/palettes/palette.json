@@ -56,7 +56,7 @@
       "name": "text.html.derivative",
       "scope": "text.html.derivative",
       "settings": {
-        "foreground": "COLOR_0_DARK"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -70,14 +70,14 @@
       "name": "punctuation.accessor.jsx",
       "scope": "punctuation.accessor.jsx",
       "settings": {
-        "foreground": "COLOR_0_LIGHT"
+        "foreground": "COLOR_0"
       }
     },
     {
       "name": "punctuation.accessor.ts",
       "scope": "punctuation.accessor.ts",
       "settings": {
-        "foreground": "COLOR_0_DARK"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -98,14 +98,14 @@
       "name": "source.jsx",
       "scope": "source.jsx",
       "settings": {
-        "foreground": "COLOR_0_DARK"
+        "foreground": "COLOR_0"
       }
     },
     {
       "name": "source.ts",
       "scope": "source.ts",
       "settings": {
-        "foreground": "COLOR_0_DARK"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -154,7 +154,7 @@
       "name": "punctuation.separator.key-value.js",
       "scope": "punctuation.separator.key-value.js",
       "settings": {
-        "foreground": "COLOR_0_LIGHT"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -175,14 +175,14 @@
       "name": "punctuation.separator.key-value.tsx",
       "scope": "punctuation.separator.key-value.tsx",
       "settings": {
-        "foreground": "COLOR_0_LIGHTER"
+        "foreground": "COLOR_0"
       }
     },
     {
       "name": "storage.type",
       "scope": "storage.type",
       "settings": {
-        "foreground": "COLOR_0_LIGHT"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -196,14 +196,14 @@
       "name": "string.quoted.single.jsx",
       "scope": "string.quoted.single.jsx",
       "settings": {
-        "foreground": "COLOR_0_DARKER"
+        "foreground": "COLOR_0"
       }
     },
     {
       "name": "string.quoted.single.ts",
       "scope": "string.quoted.single.ts",
       "settings": {
-        "foreground": "COLOR_0_LIGHTER"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -217,7 +217,7 @@
       "name": "support.function.dom.js",
       "scope": "support.function.dom.js",
       "settings": {
-        "foreground": "COLOR_0_LIGHT"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -245,21 +245,21 @@
       "name": "meta.var.expr.js",
       "scope": "meta.var.expr.js",
       "settings": {
-        "foreground": "COLOR_0_DARK"
+        "foreground": "COLOR_0"
       }
     },
     {
       "name": "meta.var.expr.jsx",
       "scope": "meta.var.expr.jsx",
       "settings": {
-        "foreground": "COLOR_0_DARK"
+        "foreground": "COLOR_0"
       }
     },
     {
       "name": "meta.var.expr.ts",
       "scope": "meta.var.expr.ts",
       "settings": {
-        "foreground": "COLOR_0_LIGHTER"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -280,7 +280,7 @@
       "name": "punctuation.separator.comma.jsx",
       "scope": "punctuation.separator.comma.jsx",
       "settings": {
-        "foreground": "COLOR_0_LIGHT"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -294,7 +294,7 @@
       "name": "punctuation.separator.comma.tsx",
       "scope": "punctuation.separator.comma.tsx",
       "settings": {
-        "foreground": "COLOR_0_LIGHTEST"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -308,14 +308,14 @@
       "name": "support.variable.property.jsx",
       "scope": "support.variable.property.jsx",
       "settings": {
-        "foreground": "COLOR_0_LIGHT"
+        "foreground": "COLOR_0"
       }
     },
     {
       "name": "support.variable.property.ts",
       "scope": "support.variable.property.ts",
       "settings": {
-        "foreground": "COLOR_0_DARKEST"
+        "foreground": "COLOR_0"
       }
     },
     {
@@ -357,7 +357,7 @@
       "name": "meta.brace.round.jsx",
       "scope": "meta.brace.round.jsx",
       "settings": {
-        "foreground": "COLOR_1_DARK"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -371,21 +371,21 @@
       "name": "meta.brace.round.tsx",
       "scope": "meta.brace.round.tsx",
       "settings": {
-        "foreground": "COLOR_1_LIGHT"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "constant.language.boolean",
       "scope": "constant.language.boolean",
       "settings": {
-        "foreground": "COLOR_1_DARKEST"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "constant.numeric",
       "scope": "constant.numeric",
       "settings": {
-        "foreground": "COLOR_1_DARK"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -399,14 +399,14 @@
       "name": "constant.language.null.jsx",
       "scope": "constant.language.null.jsx",
       "settings": {
-        "foreground": "COLOR_1_DARK"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "constant.language.null.ts",
       "scope": "constant.language.null.ts",
       "settings": {
-        "foreground": "COLOR_1_LIGHTEST"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -421,7 +421,7 @@
       "scope": "entity.name.class",
       "settings": {
         "fontStyle": "underline",
-        "foreground": "COLOR_1_DARK"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -437,28 +437,28 @@
       "scope": "entity.name.type",
       "settings": {
         "fontStyle": "underline",
-        "foreground": "COLOR_1_LIGHTER"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "markup.heading.markdown",
       "scope": "markup.heading.markdown",
       "settings": {
-        "foreground": "COLOR_1_LIGHTER"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "meta.tag.attributes.js",
       "scope": "meta.tag.attributes.js",
       "settings": {
-        "foreground": "COLOR_1_LIGHTER"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "meta.tag.attributes.jsx",
       "scope": "meta.tag.attributes.jsx",
       "settings": {
-        "foreground": "COLOR_1_DARKEST"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -472,7 +472,7 @@
       "name": "meta.tag.attributes.tsx",
       "scope": "meta.tag.attributes.tsx",
       "settings": {
-        "foreground": "COLOR_1_LIGHTER"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -486,7 +486,7 @@
       "name": "support.variable.property.jsx",
       "scope": "support.variable.property.jsx",
       "settings": {
-        "foreground": "COLOR_1_DARKER"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -500,21 +500,21 @@
       "name": "support.variable.property.tsx",
       "scope": "support.variable.property.tsx",
       "settings": {
-        "foreground": "COLOR_1_LIGHTER"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "support.type.primitive.js",
       "scope": "support.type.primitive.js",
       "settings": {
-        "foreground": "COLOR_1_DARKEST"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "support.type.primitive.jsx",
       "scope": "support.type.primitive.jsx",
       "settings": {
-        "foreground": "COLOR_1_DARK"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -528,14 +528,14 @@
       "name": "support.type.primitive.tsx",
       "scope": "support.type.primitive.tsx",
       "settings": {
-        "foreground": "COLOR_1_DARKER"
+        "foreground": "COLOR_1"
       }
     },
     {
       "name": "variable",
       "scope": "variable",
       "settings": {
-        "foreground": "COLOR_1_LIGHTEST"
+        "foreground": "COLOR_1"
       }
     },
     {
@@ -549,14 +549,14 @@
       "name": "keyword.control.import.js",
       "scope": "keyword.control.import.js",
       "settings": {
-        "foreground": "COLOR_2_DARK"
+        "foreground": "COLOR_2"
       }
     },
     {
       "name": "keyword.control.import.jsx",
       "scope": "keyword.control.import.jsx",
       "settings": {
-        "foreground": "COLOR_2_DARKEST"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -577,7 +577,7 @@
       "name": "source.json",
       "scope": "source.json",
       "settings": {
-        "foreground": "COLOR_2_DARK"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -595,6 +595,34 @@
       }
     },
     {
+      "name": "variable.other.constant.js",
+      "scope": "variable.other.constant.js",
+      "settings": {
+        "foreground": "COLOR_2"
+      }
+    },
+    {
+      "name": "variable.other.constant.jsx",
+      "scope": "variable.other.constant.jsx",
+      "settings": {
+        "foreground": "COLOR_2"
+      }
+    },
+    {
+      "name": "variable.other.constant.ts",
+      "scope": "variable.other.constant.ts",
+      "settings": {
+        "foreground": "COLOR_2"
+      }
+    },
+    {
+      "name": "variable.other.constant.tsx",
+      "scope": "variable.other.constant.tsx",
+      "settings": {
+        "foreground": "COLOR_2"
+      }
+    },
+    {
       "name": "support.type.object.module.js",
       "scope": "support.type.object.module.js",
       "settings": {
@@ -605,21 +633,21 @@
       "name": "support.type.object.module.jsx",
       "scope": "support.type.object.module.jsx",
       "settings": {
-        "foreground": "COLOR_2_DARK"
+        "foreground": "COLOR_2"
       }
     },
     {
       "name": "support.type.object.module.ts",
       "scope": "support.type.object.module.ts",
       "settings": {
-        "foreground": "COLOR_2_DARK"
+        "foreground": "COLOR_2"
       }
     },
     {
       "name": "support.type.object.module.tsx",
       "scope": "support.type.object.module.tsx",
       "settings": {
-        "foreground": "COLOR_2_LIGHT"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -633,21 +661,49 @@
       "name": "meta.import.jsx",
       "scope": "meta.import.jsx",
       "settings": {
-        "foreground": "COLOR_2_LIGHTER"
+        "foreground": "COLOR_2"
       }
     },
     {
       "name": "meta.import.ts",
       "scope": "meta.import.ts",
       "settings": {
-        "foreground": "COLOR_2_LIGHTER"
+        "foreground": "COLOR_2"
       }
     },
     {
       "name": "meta.import.tsx",
       "scope": "meta.import.tsx",
       "settings": {
-        "foreground": "COLOR_2_LIGHT"
+        "foreground": "COLOR_2"
+      }
+    },
+    {
+      "name": "variable.other.object.js",
+      "scope": "variable.other.object.js",
+      "settings": {
+        "foreground": "COLOR_2"
+      }
+    },
+    {
+      "name": "variable.other.object.jsx",
+      "scope": "variable.other.object.jsx",
+      "settings": {
+        "foreground": "COLOR_2"
+      }
+    },
+    {
+      "name": "variable.other.object.ts",
+      "scope": "variable.other.object.ts",
+      "settings": {
+        "foreground": "COLOR_2"
+      }
+    },
+    {
+      "name": "variable.other.object.tsx",
+      "scope": "variable.other.object.tsx",
+      "settings": {
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -668,7 +724,7 @@
       "name": "entity.other.attribute-name.jsx",
       "scope": "entity.other.attribute-name.jsx",
       "settings": {
-        "foreground": "COLOR_2_DARKER"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -710,14 +766,14 @@
       "name": "string.quoted.single.tsx",
       "scope": "string.quoted.single.tsx",
       "settings": {
-        "foreground": "COLOR_2_DARKER"
+        "foreground": "COLOR_2"
       }
     },
     {
       "name": "string.quoted.single.json",
       "scope": "string.quoted.single.json",
       "settings": {
-        "foreground": "COLOR_2_DARK"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -745,14 +801,14 @@
       "name": "keyword.control.module.tsx",
       "scope": "keyword.control.module.tsx",
       "settings": {
-        "foreground": "COLOR_2_DARK"
+        "foreground": "COLOR_2"
       }
     },
     {
       "name": "support.class.promise.js",
       "scope": "support.class.promise.js",
       "settings": {
-        "foreground": "COLOR_2_LIGHT"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -780,14 +836,14 @@
       "name": "support.type.object.console.js",
       "scope": "support.type.object.console.js",
       "settings": {
-        "foreground": "COLOR_2_DARK"
+        "foreground": "COLOR_2"
       }
     },
     {
       "name": "support.type.object.console.jsx",
       "scope": "support.type.object.console.jsx",
       "settings": {
-        "foreground": "COLOR_2_LIGHTER"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -822,7 +878,7 @@
       "name": "support.function.console.ts",
       "scope": "support.function.console.ts",
       "settings": {
-        "foreground": "COLOR_2_DARKER"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -836,7 +892,7 @@
       "name": "punctuation.definition.block.js",
       "scope": "punctuation.definition.block.js",
       "settings": {
-        "foreground": "COLOR_2_LIGHTEST"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -850,7 +906,7 @@
       "name": "punctuation.definition.block.ts",
       "scope": "punctuation.definition.block.ts",
       "settings": {
-        "foreground": "COLOR_2_DARK"
+        "foreground": "COLOR_2"
       }
     },
     {
@@ -885,28 +941,28 @@
       "name": "punctuation.definition.parameters.begin.ts",
       "scope": "punctuation.definition.parameters.begin.ts",
       "settings": {
-        "foreground": "COLOR_3_DARKEST"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "punctuation.definition.parameters.begin.tsx",
       "scope": "punctuation.definition.parameters.begin.tsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "punctuation.definition.parameters.end.js",
       "scope": "punctuation.definition.parameters.end.js",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "punctuation.definition.parameters.end.jsx",
       "scope": "punctuation.definition.parameters.end.jsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -934,7 +990,7 @@
       "name": "punctuation.definition.parameters.end.jsx",
       "scope": "punctuation.definition.parameters.end.jsx",
       "settings": {
-        "foreground": "COLOR_3_DARK"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -948,7 +1004,7 @@
       "name": "punctuation.definition.parameters.end.tsx",
       "scope": "punctuation.definition.parameters.end.tsx",
       "settings": {
-        "foreground": "COLOR_3_DARK"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -962,21 +1018,21 @@
       "name": "keyword.control.export.jsx",
       "scope": "keyword.control.export.jsx",
       "settings": {
-        "foreground": "COLOR_3_DARK"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "keyword.control.export.ts",
       "scope": "keyword.control.export.ts",
       "settings": {
-        "foreground": "COLOR_3_DARKER"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "keyword.control.export.tsx",
       "scope": "keyword.control.export.tsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -1004,7 +1060,7 @@
       "name": "keyword.control.from.tsx",
       "scope": "keyword.control.from.tsx",
       "settings": {
-        "foreground": "COLOR_3_DARK"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -1018,7 +1074,7 @@
       "name": "meta.tag.js",
       "scope": "meta.tag.js",
       "settings": {
-        "foreground": "COLOR_3_DARKER"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -1032,7 +1088,7 @@
       "name": "meta.tag.ts",
       "scope": "meta.tag.ts",
       "settings": {
-        "foreground": "COLOR_3_DARK"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -1060,7 +1116,7 @@
       "name": "meta.parameters.ts",
       "scope": "meta.parameters.ts",
       "settings": {
-        "foreground": "COLOR_3_DARKEST"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -1095,42 +1151,42 @@
       "name": "meta.brace.square.tsx",
       "scope": "meta.brace.square.tsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "variable.other.class.js",
       "scope": "variable.other.class.js",
       "settings": {
-        "foreground": "COLOR_3_DARK"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "variable.other.class.jsx",
       "scope": "variable.other.class.jsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHTEST"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "variable.other.class.ts",
       "scope": "variable.other.class.ts",
       "settings": {
-        "foreground": "COLOR_3_LIGHTER"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "variable.other.class.tsx",
       "scope": "variable.other.class.tsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHTER"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "constant.other.object.key.js",
       "scope": "constant.other.object.key.js",
       "settings": {
-        "foreground": "COLOR_3_DARK"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -1151,14 +1207,14 @@
       "name": "constant.other.object.key.tsx",
       "scope": "constant.other.object.key.tsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHTER"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "keyword.operator.accessor",
       "scope": "keyword.operator.accessor",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
@@ -1172,77 +1228,77 @@
       "name": "keyword.control.default.jsx",
       "scope": "keyword.control.default.jsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHTEST"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "keyword.control.default.ts",
       "scope": "keyword.control.default.ts",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "keyword.control.default.tsx",
       "scope": "keyword.control.default.tsx",
       "settings": {
-        "foreground": "COLOR_3_DARKEST"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "entity.name.function.method",
       "scope": "entity.name.function.method",
       "settings": {
-        "foreground": "COLOR_3_LIGHTEST"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "string.template",
       "scope": "string.template",
       "settings": {
-        "foreground": "COLOR_3_DARKEST"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "support.type.property-name.json",
       "scope": "support.type.property-name.json",
       "settings": {
-        "foreground": "COLOR_3_DARKER"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "variable.other.property.js",
       "scope": "variable.other.property.js",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "variable.other.property.jsx",
       "scope": "variable.other.property.jsx",
       "settings": {
-        "foreground": "COLOR_3_LIGHT"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "variable.other.property.ts",
       "scope": "variable.other.property.ts",
       "settings": {
-        "foreground": "COLOR_3_DARKEST"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "variable.other.property.tsx",
       "scope": "variable.other.property.tsx",
       "settings": {
-        "foreground": "COLOR_3_DARKER"
+        "foreground": "COLOR_3"
       }
     },
     {
       "name": "entity.other.ng-binding-name.outputReplEvent.html",
       "scope": "entity.other.ng-binding-name.outputReplEvent.html",
       "settings": {
-        "foreground": "COLOR_4_LIGHT"
+        "foreground": "COLOR_4"
       }
     },
     {
@@ -1256,7 +1312,7 @@
       "name": "support.constant",
       "scope": "support.constant",
       "settings": {
-        "foreground": "COLOR_4_LIGHT"
+        "foreground": "COLOR_4"
       }
     },
     {
@@ -1277,21 +1333,21 @@
       "name": "punctuation.separator.parameter.ts",
       "scope": "punctuation.separator.parameter.ts",
       "settings": {
-        "foreground": "COLOR_4_DARK"
+        "foreground": "COLOR_4"
       }
     },
     {
       "name": "punctuation.separator.parameter.tsx",
       "scope": "punctuation.separator.parameter.tsx",
       "settings": {
-        "foreground": "COLOR_4_DARK"
+        "foreground": "COLOR_4"
       }
     },
     {
       "name": "constant.character",
       "scope": "constant.character",
       "settings": {
-        "foreground": "COLOR_4_DARK"
+        "foreground": "COLOR_4"
       }
     },
     {
@@ -1319,7 +1375,7 @@
       "name": "support.class.builtin.jsx",
       "scope": "support.class.builtin.jsx",
       "settings": {
-        "foreground": "COLOR_4_LIGHT"
+        "foreground": "COLOR_4"
       }
     },
     {
@@ -1333,28 +1389,28 @@
       "name": "support.class.builtin.tsx",
       "scope": "support.class.builtin.tsx",
       "settings": {
-        "foreground": "COLOR_4_LIGHTEST"
+        "foreground": "COLOR_4"
       }
     },
     {
       "name": "comment",
       "scope": "comment",
       "settings": {
-        "foreground": "COLOR_4_DARK"
+        "foreground": "COLOR_4"
       }
     },
     {
       "name": "markup.italic",
       "scope": "markup.italic",
       "settings": {
-        "foreground": "COLOR_4_LIGHTEST"
+        "foreground": "COLOR_4"
       }
     },
     {
       "name": "meta.object-literal.key.js",
       "scope": "meta.object-literal.key.js",
       "settings": {
-        "foreground": "COLOR_4_DARK"
+        "foreground": "COLOR_4"
       }
     },
     {
@@ -1382,14 +1438,14 @@
       "name": "comment.block.documentation",
       "scope": "comment.block.documentation",
       "settings": {
-        "foreground": "COLOR_4_LIGHTER"
+        "foreground": "COLOR_4"
       }
     },
     {
       "name": "comment.line.double-slash",
       "scope": "comment.line.double-slash",
       "settings": {
-        "foreground": "COLOR_4_DARK"
+        "foreground": "COLOR_4"
       }
     },
     {
@@ -1417,7 +1473,7 @@
       "name": "punctuation.accessor.tsx",
       "scope": "punctuation.accessor.tsx",
       "settings": {
-        "foreground": "COLOR_4_LIGHT"
+        "foreground": "COLOR_4"
       }
     },
     {
@@ -1446,47 +1502,19 @@
       "name": "storage.modifier.async.jsx",
       "scope": "storage.modifier.async.jsx",
       "settings": {
-        "foreground": "COLOR_4_LIGHTER"
+        "foreground": "COLOR_4"
       }
     },
     {
       "name": "storage.modifier.async.ts",
       "scope": "storage.modifier.async.ts",
       "settings": {
-        "foreground": "COLOR_4_DARKEST"
+        "foreground": "COLOR_4"
       }
     },
     {
       "name": "storage.modifier.async.tsx",
       "scope": "storage.modifier.async.tsx",
-      "settings": {
-        "foreground": "COLOR_4"
-      }
-    },
-    {
-      "name": "variable.other.object.js",
-      "scope": "variable.other.object.js",
-      "settings": {
-        "foreground": "COLOR_4_LIGHTER"
-      }
-    },
-    {
-      "name": "variable.other.object.jsx",
-      "scope": "variable.other.object.jsx",
-      "settings": {
-        "foreground": "COLOR_4_DARK"
-      }
-    },
-    {
-      "name": "variable.other.object.ts",
-      "scope": "variable.other.object.ts",
-      "settings": {
-        "foreground": "COLOR_4"
-      }
-    },
-    {
-      "name": "variable.other.object.tsx",
-      "scope": "variable.other.object.tsx",
       "settings": {
         "foreground": "COLOR_4"
       }
@@ -1502,7 +1530,7 @@
       "name": "variable.other.readwrite.js",
       "scope": "variable.other.readwrite.js",
       "settings": {
-        "foreground": "COLOR_4_DARK"
+        "foreground": "COLOR_4"
       }
     },
     {
@@ -1523,7 +1551,7 @@
       "name": "variable.other.readwrite.tsx",
       "scope": "variable.other.readwrite.tsx",
       "settings": {
-        "foreground": "COLOR_4_LIGHT"
+        "foreground": "COLOR_4"
       }
     }
   ]
