@@ -1,29 +1,28 @@
 {
-  "name": "DancingDaysNiketa",
-  "version": "1.2.0",
+  "name": "DancingDays",
+  "version": "0.0.11",
   "keywords": [
     "niketa",
     "theme",
     "color-theme",
-    "light",
-    "collection"
+    "light"
   ],
   "publisher": "selfrefactor",
   "displayName": "DancingDays",
-  "description": "Niketa theme",
+  "description": "Light theme from Niketa themes collection",
   "engines": {
     "vscode": "^1.33.0"
   },
   "categories": [
     "Themes"
   ],
-  "icon": "theme/niketa.moon.png",
+  "icon": "theme/dancing.days.png",
   "contributes": {
     "themes": [
       {
-        "label": "Dancing Days",
+        "label": "DancingDays",
         "uiTheme": "vs",
-        "path": "./theme/niketa.moon.json"
+        "path": "./theme/DancingDays.json"
       }
     ]
   },
