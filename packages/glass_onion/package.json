@@ -1,0 +1,45 @@
+{
+  "name": "GlassOnion",
+  "version": "0.0.13",
+  "keywords": [
+    "niketa",
+    "theme",
+    "color-theme",
+    "light"
+  ],
+  "publisher": "selfrefactor",
+  "displayName": "GlassOnion",
+  "description": "Light theme from Niketa themes collection",
+  "engines": {
+    "vscode": "^1.33.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "theme/glass.onion.png",
+  "contributes": {
+    "themes": [
+      {
+        "label": "GlassOnion",
+        "uiTheme": "vs",
+        "path": "./theme/GlassOnion.json"
+      }
+    ]
+  },
+  "author": "Dejan Toteff <deyan8284@gmail.com>",
+  "homepage": "https://github.com/selfrefactor/niketa-themes/tree/master/packages",
+  "license": "MIT",
+  "directories": {
+    "lib": "theme"
+  },
+  "files": [
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfrefactor/niketa-themes.git"
+  },
+  "bugs": {
+    "url": "https://github.com/selfrefactor/niketa-themes/issues"
+  }
+}
