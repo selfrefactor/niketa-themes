@@ -140,7 +140,7 @@ SETTINGS[ 1 ] = {
   COLOR_4 : '#a87ca1',
   // COLOR_5 : '#a6cc70',
 }
-
+ 
 SETTINGS[ 2 ] = {
   name    : 'archer',
   COLOR_0 : '#F0F4C3',
@@ -154,11 +154,11 @@ SETTINGS[ 2 ] = {
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
   COLOR_0 : '#df8543',
-  COLOR_1 : '#95e6cb',
+  // COLOR_1 : '#95e6cb',
+  COLOR_1 : '#80DEEA',
   COLOR_2 : '#9abc69',
   COLOR_3 : '#a87ca1',
   COLOR_4 : '#fdd365',
-  // COLOR_3 : '#80DEEA',
 }
 
 SETTINGS[ 4 ] = {
