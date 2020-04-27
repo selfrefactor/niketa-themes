@@ -140,7 +140,7 @@ SETTINGS[ 1 ] = {
   COLOR_4 : '#a87ca1',
   // COLOR_5 : '#a6cc70',
 }
- 
+  
 SETTINGS[ 2 ] = {
   name    : 'archer',
   COLOR_0 : '#F0F4C3',
@@ -208,7 +208,7 @@ SETTINGS[ 8 ] = {
   COLOR_4 : '#ffd1bd',
   // COLOR_3 : '#E06C75',
 }
- 
+
 test('happy', () => {
   const allThemes = []
   map(val => {
