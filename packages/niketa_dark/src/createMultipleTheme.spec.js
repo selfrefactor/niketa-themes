@@ -151,7 +151,7 @@ SETTINGS[ 2 ] = {
   COLOR_2 : BRIGHT,
   COLOR_3 : '#FFAE57',
   COLOR_4 : '#1cb3b8',
-}
+} 
 
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
