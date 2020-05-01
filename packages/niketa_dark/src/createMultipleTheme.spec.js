@@ -1,4 +1,5 @@
-import { map } from 'rambdax'
+import { outputJson } from 'fs-extra'
+import { init, map, range, shuffle } from 'rambdax'
 import { pascalCase } from 'string-fn'
 
 import { readJsonAnt } from './ants/readJson'
@@ -8,6 +9,8 @@ import { generateThemeData } from './generateThemeData'
 
 const BACK_COLOR = '#1a2b3c'
 const CHROME_COLOR = '#445A63'
+const BRIGHT = '#f7faf7'
+const FIRST_THEME = 'american.dad'
 
 const listColors = {
   // in change of themes
@@ -121,54 +124,51 @@ const chromeColors = {
 }
 
 export const SETTINGS = {}
+const SPIN_LABEL_INDEX = false
+// const SPIN_LABEL_INDEX = 3
 
 SETTINGS[ 0 ] = {
-  name    : 'american.dad',
-  COLOR_0 : '#FFAE57',
-  COLOR_1 : '#D9D7CE',
+  name    : FIRST_THEME,
+  COLOR_0 : '#D55975',
+  COLOR_1 : '#1cb3b8',
   COLOR_2 : '#BAE67E',
-  COLOR_3 : '#D55975',
-  COLOR_4 : '#1cb3b8',
-  // COLOR_5 : '#bb8f7e',
+  COLOR_3 : BRIGHT,
+  COLOR_4 : '#FFAE57',
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
-  COLOR_0 : '#f6f6bb',
-  COLOR_1 : '#57B6CD',
-  COLOR_2 : '#cca152',
-  COLOR_3 : '#57B6CD',
-  COLOR_4 : '#a87ca1',
-  // COLOR_5 : '#a6cc70',
+  COLOR_0 : '#BAE67E',
+  COLOR_1 : '#1cb3b8',
+  COLOR_2 : BRIGHT,
+  COLOR_3 : '#D55975',
+  COLOR_4 : '#FFAE57',
 }
-  
+
 SETTINGS[ 2 ] = {
   name    : 'archer',
-  COLOR_0 : '#F0F4C3',
-  COLOR_1 : '#f98fab',
-  COLOR_2 : '#50d0ff',
-  COLOR_3 : '#a3be8c',
-  COLOR_4 : '#FFAE57',
-  // COLOR_4 : '#bbdefb',
+  COLOR_0 : '#D55975',
+  COLOR_1 : '#BAE67E',
+  COLOR_2 : BRIGHT,
+  COLOR_3 : '#FFAE57',
+  COLOR_4 : '#1cb3b8',
 }
 
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
-  COLOR_0 : '#df8543',
-  // COLOR_1 : '#95e6cb',
-  COLOR_1 : '#80DEEA',
-  COLOR_2 : '#9abc69',
-  COLOR_3 : '#a87ca1',
-  COLOR_4 : '#fdd365',
+  COLOR_0 : BRIGHT,
+  COLOR_1 : '#FFAE57',
+  COLOR_2 : '#D55975',
+  COLOR_4 : '#BAE67E',
+  COLOR_3 : '#1cb3b8',
 }
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
   COLOR_0 : '#6faab5',
   COLOR_1 : '#cfe071',
-  COLOR_2 : '#f4f0e6',
+  COLOR_2 : BRIGHT,
   COLOR_3 : '#E07C64',
-  COLOR_4 : '#dfe6e9',
-  // COLOR_5 : '#eccc68',
+  COLOR_4 : '#B1365B',
 }
 
 SETTINGS[ 5 ] = {
@@ -186,9 +186,10 @@ SETTINGS[ 6 ] = {
   COLOR_0 : '#DA608E',
   COLOR_1 : '#ebac2a',
   COLOR_2 : '#DF91CA',
-  COLOR_3 : '#F7DDB2',
-  COLOR_4 : '#d4f8e8',
-  // COLOR_3 : '#88B1C6',
+  COLOR_3 : BRIGHT,
+  COLOR_4 : '#88B1C6',
+  // COLOR_3 : '#F7DDB2',
+  // COLOR_4 : '#d4f8e8',
 }
 
 SETTINGS[ 7 ] = {
@@ -197,20 +198,57 @@ SETTINGS[ 7 ] = {
   COLOR_1 : '#7AD3F3',
   COLOR_2 : '#7eb19f',
   COLOR_3 : '#cca152',
-  COLOR_4 : '#dcedc1',
+  COLOR_4 : BRIGHT,
+  // COLOR_4 : '#dcedc1',
 }
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#9dc6a7',
-  COLOR_1 : '#fd79a8',
-  COLOR_2 : '#f8dc88',
-  COLOR_3 : '#cd8d7b',
-  COLOR_4 : '#ffd1bd',
+  COLOR_1 : BRIGHT,
+  COLOR_2 : '#cd8d7b',
+  COLOR_3 : BRIGHT,
+  COLOR_4 : '#fd79a8',
+  // COLOR_2 : '#f8dc88',
   // COLOR_3 : '#E06C75',
 }
 
+const settings = {}
+
+map((x, i) => {
+  if (SPIN_LABEL_INDEX !== false && Number(i) === 0){
+    const found = SETTINGS[ SPIN_LABEL_INDEX ]
+    const randomIndexes = shuffle(range(0, 5))
+    let counter = -1
+    const randomizedSettings = map((_, foundProp) => {
+      if (foundProp === 'name') return FIRST_THEME
+      counter++
+      const actualProp = `${ init(foundProp) }${ randomIndexes[ counter ] }`
+      console.log({
+        actualProp,
+        foundProp,
+        counter,
+      })
+
+      return x[ actualProp ]
+    })(found)
+
+    const toSave = map(x => x === BRIGHT ? 'BRIGHT' : x)(randomizedSettings)
+    console.log(SPIN_LABEL_INDEX)
+    outputJson(
+      `${ __dirname }/spinned.json`,
+      { [ SETTINGS[ SPIN_LABEL_INDEX ].name ] : toSave },
+      { spaces : 2 }
+    )
+
+    return settings[ i ] = randomizedSettings
+  }
+
+  settings[ i ] = x
+})(SETTINGS)
+
 test('happy', () => {
   const allThemes = []
+
   map(val => {
     const { name, back, ...colors } = val
     if (!colors.COLOR_4){
@@ -231,7 +269,7 @@ test('happy', () => {
       uiTheme : 'vs-dark',
       path    : `./themes/${ themeData.name }.json`,
     })
-  })(SETTINGS)
+  })(settings)
 
   saveToPackageJsonAnt(allThemes)
 })
