@@ -13,3 +13,4 @@
   // COLOR_4 : '#d4f8e8',
     // COLOR_2 : '#f8dc88',
   // COLOR_3 : '#E06C75',
+  // COLOR_2 : '#9abc69',

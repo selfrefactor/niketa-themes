@@ -1,10 +1,10 @@
 {
-  "cleveland.show": {
+  "ugly.americans": {
     "name": "american.dad",
-    "COLOR_0": "BRIGHT",
-    "COLOR_1": "#FFAE57",
-    "COLOR_2": "#D55975",
-    "COLOR_3": "#BAE67E",
-    "COLOR_4": "#1cb3b8"
+    "COLOR_0": "#81a8bc",
+    "COLOR_1": "#F0F4C3",
+    "COLOR_2": "#fcfcfc",
+    "COLOR_3": "#eb555d",
+    "COLOR_4": "#9dc6a7"
   }
 }

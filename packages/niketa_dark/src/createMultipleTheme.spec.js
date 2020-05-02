@@ -125,85 +125,85 @@ const chromeColors = {
 
 export const SETTINGS = {}
 const SPIN_LABEL_INDEX = false
-// const SPIN_LABEL_INDEX = 3
+// const SPIN_LABEL_INDEX = 8
 
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
-  COLOR_0 : '#D55975',
-  COLOR_1 : '#1cb3b8',
-  COLOR_2 : '#BAE67E',
-  COLOR_3 : BRIGHT,
-  COLOR_4 : '#FFAE57',
+  COLOR_0 : BRIGHT,
+  COLOR_1 : '#FFAE57',
+  COLOR_2 : '#1cb3b8',
+  COLOR_3 : '#BAE67E',
+  COLOR_4 : '#D55975',
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
-  COLOR_0 : '#BAE67E',
-  COLOR_1 : '#1cb3b8',
-  COLOR_2 : BRIGHT,
-  COLOR_3 : '#D55975',
-  COLOR_4 : '#FFAE57',
+  COLOR_3 : BRIGHT,
+  COLOR_0 : '#cca152',
+  COLOR_1 : '#FFAE57',
+  COLOR_2 : '#a87ca1',
+  COLOR_4 : '#57B6CD',
 }
 
 SETTINGS[ 2 ] = {
   name    : 'archer',
-  COLOR_0 : '#D55975',
-  COLOR_1 : '#BAE67E',
-  COLOR_2 : BRIGHT,
-  COLOR_3 : '#FFAE57',
-  COLOR_4 : '#1cb3b8',
-} 
- 
+  COLOR_0 : '#FFAE57',
+  COLOR_1 : '#50d0ff',
+  COLOR_2 : '#f98fab',
+  COLOR_3 : '#a3be8c',
+  COLOR_4 : BRIGHT,
+}
+
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
-  COLOR_0 : BRIGHT,
-  COLOR_1 : '#FFAE57',
-  COLOR_2 : '#D55975',
-  COLOR_4 : '#BAE67E',
-  COLOR_3 : '#1cb3b8',
+  COLOR_0 : '#80DEEA',
+  COLOR_1 : '#b8a0af',
+  COLOR_2 : BRIGHT,
+  COLOR_3 : '#fdd365',
+  COLOR_4 : '#ff6f7b',
 }
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
   COLOR_0 : '#6faab5',
-  COLOR_1 : '#cfe071',
+  COLOR_1 : '#E07C64',
   COLOR_2 : BRIGHT,
-  COLOR_3 : '#E07C64',
-  COLOR_4 : '#B1365B',
+  COLOR_3 : '#cfe071',
+  COLOR_4 : '#ff6f7b',
 }
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
-  COLOR_0 : '#e17096',
-  COLOR_1 : '#95c4da',
-  COLOR_2 : '#f4dada',
-  COLOR_3 : '#5699be',
-  COLOR_4 : '#DF8E6D',
+  COLOR_0 : '#DF8E6D',
+  COLOR_1 : '#e17096',
+  COLOR_2 : BRIGHT,
+  COLOR_3 : '#f8dc88',
+  COLOR_4 : '#9abc69',
 }
 
 SETTINGS[ 6 ] = {
   name    : 'south.park',
-  COLOR_0 : '#DA608E',
-  COLOR_1 : '#ebac2a',
-  COLOR_2 : '#DF91CA',
-  COLOR_3 : BRIGHT,
+  COLOR_0 : '#FFAE57',
+  COLOR_1 : '#e2f118',
+  COLOR_2 : BRIGHT,
+  COLOR_3 : '#ff6f7b',
   COLOR_4 : '#88B1C6',
 }
 
 SETTINGS[ 7 ] = {
   name    : 'trip.tank',
-  COLOR_0 : '#e17096',
-  COLOR_1 : '#7AD3F3',
-  COLOR_2 : '#7eb19f',
-  COLOR_3 : '#cca152',
-  COLOR_4 : BRIGHT,
+  COLOR_0 : '#e2f118',
+  COLOR_1 : '#e17096',
+  COLOR_2 : '#7AD3F3',
+  COLOR_3 : BRIGHT,
+  COLOR_4 : '#7eb19f',
 }
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
-  COLOR_0 : '#9dc6a7',
-  COLOR_1 : BRIGHT,
-  COLOR_2 : '#cd8d7b',
-  COLOR_3 : BRIGHT,
-  COLOR_4 : '#fd79a8',
+  "COLOR_0": "#9dc6a7",
+  "COLOR_1": "#F0F4C3",
+  "COLOR_2": "#fcfcfc",
+  "COLOR_3": "#eb555d",
+  "COLOR_4": "#81a8bc"
 }
 
 const settings = {}
@@ -211,23 +211,20 @@ const settings = {}
 map((x, i) => {
   if (SPIN_LABEL_INDEX !== false && Number(i) === 0){
     const found = SETTINGS[ SPIN_LABEL_INDEX ]
+    console.log({ found })
     const randomIndexes = shuffle(range(0, 5))
     let counter = -1
-    const randomizedSettings = map((_, foundProp) => {
+
+    const randomizedSettings = map((xFound, foundProp) => {
       if (foundProp === 'name') return FIRST_THEME
       counter++
       const actualProp = `${ init(foundProp) }${ randomIndexes[ counter ] }`
-      console.log({
-        actualProp,
-        foundProp,
-        counter,
-      })
 
-      return x[ actualProp ]
+      return found[ actualProp ]
     })(found)
 
     const toSave = map(x => x === BRIGHT ? 'BRIGHT' : x)(randomizedSettings)
-    console.log(SPIN_LABEL_INDEX)
+
     outputJson(
       `${ __dirname }/spinned.json`,
       { [ SETTINGS[ SPIN_LABEL_INDEX ].name ] : toSave },
