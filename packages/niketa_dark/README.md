@@ -3,7 +3,7 @@
 [![Installs](https://img.shields.io/vscode-marketplace/i/selfrefactor.niketa-dark-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=selfrefactor.niketa-dark-theme)
 [![Downloads](https://img.shields.io/vscode-marketplace/d/selfrefactor.niketa-dark-theme.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=selfrefactor.niketa-dark-theme)
 
-9 Dark VSCode Themes split into 3 groups
+9 Dark VSCode Themes with same background
 
 ## Screens
 
