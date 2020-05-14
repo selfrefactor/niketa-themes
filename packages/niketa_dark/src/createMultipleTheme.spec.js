@@ -7,7 +7,7 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
-const BACK_COLOR = '#1a2b3c'
+const BACK_COLOR = '#1a2b3b'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -199,11 +199,11 @@ SETTINGS[ 7 ] = {
 }
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
-  "COLOR_0": "#9dc6a7",
-  "COLOR_1": "#F0F4C3",
-  "COLOR_2": "#fcfcfc",
-  "COLOR_3": "#eb555d",
-  "COLOR_4": "#81a8bc"
+  COLOR_0 : '#9dc6a7',
+  COLOR_1 : '#F0F4C3',
+  COLOR_2 : '#fcfcfc',
+  COLOR_3 : '#eb555d',
+  COLOR_4 : '#81a8bc',
 }
 
 const settings = {}

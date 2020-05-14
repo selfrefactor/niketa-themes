@@ -22,6 +22,10 @@
     "url": "https://github.com/selfrefactor/niketa-themes.git"
   },
   "license": "MIT",
+  "depFn": [
+    "babel-cli",
+    "babel-preset-env"
+  ],
   "displayName": "Niketa Theme Dark",
   "description": "Large collection of handmade dark themes",
   "publisher": "selfrefactor",
