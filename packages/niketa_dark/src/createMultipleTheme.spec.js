@@ -9,7 +9,7 @@ import { generateThemeData } from './generateThemeData'
 
 const BACK_COLOR = '#1a2b3b'
 const CHROME_COLOR = '#445A63'
-const BRIGHT = '#f7faf7'
+const BRIGHT = '#f7faf7' 
 const FIRST_THEME = 'american.dad'
 
 const listColors = {
