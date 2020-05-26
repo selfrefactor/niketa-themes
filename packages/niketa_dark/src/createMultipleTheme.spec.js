@@ -11,7 +11,7 @@ const BACK_COLOR = '#1b2b3b'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7' 
 const FIRST_THEME = 'american.dad'
-          
+           
 const listColors = {
   // in change of themes
   // in the circle of unsaved changes
