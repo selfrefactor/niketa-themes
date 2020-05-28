@@ -6,12 +6,12 @@ import { readJsonAnt } from './ants/readJson'
 import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
- 
-const BACK_COLOR = '#1b2b3b' 
+
+const BACK_COLOR = '#1b2b3b'
 const CHROME_COLOR = '#445A63'
-const BRIGHT = '#f7faf7' 
-const FIRST_THEME = 'american.dad' 
-            
+const BRIGHT = '#f7faf7'
+const FIRST_THEME = 'american.dad'
+
 const listColors = {
   // in change of themes
   // in the circle of unsaved changes
@@ -36,6 +36,7 @@ const listColors = {
   'list.hoverForeground'             : '#999966',
   'list.hoverBackground'             : '#ad680055',
 }
+
 const suggestionsColors = {
   // in autocomplete box, the active line background
   'editorSuggestWidget.selectedBackground'  : '#2c3d52',
