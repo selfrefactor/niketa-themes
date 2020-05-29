@@ -35,7 +35,7 @@ const listColors = {
   // visible in autocomplete, in suggest, change of theme
   'list.hoverForeground'             : '#999966',
   'list.hoverBackground'             : '#ad680055',
-}
+}  
 
 const suggestionsColors = {
   // in autocomplete box, the active line background
