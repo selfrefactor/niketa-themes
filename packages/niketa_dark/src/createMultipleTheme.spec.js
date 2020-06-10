@@ -12,15 +12,6 @@ const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
 
-/*
-  #22ECDB
-#FF738A
-#FF955C
-#69C3FF
-#6DBBFF
-#D1F1A9
-*/
-
 const listColors = {
   // in change of themes
   // in the circle of unsaved changes
@@ -137,9 +128,21 @@ export const SETTINGS = {}
 const SPIN_LABEL_INDEX = false
 // const SPIN_LABEL_INDEX = 8
 
+/*
+Bearded theme
+  #22ECDB
+#FF738A
+#FF955C
+#69C3FF
+#6DBBFF
+#D1F1A9
+*/
+
+
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
-  COLOR_0 : BRIGHT,
+  // COLOR_0 : BRIGHT,
+  COLOR_0 : '#22ECDB',
   COLOR_1 : '#FFAE57',
   COLOR_2 : '#1cb3b8',
   COLOR_3 : '#BAE67E',
@@ -148,8 +151,10 @@ SETTINGS[ 0 ] = {
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
   COLOR_3 : BRIGHT,
-  COLOR_0 : '#cca152',
-  COLOR_1 : '#FFAE57',
+  COLOR_0 : '#D1F1A9',
+  // COLOR_0 : '#cca152',
+  // COLOR_1 : '#FFAE57',
+  COLOR_1 : '#FF955C',
   COLOR_2 : '#a87ca1',
   COLOR_4 : '#57B6CD',
 }
@@ -157,12 +162,13 @@ SETTINGS[ 1 ] = {
 SETTINGS[ 2 ] = {
   name    : 'archer',
   COLOR_0 : '#FFAE57',
-  COLOR_1 : '#50d0ff',
+  COLOR_1 : '#69C3FF',
+  // COLOR_1 : '#50d0ff',
   COLOR_2 : '#f98fab',
   COLOR_3 : '#a3be8c',
   COLOR_4 : BRIGHT,
 }
-
+ 
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
   COLOR_0 : '#80DEEA',
@@ -178,7 +184,8 @@ SETTINGS[ 4 ] = {
   COLOR_1 : '#E07C64',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#cfe071',
-  COLOR_4 : '#ff6f7b',
+  COLOR_4 : '#FF738A',
+  // COLOR_4 : '#ff6f7b',
 }
 
 SETTINGS[ 5 ] = {
