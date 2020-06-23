@@ -202,12 +202,12 @@ SETTINGS[ 4 ] = {
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
   "COLOR_0": "#008f00",
-    "COLOR_1": "#b53389",
+    "COLOR_1": "#fb607f",
     "COLOR_2": "#fefe33",
     "COLOR_3": BRIGHT,
     "COLOR_4": "#3a797e"
 }
-
+ 
 SETTINGS[ 6 ] = {
   name    : 'south.park',
   COLOR_0 : '#FFAE57',
