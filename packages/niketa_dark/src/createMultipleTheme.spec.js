@@ -125,8 +125,8 @@ const chromeColors = {
 }
 
 export const SETTINGS = {}
-const SPIN_LABEL_INDEX = false
-// const SPIN_LABEL_INDEX = 5
+// const SPIN_LABEL_INDEX = false
+const SPIN_LABEL_INDEX = 5
 
 /*
 Bearded theme
@@ -200,11 +200,11 @@ SETTINGS[ 4 ] = {
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
-  COLOR_0 : '#89d178',
-  COLOR_1 : '#fb607f',
-  COLOR_2 : '#fefe33',
-  COLOR_3 : BRIGHT,
-  COLOR_4 : '#3a797e',
+  COLOR_0 : BRIGHT,
+  COLOR_1 : '#2ee8bb',
+  COLOR_2 : '#fb607f',
+  COLOR_3 : '#fefe33',
+  COLOR_4 : '#89d178',
 }
 
 SETTINGS[ 6 ] = {

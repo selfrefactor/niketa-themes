@@ -1,4 +1,5 @@
 import { map, mergeAll } from 'rambdax'
+
 import { changeColorAnt } from './ants/changeColor'
 
 function createPaletteRule(
