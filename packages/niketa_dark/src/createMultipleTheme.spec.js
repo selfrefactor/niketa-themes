@@ -35,7 +35,7 @@ const listColors = {
   // visible in autocomplete, in suggest, change of theme
   'list.hoverForeground'             : '#999966',
   'list.hoverBackground'             : '#ad680055',
-}  
+}
 
 const suggestionsColors = {
   // in autocomplete box, the active line background
@@ -127,7 +127,7 @@ const chromeColors = {
 export const SETTINGS = {}
 const SPIN_LABEL_INDEX = false
 // const SPIN_LABEL_INDEX = 5
- 
+
 /*
 Bearded theme
   #22ECDB
@@ -154,7 +154,6 @@ Bearded theme
 #b53389
 */
 
-
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
   COLOR_0 : '#22ECDB',
@@ -180,7 +179,7 @@ SETTINGS[ 2 ] = {
   COLOR_3 : '#a3be8c',
   COLOR_4 : BRIGHT,
 }
- 
+
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
   COLOR_0 : '#80DEEA',
@@ -201,13 +200,13 @@ SETTINGS[ 4 ] = {
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
-  "COLOR_0": "#008f00",
-    "COLOR_1": "#fb607f",
-    "COLOR_2": "#fefe33",
-    "COLOR_3": BRIGHT,
-    "COLOR_4": "#3a797e"
+  COLOR_0 : '#89d178',
+  COLOR_1 : '#fb607f',
+  COLOR_2 : '#fefe33',
+  COLOR_3 : BRIGHT,
+  COLOR_4 : '#3a797e',
 }
- 
+
 SETTINGS[ 6 ] = {
   name    : 'south.park',
   COLOR_0 : '#FFAE57',
