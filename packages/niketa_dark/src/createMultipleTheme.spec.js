@@ -187,15 +187,15 @@ SETTINGS[ 3 ] = {
   COLOR_2 : BRIGHT,
   COLOR_3 : '#fdd365',
   COLOR_4 : '#ff6f7b',
-}
+} 
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
-  COLOR_0 : '#6faab5',
+  COLOR_0 : '#69C3FF',
   COLOR_1 : '#E07C64',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#cfe071',
-  COLOR_4 : '#FF738A',
+  COLOR_4 : '#69C3FF',
 }
 
 SETTINGS[ 5 ] = {
