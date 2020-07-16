@@ -1,10 +1,10 @@
 {
-  "dilbert": {
+  "ugly.americans": {
     "name": "american.dad",
-    "COLOR_0": "#fb607f",
-    "COLOR_1": "#89d178",
-    "COLOR_2": "#2ee8bb",
-    "COLOR_3": "BRIGHT",
-    "COLOR_4": "#fefe33"
+    "COLOR_0": "#fcfcfc",
+    "COLOR_1": "#eb555d",
+    "COLOR_2": "#9dc6a7",
+    "COLOR_3": "#81a8bc",
+    "COLOR_4": "#edf3a6"
   }
 }

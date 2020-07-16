@@ -1,7 +1,7 @@
 import { generateColors } from './generateColors'
 
 test('happy', () => {
-  const input = [ '#88B1C6', '#0a0a0a' ]
+  const input = [ '#e2f118', '#F0F4C3' ]
 
   expect(() =>
     generateColors({

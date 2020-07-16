@@ -12,6 +12,10 @@ const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
 
+export const SETTINGS = {}
+const SPIN_LABEL_INDEX = false
+// const SPIN_LABEL_INDEX = 8
+
 const listColors = {
   // in change of themes
   // in the circle of unsaved changes
@@ -124,10 +128,6 @@ const chromeColors = {
   'widget.shadow'                             : '#8382aebb',
 }
 
-export const SETTINGS = {}
-// const SPIN_LABEL_INDEX = false
-const SPIN_LABEL_INDEX = 5
-
 /*
 Bearded theme
   #22ECDB
@@ -187,7 +187,7 @@ SETTINGS[ 3 ] = {
   COLOR_2 : BRIGHT,
   COLOR_3 : '#fdd365',
   COLOR_4 : '#ff6f7b',
-} 
+}
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
@@ -227,7 +227,7 @@ SETTINGS[ 7 ] = {
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#9dc6a7',
-  COLOR_1 : '#F0F4C3',
+  COLOR_1 : '#edf3a6',
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#eb555d',
   COLOR_4 : '#81a8bc',
