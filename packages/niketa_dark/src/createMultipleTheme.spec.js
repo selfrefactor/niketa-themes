@@ -7,7 +7,9 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
-const BACK_COLOR = '#1b2b3b'
+// const BACK_COLOR = '#1b2b3b'
+//  '#25252F'
+const BACK_COLOR = '#232834'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -152,6 +154,7 @@ Bearded theme
 #fefe33
 #fcfcda
 #b53389
+#E9CA5C
 */
 
 SETTINGS[ 0 ] = {
@@ -160,7 +163,8 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#FFAE57',
   COLOR_2 : '#1cb3b8',
   COLOR_3 : '#BAE67E',
-  COLOR_4 : '#D55975',
+  COLOR_4 : '#d97397',
+  // COLOR_4 : '#D55975',
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
