@@ -166,7 +166,8 @@ Bearded theme
 #b53389
 #E9CA5C
 */
- 
+
+// #C586C0
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
   COLOR_0 : '#EDECEE',
