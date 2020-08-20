@@ -7,12 +7,12 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
-// '#1b2b3b'
-//  '#25252F'
-// '#232834'
-
+// #1b2b3b
+// #25252F
+// #232834
 // #181818
-const BACK_COLOR = '#25252F'
+// #25252F
+const BACK_COLOR = '#21202E'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -166,14 +166,19 @@ Bearded theme
 #b53389
 #E9CA5C
 */
-
+ 
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
-  COLOR_0 : '#22ECDB',
-  COLOR_1 : '#FFAE57',
-  COLOR_2 : '#1cb3b8',
-  COLOR_3 : '#BAE67E',
-  COLOR_4 : '#d97397',
+  COLOR_0 : '#EDECEE',
+  COLOR_1 : '#A277FF',
+  COLOR_2 : '#61FFCA',
+  COLOR_3 : '#FF955C',
+  COLOR_4 : '#A277FF',
+  // COLOR_0 : '#22ECDB',
+  // COLOR_1 : '#FFAE57',
+  // COLOR_2 : '#1cb3b8',
+  // COLOR_3 : '#BAE67E',
+  // COLOR_4 : '#d97397',
   // COLOR_4 : '#D55975',
 }
 SETTINGS[ 1 ] = {
