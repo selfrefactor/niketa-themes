@@ -174,21 +174,21 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#A277FF',
   COLOR_2 : '#61FFCA',
   COLOR_3 : '#FF955C',
-  COLOR_4 : '#A277FF',
-  // COLOR_0 : '#22ECDB',
-  // COLOR_1 : '#FFAE57',
-  // COLOR_2 : '#1cb3b8',
-  // COLOR_3 : '#BAE67E',
-  // COLOR_4 : '#d97397',
-  // COLOR_4 : '#D55975',
+  COLOR_4 : '#EDECEE',
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
-  COLOR_3 : BRIGHT,
-  COLOR_0 : '#D1F1A9',
-  COLOR_1 : '#FF955C',
-  COLOR_2 : '#a87ca1',
-  COLOR_4 : '#57B6CD',
+    COLOR_0 : '#22ECDB',
+  COLOR_1 : '#FFAE57',
+  COLOR_2 : '#1cb3b8',
+  COLOR_3 : '#BAE67E',
+  COLOR_4 : '#d97397',
+  // COLOR_4 : '#D55975',
+  // COLOR_3 : BRIGHT,
+  // COLOR_0 : '#D1F1A9',
+  // COLOR_1 : '#FF955C',
+  // COLOR_2 : '#a87ca1',
+  // COLOR_4 : '#57B6CD',
 }
 
 SETTINGS[ 2 ] = {
