@@ -178,7 +178,7 @@ SETTINGS[ 0 ] = {
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
-    COLOR_0 : '#22ECDB',
+  COLOR_0 : '#22ECDB',
   COLOR_1 : '#FFAE57',
   COLOR_2 : '#1cb3b8',
   COLOR_3 : '#BAE67E',
@@ -194,10 +194,11 @@ SETTINGS[ 1 ] = {
 SETTINGS[ 2 ] = {
   name    : 'archer',
   COLOR_0 : '#FFAE57',
-  COLOR_1 : '#69C3FF',
+  COLOR_1 : '#A277FF',
   COLOR_2 : '#f98fab',
   COLOR_3 : '#a3be8c',
-  COLOR_4 : BRIGHT,
+  COLOR_4 : '#69C3FF',
+  // COLOR_4 : BRIGHT,
 }
 
 SETTINGS[ 3 ] = {
@@ -206,7 +207,8 @@ SETTINGS[ 3 ] = {
   COLOR_1 : '#b8a0af',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#fdd365',
-  COLOR_4 : '#ff6f7b',
+  COLOR_4 : '#D55975',
+  // COLOR_4 : '#ff6f7b',
 }
 
 SETTINGS[ 4 ] = {
@@ -242,11 +244,13 @@ SETTINGS[ 7 ] = {
   COLOR_1 : '#e17096',
   COLOR_2 : '#7AD3F3',
   COLOR_3 : BRIGHT,
-  COLOR_4 : '#7eb19f',
+  COLOR_4 : '#A277FF',
+  // COLOR_4 : '#7eb19f',
 }
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
-  COLOR_0 : '#9dc6a7',
+  COLOR_0 : '#a87ca1',
+  // COLOR_0 : '#9dc6a7',
   COLOR_1 : '#edf3a6',
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#eb555d',
