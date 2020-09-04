@@ -12,7 +12,8 @@ import { generateThemeData } from './generateThemeData'
 // #232834
 // #181818
 // #25252F
-const BACK_COLOR = '#21202E'
+// #21202E
+const BACK_COLOR = '#202124'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -136,6 +137,10 @@ const chromeColors = {
 /*
 latest suggestions
 
+#D1675A
+#EECF90
+#68AEC9
+
 #D58FDB
 #85e89d
 #fdaeb7
@@ -193,11 +198,12 @@ SETTINGS[ 1 ] = {
 
 SETTINGS[ 2 ] = {
   name    : 'archer',
-  COLOR_0 : '#FFAE57',
+  COLOR_0 : '#EECF90',
   COLOR_1 : '#A277FF',
   COLOR_2 : '#f98fab',
   COLOR_3 : '#a3be8c',
-  COLOR_4 : '#69C3FF',
+  COLOR_4 : '#68AEC9',
+  // COLOR_4 : '#69C3FF',
   // COLOR_4 : BRIGHT,
 }
 
@@ -207,7 +213,8 @@ SETTINGS[ 3 ] = {
   COLOR_1 : '#b8a0af',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#fdd365',
-  COLOR_4 : '#D55975',
+  COLOR_4 : '#D1675A',
+  // COLOR_4 : '#D55975',
   // COLOR_4 : '#ff6f7b',
 }
 
