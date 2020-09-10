@@ -13,7 +13,9 @@ import { generateThemeData } from './generateThemeData'
 // #21202E
 // #232834
 // #25252F
-const BACK_COLOR = '#1E2129'
+
+// const BACK_COLOR = '#1E2129'
+const BACK_COLOR = '#1B222D'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -136,7 +138,7 @@ const chromeColors = {
 
 /*
 latest suggestions
-#00FFFF
+#FFD484
 #D1675A
 #EECF90
 #68AEC9
@@ -147,7 +149,7 @@ latest suggestions
 #79b8ff
 #ffea7f
 Bearded theme
-  #22ECDB
+#22ECDB
 #FF738A
 #FF955C
 #69C3FF
@@ -224,7 +226,7 @@ SETTINGS[ 4 ] = {
   COLOR_1 : '#E07C64',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#cfe071',
-  COLOR_4 : '#69C3FF',
+  COLOR_4 : '#AD82CB',
 }
 
 SETTINGS[ 5 ] = {
@@ -262,7 +264,7 @@ SETTINGS[ 8 ] = {
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#eb555d',
   COLOR_4 : '#00FFFF',
-  // COLOR_4 : '#81a8bc', 
+  // COLOR_4 : '#81a8bc',
 }
 
 const settings = {}
