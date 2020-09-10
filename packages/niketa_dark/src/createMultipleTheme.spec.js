@@ -7,13 +7,13 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
-// #1b2b3b
-// #25252F
-// #232834
 // #181818
-// #25252F
+// #1b2b3b
+// #202124
 // #21202E
-const BACK_COLOR = '#202124'
+// #232834
+// #25252F
+const BACK_COLOR = '#1E2129'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -136,7 +136,7 @@ const chromeColors = {
 
 /*
 latest suggestions
-
+#00FFFF
 #D1675A
 #EECF90
 #68AEC9
@@ -261,7 +261,8 @@ SETTINGS[ 8 ] = {
   COLOR_1 : '#edf3a6',
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#eb555d',
-  COLOR_4 : '#81a8bc',
+  COLOR_4 : '#00FFFF',
+  // COLOR_4 : '#81a8bc', 
 }
 
 const settings = {}
