@@ -7,15 +7,21 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
+/*
+  NEWEST
+  #FF79C6
+*/
+
+// #212121
 // #181818
 // #1b2b3b
 // #202124
 // #21202E
 // #232834
 // #25252F
-
-// const BACK_COLOR = '#1E2129'
-const BACK_COLOR = '#1B222D'
+// #1E2129
+// #1B222D
+const BACK_COLOR = '#292C3D'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -204,7 +210,8 @@ SETTINGS[ 2 ] = {
   COLOR_1 : '#A277FF',
   COLOR_2 : '#f98fab',
   COLOR_3 : '#a3be8c',
-  COLOR_4 : '#68AEC9',
+  COLOR_4 : '#00B0FF',
+  // COLOR_4 : '#68AEC9',
   // COLOR_4 : '#69C3FF',
   // COLOR_4 : BRIGHT,
 }
@@ -222,7 +229,8 @@ SETTINGS[ 3 ] = {
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
-  COLOR_0 : '#69C3FF',
+  COLOR_0 : '#00B0FF',
+  // COLOR_0 : '#69C3FF',
   COLOR_1 : '#E07C64',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#cfe071',
@@ -235,7 +243,8 @@ SETTINGS[ 5 ] = {
   COLOR_1 : '#2ee8bb',
   COLOR_2 : '#fb607f',
   COLOR_3 : '#fefe33',
-  COLOR_4 : '#89d178',
+  COLOR_4 : '#50FA7B',
+  // COLOR_4 : '#89d178',
 }
 
 SETTINGS[ 6 ] = {
