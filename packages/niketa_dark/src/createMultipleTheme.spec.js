@@ -246,7 +246,7 @@ SETTINGS[ 5 ] = {
   COLOR_4 : '#50FA7B',
   // COLOR_4 : '#89d178',
 }
-
+ 
 SETTINGS[ 6 ] = {
   name    : 'south.park',
   COLOR_0 : '#FFAE57',
