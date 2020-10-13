@@ -21,7 +21,8 @@ import { generateThemeData } from './generateThemeData'
 // #25252F
 // #1E2129
 // #1B222D
-const BACK_COLOR = '#292C3D'
+// #292C3D 
+const BACK_COLOR = '#25252A'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -246,7 +247,7 @@ SETTINGS[ 5 ] = {
   COLOR_4 : '#50FA7B',
   // COLOR_4 : '#89d178',
 }
- 
+
 SETTINGS[ 6 ] = {
   name    : 'south.park',
   COLOR_0 : '#FFAE57',
