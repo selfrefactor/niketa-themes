@@ -7,11 +7,6 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
-/*
-  NEWEST
-  #FF79C6
-*/
-
 // #212121
 // #181818
 // #1b2b3b
@@ -21,7 +16,7 @@ import { generateThemeData } from './generateThemeData'
 // #25252F
 // #1E2129
 // #1B222D
-// #292C3D 
+// #292C3D
 const BACK_COLOR = '#25252A'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
@@ -188,7 +183,7 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#A277FF',
   COLOR_2 : '#61FFCA',
   COLOR_3 : '#FF955C',
-  COLOR_4 : '#EDECEE',
+  COLOR_4 : '#FF79C6',
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
@@ -253,8 +248,9 @@ SETTINGS[ 6 ] = {
   COLOR_0 : '#FFAE57',
   COLOR_1 : '#e2f118',
   COLOR_2 : BRIGHT,
-  COLOR_3 : '#ff6f7b',
-  COLOR_4 : '#88B1C6',
+  COLOR_3 : '#BF616A',
+  COLOR_4 : '#B48EAD',
+  // COLOR_4 : '#88B1C6',
 }
 
 SETTINGS[ 7 ] = {
