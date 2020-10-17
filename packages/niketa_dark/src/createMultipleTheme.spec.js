@@ -179,7 +179,8 @@ Bearded theme
 // #C586C0
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
-  COLOR_0 : '#EDECEE',
+  // COLOR_0 : '#EDECEE',
+  COLOR_0 : '#C5DBF2',
   COLOR_1 : '#A277FF',
   COLOR_2 : '#61FFCA',
   COLOR_3 : '#FF955C',
@@ -187,7 +188,8 @@ SETTINGS[ 0 ] = {
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
-  COLOR_0 : '#22ECDB',
+  // COLOR_0 : '#22ECDB',
+  COLOR_0 : '#DBD9D2',
   COLOR_1 : '#FFAE57',
   COLOR_2 : '#1cb3b8',
   COLOR_3 : '#BAE67E',
@@ -202,7 +204,8 @@ SETTINGS[ 1 ] = {
 
 SETTINGS[ 2 ] = {
   name    : 'archer',
-  COLOR_0 : '#EECF90',
+  // COLOR_0 : '#EECF90',
+  COLOR_0 : '#EFEEEA',
   COLOR_1 : '#A277FF',
   COLOR_2 : '#f98fab',
   COLOR_3 : '#a3be8c',
@@ -215,7 +218,9 @@ SETTINGS[ 2 ] = {
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
   COLOR_0 : '#80DEEA',
-  COLOR_1 : '#b8a0af',
+  // COLOR_1 : '#b8a0af',
+  COLOR_1 : '#FBCFBD',
+  // COLOR_2 : '#D8EACC',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#fdd365',
   COLOR_4 : '#D1675A',
@@ -228,7 +233,8 @@ SETTINGS[ 4 ] = {
   COLOR_0 : '#00B0FF',
   // COLOR_0 : '#69C3FF',
   COLOR_1 : '#E07C64',
-  COLOR_2 : BRIGHT,
+  COLOR_2 : '#FBEECA',
+  // COLOR_2 : BRIGHT,
   COLOR_3 : '#cfe071',
   COLOR_4 : '#AD82CB',
 }
@@ -245,8 +251,10 @@ SETTINGS[ 5 ] = {
 
 SETTINGS[ 6 ] = {
   name    : 'south.park',
+  // COLOR_0 : '#E7B75F',
   COLOR_0 : '#FFAE57',
-  COLOR_1 : '#e2f118',
+  COLOR_1 : '#00C14E',
+  // COLOR_1 : '#e2f118',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#BF616A',
   COLOR_4 : '#B48EAD',
@@ -259,20 +267,23 @@ SETTINGS[ 7 ] = {
   COLOR_1 : '#e17096',
   COLOR_2 : '#7AD3F3',
   COLOR_3 : BRIGHT,
-  COLOR_4 : '#A277FF',
-  // COLOR_4 : '#7eb19f',
+  // COLOR_4 : '#A277FF',
+  COLOR_4 : '#7eb19f',
 }
+
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
   // COLOR_0 : '#9dc6a7',
   COLOR_1 : '#edf3a6',
   COLOR_2 : '#fcfcfc',
-  COLOR_3 : '#eb555d',
-  COLOR_4 : '#00FFFF',
+  COLOR_3 : '#F25F25',
+  // COLOR_3 : '#eb555d',
+  COLOR_4 : '#FF3EBF',
+  // COLOR_4 : '#00FFFF',
   // COLOR_4 : '#81a8bc',
 }
-
+ 
 const settings = {}
 
 map((x, i) => {
