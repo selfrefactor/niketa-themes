@@ -87,9 +87,9 @@ const selectionColors = {
 }
 
 const newColorsMissingInLightTheme = {
-  'tab.lastPinnedBorder': '#E01C75',
-  'gitDecoration.stageDeletedResourceForeground': '#e477e4',
-  'gitDecoration.stageModifiedResourceForeground': '#e4e4e4',
+  'tab.lastPinnedBorder'                          : '#E01C75',
+  'gitDecoration.stageDeletedResourceForeground'  : '#e477e4',
+  'gitDecoration.stageModifiedResourceForeground' : '#e4e4e4',
 }
 
 const chromeColors = {
@@ -117,7 +117,7 @@ const chromeColors = {
   // next two
   // When search by word is active or when double click on a word
   'editor.wordHighlightBackground'            : '#35495f',
-  'editor.wordHighlightStrongBackground'      : '#410a0b',
+  'editor.wordHighlightStrongBackground'      : '#b1b1b1f1',
   'editorBracketMatch.background'             : '#41445e',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
