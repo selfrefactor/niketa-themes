@@ -86,7 +86,14 @@ const selectionColors = {
   'editor.inactiveSelectionBackground'  : '#aaab9c66',
 }
 
+const newColorsMissingInLightTheme = {
+  'tab.lastPinnedBorder': '#E01C75',
+  'gitDecoration.stageDeletedResourceForeground': '#e477e4',
+  'gitDecoration.stageModifiedResourceForeground': '#e4e4e4',
+}
+
 const chromeColors = {
+  ...newColorsMissingInLightTheme,
   ...listColors,
   ...suggestionsColors,
   ...sidebarColors,
@@ -283,7 +290,7 @@ SETTINGS[ 8 ] = {
   // COLOR_4 : '#00FFFF',
   // COLOR_4 : '#81a8bc',
 }
- 
+
 const settings = {}
 
 map((x, i) => {

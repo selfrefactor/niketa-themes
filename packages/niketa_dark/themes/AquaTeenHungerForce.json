@@ -2,6 +2,9 @@
   "name": "AquaTeenHungerForce",
   "type": "light",
   "colors": {
+    "tab.lastPinnedBorder": "#E01C75",
+    "gitDecoration.stageDeletedResourceForeground": "#e477e4",
+    "gitDecoration.stageModifiedResourceForeground": "#e4e4e4",
     "foreground": "#e7e7e7",
     "list.dropBackground": "#db82d6",
     "list.focusBackground": "#6d50a1",
