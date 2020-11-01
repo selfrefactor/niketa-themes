@@ -3,7 +3,7 @@
   "scripts": {
     "test": "jest src/createPaletteTheme.spec.js"
   },
-  "version": "1.0.42",
+  "version": "1.0.43",
   "dependencies": {},
   "devDependencies": {
     "babel-cli": "^7.0.0-beta.3",
