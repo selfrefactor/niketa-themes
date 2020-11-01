@@ -238,10 +238,8 @@ SETTINGS[ 3 ] = {
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
   COLOR_0 : '#00B0FF',
-  // COLOR_0 : '#69C3FF',
   COLOR_1 : '#E07C64',
   COLOR_2 : '#FBEECA',
-  // COLOR_2 : BRIGHT,
   COLOR_3 : '#cfe071',
   COLOR_4 : '#AD82CB',
 }
@@ -253,19 +251,15 @@ SETTINGS[ 5 ] = {
   COLOR_2 : '#fb607f',
   COLOR_3 : '#fefe33',
   COLOR_4 : '#50FA7B',
-  // COLOR_4 : '#89d178',
 }
 
 SETTINGS[ 6 ] = {
   name    : 'south.park',
-  // COLOR_0 : '#E7B75F',
   COLOR_0 : '#FFAE57',
   COLOR_1 : '#00C14E',
-  // COLOR_1 : '#e2f118',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#BF616A',
   COLOR_4 : '#B48EAD',
-  // COLOR_4 : '#88B1C6',
 }
 
 SETTINGS[ 7 ] = {
@@ -275,7 +269,6 @@ SETTINGS[ 7 ] = {
   COLOR_2 : '#7AD3F3',
   COLOR_3 : BRIGHT,
   COLOR_4 : '#7eb19f',
-  // COLOR_4 : '#A277FF',
 }
 
 SETTINGS[ 8 ] = {
@@ -285,10 +278,6 @@ SETTINGS[ 8 ] = {
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
   COLOR_4 : '#FF3EBF',
-  // COLOR_0 : '#9dc6a7',
-  // COLOR_3 : '#eb555d',
-  // COLOR_4 : '#00FFFF',
-  // COLOR_4 : '#81a8bc',
 }
 
 const settings = {}
