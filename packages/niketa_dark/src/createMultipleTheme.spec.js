@@ -274,19 +274,19 @@ SETTINGS[ 7 ] = {
   COLOR_1 : '#e17096',
   COLOR_2 : '#7AD3F3',
   COLOR_3 : BRIGHT,
-  // COLOR_4 : '#A277FF',
   COLOR_4 : '#7eb19f',
+  // COLOR_4 : '#A277FF',
 }
 
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
-  // COLOR_0 : '#9dc6a7',
   COLOR_1 : '#edf3a6',
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
-  // COLOR_3 : '#eb555d',
   COLOR_4 : '#FF3EBF',
+  // COLOR_0 : '#9dc6a7',
+  // COLOR_3 : '#eb555d',
   // COLOR_4 : '#00FFFF',
   // COLOR_4 : '#81a8bc',
 }
