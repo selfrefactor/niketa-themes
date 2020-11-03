@@ -211,12 +211,13 @@ SETTINGS[ 1 ] = {
 
 SETTINGS[ 2 ] = {
   name    : 'archer',
-  // COLOR_0 : '#EECF90',
   COLOR_0 : '#EFEEEA',
   COLOR_1 : '#A277FF',
-  COLOR_2 : '#f98fab',
+  COLOR_2 : '#E83B57',
   COLOR_3 : '#a3be8c',
   COLOR_4 : '#00B0FF',
+  // COLOR_2 : '#f98fab',
+  // COLOR_0 : '#EECF90',
   // COLOR_4 : '#68AEC9',
   // COLOR_4 : '#69C3FF',
   // COLOR_4 : BRIGHT,
@@ -225,12 +226,12 @@ SETTINGS[ 2 ] = {
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
   COLOR_0 : '#80DEEA',
-  // COLOR_1 : '#b8a0af',
   COLOR_1 : '#FBCFBD',
-  // COLOR_2 : '#D8EACC',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#fdd365',
   COLOR_4 : '#D1675A',
+  // COLOR_1 : '#b8a0af',
+  // COLOR_2 : '#D8EACC',
   // COLOR_4 : '#D55975',
   // COLOR_4 : '#ff6f7b',
 }
