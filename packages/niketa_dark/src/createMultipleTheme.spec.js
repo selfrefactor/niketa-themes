@@ -7,8 +7,6 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
-// new suggestion #36F9F6 #FF7EDB #72F1B8 #FEDE5D #FF8B39
-
 // #181818
 // #1B222D
 // #1E2129
@@ -192,7 +190,8 @@ SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
   COLOR_0 : '#C5DBF2',
   COLOR_1 : '#A277FF',
-  COLOR_2 : '#61FFCA',
+  // COLOR_2 : '#61FFCA', 
+  COLOR_2 : '#72F1B8', //new
   COLOR_3 : '#FF955C',
   COLOR_4 : '#FF85B8', // new
   // COLOR_0 : '#EDECEE',
@@ -201,7 +200,8 @@ SETTINGS[ 0 ] = {
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
   COLOR_0 : '#DBD9D2',
-  COLOR_1 : '#FFAE57',
+  // COLOR_1 : '#FFAE57',
+  COLOR_1 : '#FF8B39', // new
   COLOR_2 : '#1cb3b8',
   COLOR_3 : '#BAE67E',
   COLOR_4 : '#d97397',
@@ -266,7 +266,8 @@ SETTINGS[ 6 ] = {
   COLOR_0 : '#FFAE57',
   COLOR_1 : '#00C14E',
   COLOR_2 : BRIGHT,
-  COLOR_3 : '#BF616A',
+  // COLOR_3 : '#BF616A',
+  COLOR_3 : '#FF7EDB', //new
   COLOR_4 : '#B48EAD',
 }
 
@@ -274,7 +275,8 @@ SETTINGS[ 7 ] = {
   name    : 'trip.tank',
   COLOR_0 : '#e2f118',
   COLOR_1 : '#e17096',
-  COLOR_2 : '#7AD3F3',
+  // COLOR_2 : '#7AD3F3',
+  COLOR_2 : '#36F9F6', //new
   COLOR_3 : BRIGHT,
   COLOR_4 : '#7eb19f',
 }
@@ -282,10 +284,11 @@ SETTINGS[ 7 ] = {
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
-  COLOR_1 : '#edf3a6',
+  // COLOR_1 : '#edf3a6',
+  COLOR_1 : '#FEDE5D', // new
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
-  COLOR_4 : '#FF3EBF',
+  COLOR_4 : '#FF3EBF', 
 }
 
 const settings = {}
