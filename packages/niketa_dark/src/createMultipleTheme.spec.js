@@ -7,6 +7,8 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
+// new suggestion #36F9F6 #FF7EDB #72F1B8 #FEDE5D #FF8B39
+
 // #181818
 // #1B222D
 // #1E2129
@@ -18,6 +20,7 @@ import { generateThemeData } from './generateThemeData'
 // #25252A
 // #25252F
 // #292C3D
+// #2D3654
 const BACK_COLOR = '#242530'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
