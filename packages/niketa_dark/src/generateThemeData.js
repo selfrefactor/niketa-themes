@@ -35,6 +35,7 @@ export function generateThemeData({ palette, chrome, colors }){
   })(palette.tokenColors)
   const newTheme = {
     ...palette,
+    type: 'dark',
     colors      : chrome,
     tokenColors : newTokenColors,
   }
