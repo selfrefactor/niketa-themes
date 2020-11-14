@@ -83,9 +83,9 @@ const sidebarColors = {
   'sideBarTitle.foreground'         : '#cacacc',
 }
 const selectionColors = {
-  'editor.selectionBackground'          : '#5c677366',
-  'editor.selectionHighlightBackground' : '#a1ba4e66',
-  'editor.inactiveSelectionBackground'  : '#aaab9c66',
+  'editor.selectionBackground'          : '#5c6773',
+  'editor.selectionHighlightBackground' : '#a1ba4e99',
+  'editor.inactiveSelectionBackground'  : '#aaab9caa',
 }
 
 const newColorsMissingInLightTheme = {
