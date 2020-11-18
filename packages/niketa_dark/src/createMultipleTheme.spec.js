@@ -19,7 +19,8 @@ import { generateThemeData } from './generateThemeData'
 // #25252F
 // #292C3D
 // #2D3654
-const BACK_COLOR = '#242530'
+// #242530
+const BACK_COLOR = '#262A33'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -118,8 +119,11 @@ const chromeColors = {
   'editor.lineHighlightBorder'                : '#5e6062aa',
   // next two
   // When search by word is active or when double click on a word
-  'editor.wordHighlightBackground'            : '#35495f',
-  'editor.wordHighlightStrongBackground'      : '#b1b1b1f1',
+  // 'editor.wordHighlightBackground'            : '#35495f',
+  // 'editor.wordHighlightStrongBackground'      : '#b1b1b1f1',
+  // this is temp change
+  "editor.wordHighlightBackground": "#4F4355",
+  "editor.wordHighlightStrongBackground": "#db45a280",
   'editorBracketMatch.background'             : '#41445e',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
@@ -149,6 +153,18 @@ const chromeColors = {
 
 /*
 latest suggestions
+#2196f3
+#FC644D
+#FF9F2E
+#F92672
+#ff7edb
+#ff8b39
+#fe4450
+#fede5d
+#f97e72
+#36f9f6
+#72f1b8
+
 #FFD484
 #D1675A
 #EECF90
@@ -230,11 +246,14 @@ SETTINGS[ 2 ] = {
 
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
-  COLOR_0 : '#80DEEA',
+  // COLOR_0 : '#80DEEA',
+  COLOR_0 : '#2196f3', // new
   COLOR_1 : '#FBCFBD',
-  COLOR_2 : BRIGHT,
+  // COLOR_2 : BRIGHT,
+  COLOR_2 : '#ff7edb',
   // COLOR_3 : '#fdd365',
-  COLOR_3 : '#F3F99D', //new
+  // COLOR_3 : '#F3F99D', //new
+  COLOR_3 : '#72f1b8', //newer
   COLOR_4 : '#D1675A',
   // COLOR_1 : '#b8a0af',
   // COLOR_2 : '#D8EACC',
