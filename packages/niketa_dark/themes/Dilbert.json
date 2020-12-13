@@ -2,6 +2,7 @@
   "name": "Dilbert",
   "type": "dark",
   "colors": {
+    "sash.hoverBorder": "#387b54",
     "tab.lastPinnedBorder": "#E01C75",
     "gitDecoration.stageDeletedResourceForeground": "#e477e4",
     "gitDecoration.stageModifiedResourceForeground": "#e4e4e4",

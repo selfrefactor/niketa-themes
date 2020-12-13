@@ -95,7 +95,12 @@ const newColorsMissingInLightTheme = {
   'gitDecoration.stageModifiedResourceForeground' : '#e4e4e4',
 }
 
+const newColors = {
+  'sash.hoverBorder': '#387b54'
+}
+
 const chromeColors = {
+  ...newColors,
   ...newColorsMissingInLightTheme,
   ...listColors,
   ...suggestionsColors,
