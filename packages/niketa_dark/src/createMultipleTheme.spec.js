@@ -20,7 +20,8 @@ import { generateThemeData } from './generateThemeData'
 // #292C3D
 // #2D3654
 // #242530
-const BACK_COLOR = '#262A33'
+// #262A33
+const BACK_COLOR = '#263238'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -124,9 +125,6 @@ const chromeColors = {
   'editor.lineHighlightBorder'                : '#5e6062aa',
   // next two
   // When search by word is active or when double click on a word
-  // 'editor.wordHighlightBackground'            : '#35495f',
-  // 'editor.wordHighlightStrongBackground'      : '#b1b1b1f1',
-  // this is temp change
   "editor.wordHighlightBackground": "#4F4355",
   "editor.wordHighlightStrongBackground": "#db45a280",
   'editorBracketMatch.background'             : '#41445e',
@@ -157,82 +155,89 @@ const chromeColors = {
 }
 
 /*
-latest suggestions
+#008f00
 #2196f3
-#FC644D
-#FF9F2E
-#F92672
-#ff7edb
-#ff8b39
-#fe4450
-#fede5d
-#f97e72
-#36f9f6
-#72f1b8
-
-#FFD484
-#D1675A
-#EECF90
-#68AEC9
-
-#D58FDB
-#85e89d
-#fdaeb7
-#79b8ff
-#ffea7f
-Bearded theme
 #22ECDB
-#FF738A
-#FF955C
+#2ee8bb
+#36f9f6
+#3a797e
+#61FFCA
+#68AEC9
 #69C3FF
 #6DBBFF
-#D1F1A9
-
-// Several suggestions
-
-#2ee8bb
-#008f00
-#eddd59
-#8edacc
-#e6daa6
-#fb607f
-#3a797e
-#bb7766
-#99ccee
+#72f1b8
+#79b8ff
+#85e89d
 #89d178
-#fefe33
-#fcfcda
-#b53389
+#8edacc
+#99ccee
+#C586C0
+#D1675A
+#D1F1A9
+#D58FDB
 #E9CA5C
+#EDECEE
+#EECF90
+#F92672
+#FC644D
+#FF738A
+#FF79C6
+#FF955C
+#FF955C
+#FF9F2E
+#FFD484
+#b53389
+#bb7766
+#e6daa6
+#eddd59
+#f97e72
+#fb607f
+#fcfcda
+#fdaeb7
+#fe4450
+#fede5d
+#fefe33
+#ff7edb
+#ff8b39
+#ffea7f
+
+Below are colors that were published but later removed
+#22ECDB
+#50FA7B
+#57B6CD
+#7AD3F3
+#80DEEA
+#82AAFF
+#BF616A
+#D1F1A9
+#D55975
+#D8EACC
+#F3F99D
+#FF955C
+#FFAE57
+#a87ca1
+#b8a0af
+#edf3a6
+#f98fab
+#fdd365
+#ff6f7b
 */
 
-// #C586C0
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
   COLOR_0 : '#C5DBF2',
   COLOR_1 : '#A277FF',
-  // COLOR_2 : '#61FFCA', 
-  COLOR_2 : '#72F1B8', //new
-  COLOR_3 : '#FF955C',
-  COLOR_4 : '#FF85B8', // new
-  // COLOR_0 : '#EDECEE',
-  // COLOR_4 : '#FF79C6',
+  COLOR_2 : '#72F1B8', 
+  COLOR_3 : '#A1887F', 
+  COLOR_4 : '#FF85B8', 
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
   COLOR_0 : '#DBD9D2',
-  // COLOR_1 : '#FFAE57',
-  COLOR_1 : '#FF8B39', // new
+  COLOR_1 : '#FF8B39', 
   COLOR_2 : '#1cb3b8',
   COLOR_3 : '#BAE67E',
   COLOR_4 : '#d97397',
-  // COLOR_0 : '#22ECDB',
-  // COLOR_4 : '#D55975',
-  // COLOR_3 : BRIGHT,
-  // COLOR_0 : '#D1F1A9',
-  // COLOR_1 : '#FF955C',
-  // COLOR_2 : '#a87ca1',
-  // COLOR_4 : '#57B6CD',
 }
 
 SETTINGS[ 2 ] = {
@@ -242,34 +247,20 @@ SETTINGS[ 2 ] = {
   COLOR_2 : '#E83B57',
   COLOR_3 : '#a3be8c',
   COLOR_4 : '#00B0FF',
-  // COLOR_2 : '#f98fab',
-  // COLOR_0 : '#EECF90',
-  // COLOR_4 : '#68AEC9',
-  // COLOR_4 : '#69C3FF',
-  // COLOR_4 : BRIGHT,
 }
 
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
-  // COLOR_0 : '#80DEEA',
-  COLOR_0 : '#2196f3', // new
+  COLOR_0 : '#2196f3', 
   COLOR_1 : '#FBCFBD',
-  // COLOR_2 : BRIGHT,
   COLOR_2 : '#ff7edb',
-  // COLOR_3 : '#fdd365',
-  // COLOR_3 : '#F3F99D', //new
-  COLOR_3 : '#72f1b8', //newer
+  COLOR_3 : '#72f1b8', 
   COLOR_4 : '#D1675A',
-  // COLOR_1 : '#b8a0af',
-  // COLOR_2 : '#D8EACC',
-  // COLOR_4 : '#D55975',
-  // COLOR_4 : '#ff6f7b',
 }
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
-  // COLOR_0 : '#82AAFF', //new
-  COLOR_0 : '#94D0FF', //new
+  COLOR_0 : '#94D0FF', 
   COLOR_1 : '#E07C64',
   COLOR_2 : '#FBEECA',
   COLOR_3 : '#cfe071',
@@ -278,11 +269,11 @@ SETTINGS[ 4 ] = {
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
-  COLOR_0 : BRIGHT,
-  COLOR_1 : '#2ee8bb',
-  COLOR_2 : '#fb607f',
-  COLOR_3 : '#fefe33',
-  COLOR_4 : '#50FA7B',
+  COLOR_0 : '#fb607f',
+  COLOR_1 : '#EA80FC',
+  COLOR_2 : '#1DE9B6',
+  COLOR_3 : '#FFA000',
+  COLOR_4 : '#B2FF59',
 }
 
 SETTINGS[ 6 ] = {
@@ -290,8 +281,7 @@ SETTINGS[ 6 ] = {
   COLOR_0 : '#FFAE57',
   COLOR_1 : '#00C14E',
   COLOR_2 : BRIGHT,
-  // COLOR_3 : '#BF616A',
-  COLOR_3 : '#FF7EDB', //new
+  COLOR_3 : '#FF7EDB', 
   COLOR_4 : '#B48EAD',
 }
 
@@ -299,8 +289,7 @@ SETTINGS[ 7 ] = {
   name    : 'trip.tank',
   COLOR_0 : '#e2f118',
   COLOR_1 : '#e17096',
-  // COLOR_2 : '#7AD3F3',
-  COLOR_2 : '#36F9F6', //new
+  COLOR_2 : '#36F9F6', 
   COLOR_3 : BRIGHT,
   COLOR_4 : '#7eb19f',
 }
@@ -308,8 +297,7 @@ SETTINGS[ 7 ] = {
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
-  // COLOR_1 : '#edf3a6',
-  COLOR_1 : '#FEDE5D', // new
+  COLOR_1 : '#FEDE5D', 
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
   COLOR_4 : '#FF3EBF', 
