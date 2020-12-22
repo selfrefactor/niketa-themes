@@ -2199,50 +2199,6 @@
       }
     },
     {
-      "name": "constant.language.boolean",
-      "scope": "constant.language.boolean",
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#e17096"
-      }
-    },
-    {
-      "name": "constant.language.null.js",
-      "scope": "constant.language.null.js",
-      "settings": {
-        "foreground": "#e17096"
-      }
-    },
-    {
-      "name": "constant.language.null.jsx",
-      "scope": "constant.language.null.jsx",
-      "settings": {
-        "foreground": "#e17096"
-      }
-    },
-    {
-      "name": "constant.language.null.ts",
-      "scope": "constant.language.null.ts",
-      "settings": {
-        "foreground": "#e17096"
-      }
-    },
-    {
-      "name": "constant.language.null.tsx",
-      "scope": "constant.language.null.tsx",
-      "settings": {
-        "foreground": "#e17096"
-      }
-    },
-    {
-      "name": "constant.numeric",
-      "scope": "constant.numeric",
-      "settings": {
-        "fontStyle": "bold",
-        "foreground": "#e17096"
-      }
-    },
-    {
       "name": "entity.name.class",
       "scope": "entity.name.class",
       "settings": {
@@ -3469,6 +3425,50 @@
       "name": "punctuation.definition.block.sequence.item.yaml",
       "scope": "punctuation.definition.block.sequence.item.yaml",
       "settings": {
+        "foreground": "#36F9F6"
+      }
+    },
+    {
+      "name": "constant.language.boolean",
+      "scope": "constant.language.boolean",
+      "settings": {
+        "fontStyle": "bold",
+        "foreground": "#36F9F6"
+      }
+    },
+    {
+      "name": "constant.language.null.js",
+      "scope": "constant.language.null.js",
+      "settings": {
+        "foreground": "#36F9F6"
+      }
+    },
+    {
+      "name": "constant.language.null.jsx",
+      "scope": "constant.language.null.jsx",
+      "settings": {
+        "foreground": "#36F9F6"
+      }
+    },
+    {
+      "name": "constant.language.null.ts",
+      "scope": "constant.language.null.ts",
+      "settings": {
+        "foreground": "#36F9F6"
+      }
+    },
+    {
+      "name": "constant.language.null.tsx",
+      "scope": "constant.language.null.tsx",
+      "settings": {
+        "foreground": "#36F9F6"
+      }
+    },
+    {
+      "name": "constant.numeric",
+      "scope": "constant.numeric",
+      "settings": {
+        "fontStyle": "bold",
         "foreground": "#36F9F6"
       }
     },
