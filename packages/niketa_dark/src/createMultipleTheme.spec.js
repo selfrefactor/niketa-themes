@@ -7,6 +7,12 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
+/*
+  Suggestions:
+  #261D45
+  #04212F
+*/
+
 // #181818
 // #1B222D
 // #1E2129
@@ -200,8 +206,12 @@ const chromeColors = {
 #ff7edb
 #ff8b39
 #ffea7f
+#00FFC8
+#FF5680
+#00EFF6
 
-Below are colors that were published but later removed
+  Below are colors that were published but later removed
+
 #22ECDB
 #50FA7B
 #57B6CD
