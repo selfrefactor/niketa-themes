@@ -3,6 +3,7 @@
   "type": "dark",
   "colors": {
     "sash.hoverBorder": "#387b54",
+    "editorUnnecessaryCode.border": "#aafafa",
     "tab.lastPinnedBorder": "#E01C75",
     "gitDecoration.stageDeletedResourceForeground": "#e477e4",
     "gitDecoration.stageModifiedResourceForeground": "#e4e4e4",

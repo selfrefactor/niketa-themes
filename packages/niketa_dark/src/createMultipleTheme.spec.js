@@ -7,6 +7,8 @@ import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
 
+const SOFT_WARNING = '#aafafa'
+
 /*
   Suggestions:
   #261D45
@@ -103,7 +105,8 @@ const newColorsMissingInLightTheme = {
 }
 
 const newColors = {
-  'sash.hoverBorder': '#387b54'
+  'sash.hoverBorder': '#387b54',
+  'editorUnnecessaryCode.border': SOFT_WARNING
 }
 
 const chromeColors = {
