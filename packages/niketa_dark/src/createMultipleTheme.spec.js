@@ -30,7 +30,8 @@ const SOFT_WARNING = '#aafafa'
 // #242530
 // #262A33
 // #263238
-const BACK_COLOR = '#1F1D2E'
+// #1F1D2E
+const BACK_COLOR = '#1D1D26'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -193,8 +194,8 @@ const chromeColors = {
 #FF738A
 #FF79C6
 #FF955C
-#FF955C
 #FF9F2E
+#FFAA00
 #FFD484
 #b53389
 #bb7766
@@ -241,7 +242,8 @@ SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
   COLOR_0 : '#C5DBF2',
   COLOR_1 : '#A277FF',
-  COLOR_2 : '#72F1B8', 
+  // COLOR_2 : '#72F1B8', 
+  COLOR_2 : '#00D364',
   COLOR_3 : '#A1887F', 
   COLOR_4 : '#FF85B8', 
 }
@@ -314,10 +316,12 @@ SETTINGS[ 7 ] = {
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
-  COLOR_1 : '#FEDE5D', 
+  // COLOR_1 : '#FEDE5D', 
+  COLOR_1 : '#FFCC66', 
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
-  COLOR_4 : '#FF3EBF', 
+  COLOR_4 : '#FF3399', 
+  // COLOR_4 : '#FF3EBF', 
 }
 
 const settings = {}
