@@ -29,7 +29,8 @@ const SOFT_WARNING = '#aafafa'
 // #2D3654
 // #242530
 // #262A33
-const BACK_COLOR = '#263238'
+// #263238
+const BACK_COLOR = '#1F1D2E'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -273,7 +274,8 @@ SETTINGS[ 3 ] = {
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
-  COLOR_0 : '#94D0FF', 
+  // COLOR_0 : '#94D0FF', // test
+  COLOR_0 : '#3E8FB0', 
   COLOR_1 : '#E07C64',
   COLOR_2 : '#FBEECA',
   COLOR_3 : '#cfe071',
@@ -282,7 +284,8 @@ SETTINGS[ 4 ] = {
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
-  COLOR_0 : '#fb607f',
+  // COLOR_0 : '#fb607f',
+  COLOR_0 : '#EA9A97',
   COLOR_1 : '#EA80FC',
   COLOR_2 : '#1DE9B6',
   COLOR_3 : '#FFA000',
@@ -291,7 +294,8 @@ SETTINGS[ 5 ] = {
 
 SETTINGS[ 6 ] = {
   name    : 'south.park',
-  COLOR_0 : '#FFAE57',
+  // COLOR_0 : '#FFAE57', test
+  COLOR_0 : '#F6C177',
   COLOR_1 : '#00C14E',
   COLOR_2 : BRIGHT,
   COLOR_3 : '#FF7EDB', 
