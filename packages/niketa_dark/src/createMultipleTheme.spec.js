@@ -167,6 +167,8 @@ const chromeColors = {
 
 /*
 #008f00
+#00EFF6
+#00FFC8
 #2196f3
 #22ECDB
 #2ee8bb
@@ -182,6 +184,7 @@ const chromeColors = {
 #89d178
 #8edacc
 #99ccee
+#BD93F9
 #C586C0
 #D1675A
 #D1F1A9
@@ -189,9 +192,13 @@ const chromeColors = {
 #E9CA5C
 #EDECEE
 #EECF90
+#F1FA8C
 #F92672
 #FC644D
+#FF5680
+#FF6E6E
 #FF738A
+#FF79C6
 #FF79C6
 #FF955C
 #FF9F2E
@@ -211,9 +218,6 @@ const chromeColors = {
 #ff7edb
 #ff8b39
 #ffea7f
-#00FFC8
-#FF5680
-#00EFF6
 
   Below are colors that were published but later removed
 
