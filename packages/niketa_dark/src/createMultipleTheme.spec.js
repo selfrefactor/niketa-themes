@@ -299,8 +299,8 @@ SETTINGS[ 5 ] = {
 }
 
 SETTINGS[ 6 ] = {
-  name    : 'south.park',
   // COLOR_0 : '#FFAE57', test
+  name    : 'south.park',
   COLOR_0 : '#F6C177',
   COLOR_1 : '#00C14E',
   COLOR_2 : BRIGHT,
