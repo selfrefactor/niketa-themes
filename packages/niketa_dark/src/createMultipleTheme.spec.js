@@ -246,7 +246,7 @@ SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
   COLOR_0 : '#C5DBF2',
   COLOR_1 : '#A277FF',
-  // COLOR_2 : '#72F1B8', 
+  // COLOR_2 : '#72F1B8', // test
   COLOR_2 : '#00D364',
   COLOR_3 : '#A1887F', 
   COLOR_4 : '#FF85B8', 

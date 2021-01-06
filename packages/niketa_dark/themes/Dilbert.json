@@ -1401,6 +1401,46 @@
       }
     },
     {
+      "name": "variable.language.this",
+      "scope": "variable.language.this",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EA9A97"
+      }
+    },
+    {
+      "name": "variable.language.this.js",
+      "scope": "variable.language.this.js",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EA9A97"
+      }
+    },
+    {
+      "name": "variable.language.this.jsx",
+      "scope": "variable.language.this.jsx",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EA9A97"
+      }
+    },
+    {
+      "name": "variable.language.this.ts",
+      "scope": "variable.language.this.ts",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EA9A97"
+      }
+    },
+    {
+      "name": "variable.language.this.tsx",
+      "scope": "variable.language.this.tsx",
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#EA9A97"
+      }
+    },
+    {
       "name": "variable.import.parameter.js",
       "scope": "variable.import.parameter.js",
       "settings": {
@@ -4196,46 +4236,6 @@
     {
       "name": "variable.language.prototype.tsx",
       "scope": "variable.language.prototype.tsx",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#1DE9B6"
-      }
-    },
-    {
-      "name": "variable.language.this",
-      "scope": "variable.language.this",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#1DE9B6"
-      }
-    },
-    {
-      "name": "variable.language.this.js",
-      "scope": "variable.language.this.js",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#1DE9B6"
-      }
-    },
-    {
-      "name": "variable.language.this.jsx",
-      "scope": "variable.language.this.jsx",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#1DE9B6"
-      }
-    },
-    {
-      "name": "variable.language.this.ts",
-      "scope": "variable.language.this.ts",
-      "settings": {
-        "fontStyle": "italic",
-        "foreground": "#1DE9B6"
-      }
-    },
-    {
-      "name": "variable.language.this.tsx",
-      "scope": "variable.language.this.tsx",
       "settings": {
         "fontStyle": "italic",
         "foreground": "#1DE9B6"
