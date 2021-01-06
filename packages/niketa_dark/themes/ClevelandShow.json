@@ -2725,6 +2725,13 @@
       }
     },
     {
+      "name": "support.type.property-name.json",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#FBCFBD"
+      }
+    },
+    {
       "name": "variable",
       "scope": "variable",
       "settings": {
@@ -5685,13 +5692,6 @@
     {
       "name": "support.class.component",
       "scope": "support.class.component",
-      "settings": {
-        "foreground": "#72f1b8"
-      }
-    },
-    {
-      "name": "support.type.property-name.json",
-      "scope": "support.type.property-name.json",
       "settings": {
         "foreground": "#72f1b8"
       }

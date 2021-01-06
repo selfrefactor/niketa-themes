@@ -220,7 +220,7 @@ const chromeColors = {
 #ffea7f
 
   Below are colors that were published but later removed
-
+#FFAE57
 #22ECDB
 #50FA7B
 #57B6CD
@@ -299,7 +299,6 @@ SETTINGS[ 5 ] = {
 }
 
 SETTINGS[ 6 ] = {
-  // COLOR_0 : '#FFAE57', test
   name    : 'south.park',
   COLOR_0 : '#F6C177',
   COLOR_1 : '#00C14E',
@@ -320,12 +319,12 @@ SETTINGS[ 7 ] = {
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
-  // COLOR_1 : '#FEDE5D', 
-  COLOR_1 : '#FFCC66', 
+  COLOR_1 : '#FEDE5D', 
+  // COLOR_1 : '#FFCC66', 
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
-  COLOR_4 : '#FF3399', 
-  // COLOR_4 : '#FF3EBF', 
+  // COLOR_4 : '#FF3399', 
+  COLOR_4 : '#FF3EBF', 
 }
 
 const settings = {}
