@@ -243,6 +243,17 @@ const chromeColors = {
 #ff6f7b
 */
 
+/*
+  New suggestions
+  #4FE0E0
+  #D74BBE
+  #FF9EE7
+  #F07178
+  #13BE77
+  #28C6E2
+  #ECAE4F
+*/
+
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
   COLOR_0 : '#C5DBF2',
