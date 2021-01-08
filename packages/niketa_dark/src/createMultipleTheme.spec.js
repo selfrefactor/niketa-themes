@@ -6,95 +6,16 @@ import { readJsonAnt } from './ants/readJson'
 import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
-
-const SOFT_WARNING = '#aafafa'
-
-/*
-  Suggestions:
-  #261D45
-  #04212F
-*/
-
-// #181818
-// #1B222D
-// #1E2129
-// #1b2b3b
-// #202124
-// #21202E
-// #212121
-// #232834
-// #25252A
-// #25252F
-// #292C3D
-// #2D3654
-// #242530
-// #262A33
-// #263238
-// #1F1D2E
-// #1D1D26
-const BACK_COLOR = '#252525'
-const CHROME_COLOR = '#445A63'
-const BRIGHT = '#f7faf7'
-const FIRST_THEME = 'american.dad'
+import { listColors } from './assets/list-colors'
+import { BACK_COLOR } from './assets/back-color'
+import { suggestionsColors } from './assets/suggestions-colors'
+import { sidebarColors } from './assets/sidebar-colors'
+import { SOFT_WARNING, CHROME_COLOR, BRIGHT, FIRST_THEME } from './assets/common'
 
 export const SETTINGS = {}
 const SPIN_LABEL_INDEX = false
 // const SPIN_LABEL_INDEX = 8
 
-const listColors = {
-  // in change of themes
-  // in the circle of unsaved changes
-  // in extensions preview
-  'foreground'                       : '#e7e7e7',
-  // on drag and drop of folders
-  'list.dropBackground'              : '#db82d6',
-  // when select theme, this is active theme background
-  'list.focusBackground'             : '#6d50a1',
-  'list.highlightForeground'         : '#4d0e0b',
-  'list.inactiveFocusBackground'     : '#885f66',
-  // when file is selected and then it turns inactive,
-  // as code window became active
-  'list.inactiveSelectionBackground' : '#1d4f93',
-  'list.inactiveSelectionForeground' : '#e7e7e7',
-  // in the previous comment, this is when code window is not yet active
-  // also when selecting multiple files for delete or move
-  'list.activeSelectionBackground'   : '#d1343855',
-  // Right click on file in file explorer, this is foreground on hover
-  'list.activeSelectionForeground'   : '#e7e7e7',
-  // visible in autocomplete, in suggest, change of theme
-  'list.hoverForeground'             : '#999966',
-  'list.hoverBackground'             : '#ad680055',
-}
-
-const suggestionsColors = {
-  // in autocomplete box, the active line background
-  'editorSuggestWidget.selectedBackground'  : '#2c3d52',
-  'editorSuggestWidget.background'          : '#0a0026',
-  'editorHoverWidget.background'            : '#282c34',
-  // when search with ctrl+f, this is widget chrome color
-  'editorWidget.background'                 : CHROME_COLOR,
-  // in autocomplete - the color of matched chars
-  // i.e. if I write `co`, then suggest will be `const`
-  // and the `co` will be in this color
-  'editorSuggestWidget.highlightForeground' : '#f38b80',
-  // in the above example, this is the color of the rest
-  // also most common foreground color in autocomplete and suggestion
-  'editorSuggestWidget.foreground'          : '#fafafa',
-  'editorSuggestWidget.border'              : '#d78d9f',
-  'editorHoverWidget.border'                : '#d78d9f',
-  'editorWidget.border'                     : '#d78d9f',
-}
-
-const sidebarColors = {
-  'sideBar.background'              : CHROME_COLOR,
-  // It means the color of files in explorer, not yet modified
-  // ============================================
-  'sideBar.foreground'              : '#e7e7e7',
-  'sideBar.border'                  : '#8382ae',
-  'sideBarSectionHeader.background' : '#aebabe',
-  'sideBarSectionHeader.foreground' : '#2a3343',
-  'sideBarTitle.foreground'         : '#cacacc',
-}
 const selectionColors = {
   'editor.selectionBackground'          : '#5c6773',
   'editor.selectionHighlightBackground' : '#a1ba4e99',
