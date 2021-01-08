@@ -31,7 +31,8 @@ const SOFT_WARNING = '#aafafa'
 // #262A33
 // #263238
 // #1F1D2E
-const BACK_COLOR = '#1D1D26'
+// #1D1D26
+const BACK_COLOR = '#252525'
 const CHROME_COLOR = '#445A63'
 const BRIGHT = '#f7faf7'
 const FIRST_THEME = 'american.dad'
@@ -107,8 +108,8 @@ const newColorsMissingInLightTheme = {
 }
 
 const newColors = {
-  'sash.hoverBorder': '#387b54',
-  'editorUnnecessaryCode.border': SOFT_WARNING
+  'sash.hoverBorder'             : '#387b54',
+  'editorUnnecessaryCode.border' : SOFT_WARNING,
 }
 
 const chromeColors = {
@@ -136,8 +137,8 @@ const chromeColors = {
   'editor.lineHighlightBorder'                : '#5e6062aa',
   // next two
   // When search by word is active or when double click on a word
-  "editor.wordHighlightBackground": "#4F4355",
-  "editor.wordHighlightStrongBackground": "#db45a280",
+  'editor.wordHighlightBackground'            : '#4F4355',
+  'editor.wordHighlightStrongBackground'      : '#db45a280',
   'editorBracketMatch.background'             : '#41445e',
   'editorBracketMatch.border'                 : '#978373',
   'editorCursor.foreground'                   : '#f9f6f1',
@@ -248,13 +249,13 @@ SETTINGS[ 0 ] = {
   COLOR_1 : '#A277FF',
   // COLOR_2 : '#72F1B8', // test
   COLOR_2 : '#00D364',
-  COLOR_3 : '#A1887F', 
-  COLOR_4 : '#FF85B8', 
+  COLOR_3 : '#A1887F',
+  COLOR_4 : '#FF85B8',
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
   COLOR_0 : '#DBD9D2',
-  COLOR_1 : '#FF8B39', 
+  COLOR_1 : '#FF8B39',
   COLOR_2 : '#1cb3b8',
   COLOR_3 : '#BAE67E',
   COLOR_4 : '#d97397',
@@ -271,17 +272,17 @@ SETTINGS[ 2 ] = {
 
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
-  COLOR_0 : '#2196f3', 
+  COLOR_0 : '#2196f3',
   COLOR_1 : '#FBCFBD',
   COLOR_2 : '#ff7edb',
-  COLOR_3 : '#72f1b8', 
+  COLOR_3 : '#72f1b8',
   COLOR_4 : '#D1675A',
 }
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
   // COLOR_0 : '#94D0FF', // test
-  COLOR_0 : '#3E8FB0', 
+  COLOR_0 : '#3E8FB0',
   COLOR_1 : '#E07C64',
   COLOR_2 : '#FBEECA',
   COLOR_3 : '#cfe071',
@@ -303,7 +304,7 @@ SETTINGS[ 6 ] = {
   COLOR_0 : '#F6C177',
   COLOR_1 : '#00C14E',
   COLOR_2 : BRIGHT,
-  COLOR_3 : '#FF7EDB', 
+  COLOR_3 : '#FF7EDB',
   COLOR_4 : '#B48EAD',
 }
 
@@ -311,7 +312,7 @@ SETTINGS[ 7 ] = {
   name    : 'trip.tank',
   COLOR_0 : '#e2f118',
   COLOR_1 : '#e17096',
-  COLOR_2 : '#36F9F6', 
+  COLOR_2 : '#36F9F6',
   COLOR_3 : BRIGHT,
   COLOR_4 : '#7eb19f',
 }
@@ -319,12 +320,12 @@ SETTINGS[ 7 ] = {
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
-  COLOR_1 : '#FEDE5D', 
-  // COLOR_1 : '#FFCC66', 
+  COLOR_1 : '#FEDE5D',
+  // COLOR_1 : '#FFCC66',
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
-  // COLOR_4 : '#FF3399', 
-  COLOR_4 : '#FF3EBF', 
+  // COLOR_4 : '#FF3399',
+  COLOR_4 : '#FF3EBF',
 }
 
 const settings = {}
