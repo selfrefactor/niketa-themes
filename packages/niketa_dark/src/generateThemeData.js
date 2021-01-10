@@ -20,24 +20,22 @@ function createPaletteRule(
   return willReturn
 }
 
-export function generateThemeData({ palette, chrome, colors }){
-  const translatedColors = mergeAll(map((color, prop) => createPaletteRule(prop, color))(colors))
-  const newTokenColors = map(tokenColor => {
-    if (tokenColor.name === 'source.json'){
+export function generateThemeData({ palette, paletteColors, themeColors }){
+  const translatedColors = mergeAll(map((color, prop) => createPaletteRule(prop, color),themeColors))
+  const tokenColors = map(tokenColor => {
+    return {
+      ...tokenColor,
+      settings: {
+        ...tokenColor.settings,
+        foreground:  translatedColors[ tokenColor.settings.foreground ]
+      }
     }
-    tokenColor.settings.foreground =
-      translatedColors[ tokenColor.settings.foreground ]
-
-    if (tokenColor.name === 'source.json'){
-    }
-
-    return tokenColor
-  })(palette.tokenColors)
+  }, palette.tokenColors)
   const newTheme = {
     ...palette,
     type: 'dark',
-    colors      : chrome,
-    tokenColors : newTokenColors,
+    colors      : paletteColors,
+    tokenColors,
   }
 
   return newTheme

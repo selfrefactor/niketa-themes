@@ -6,174 +6,12 @@ import { readJsonAnt } from './ants/readJson'
 import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
 import { generateThemeData } from './generateThemeData'
-import { listColors } from './assets/list-colors'
-import { BACK_COLOR } from './assets/back-color'
-import { suggestionsColors } from './assets/suggestions-colors'
-import { sidebarColors } from './assets/sidebar-colors'
-import { SOFT_WARNING, CHROME_COLOR, BRIGHT, FIRST_THEME } from './assets/common'
+import { paletteColors } from './assets/palette-colors'
+import { BRIGHT, FIRST_THEME } from './assets/common'
 
 export const SETTINGS = {}
 const SPIN_LABEL_INDEX = false
 // const SPIN_LABEL_INDEX = 8
-
-const selectionColors = {
-  'editor.selectionBackground'          : '#5c6773',
-  'editor.selectionHighlightBackground' : '#a1ba4e99',
-  'editor.inactiveSelectionBackground'  : '#aaab9caa',
-}
-
-const newColorsMissingInLightTheme = {
-  'tab.lastPinnedBorder'                          : '#E01C75',
-  'gitDecoration.stageDeletedResourceForeground'  : '#e477e4',
-  'gitDecoration.stageModifiedResourceForeground' : '#e4e4e4',
-}
-
-const newColors = {
-  'sash.hoverBorder'             : '#387b54',
-  'editorUnnecessaryCode.border' : SOFT_WARNING,
-}
-
-const chromeColors = {
-  ...newColors,
-  ...newColorsMissingInLightTheme,
-  ...listColors,
-  ...suggestionsColors,
-  ...sidebarColors,
-  ...selectionColors,
-  'editor.background'                         : BACK_COLOR,
-  'list.errorForeground'                      : '#859da9',
-  'git.color.modified'                        : '#fac761',
-  'gitDecoration.addedResourceForeground'     : '#53245b',
-  'gitDecoration.modifiedResourceForeground'  : '#f6cbc7',
-  'gitDecoration.untrackedResourceForeground' : '#c2aa4d',
-  'activityBar.background'                    : '#53245b',
-  'badge.background'                          : '#aaa',
-  'badge.foreground'                          : '#fafafa',
-  'diffEditor.insertedTextBackground'         : '#9c824a55',
-  'diffEditor.removedTextBackground'          : '#64B5F655',
-  'editor.findMatchBackground'                : '#b65a3d66',
-  'editor.findMatchHighlightBackground'       : '#71aac355',
-  'editor.findRangeHighlightBackground'       : '#3f706344',
-  'editor.lineHighlightBackground'            : BACK_COLOR,
-  'editor.lineHighlightBorder'                : '#5e6062aa',
-  // next two
-  // When search by word is active or when double click on a word
-  'editor.wordHighlightBackground'            : '#4F4355',
-  'editor.wordHighlightStrongBackground'      : '#db45a280',
-  'editorBracketMatch.background'             : '#41445e',
-  'editorBracketMatch.border'                 : '#978373',
-  'editorCursor.foreground'                   : '#f9f6f1',
-  'editorGroupHeader.tabsBackground'          : CHROME_COLOR,
-  'editorLineNumber.foreground'               : '#DD85007a',
-  'editorLink.activeForeground'               : '#7a2',
-  'errorForeground'                           : '#B1365Bf3',
-  'focusBorder'                               : '#525e54',
-  'scrollbarSlider.background'                : '#455a64',
-  'scrollbarSlider.hoverBackground'           : '#C4BE9D',
-  'selection.background'                      : '#db82d6',
-  'statusBar.background'                      : CHROME_COLOR,
-  'statusBar.foreground'                      : '#fafafa',
-  'tab.activeBackground'                      : BACK_COLOR,
-  'tab.activeBorder'                          : '#35495f',
-  'tab.activeForeground'                      : '#f2aa44',
-  'tab.border'                                : CHROME_COLOR,
-  'tab.inactiveBackground'                    : CHROME_COLOR,
-  'tab.inactiveForeground'                    : '#cfb8cb',
-  'tab.unfocusedActiveBackground'             : CHROME_COLOR,
-  'tab.unfocusedActiveBorder'                 : CHROME_COLOR,
-  'editorGutter.background'                   : CHROME_COLOR,
-  'scrollbar.shadow'                          : '#cf6f4b',
-  'tab.unfocusedActiveForeground'             : '#aa769b',
-  'widget.shadow'                             : '#8382aebb',
-}
-
-/*
-#008f00
-#00EFF6
-#00FFC8
-#2196f3
-#22ECDB
-#2ee8bb
-#36f9f6
-#3a797e
-#61FFCA
-#68AEC9
-#69C3FF
-#6DBBFF
-#72f1b8
-#79b8ff
-#85e89d
-#89d178
-#8edacc
-#99ccee
-#BD93F9
-#C586C0
-#D1675A
-#D1F1A9
-#D58FDB
-#E9CA5C
-#EDECEE
-#EECF90
-#F1FA8C
-#F92672
-#FC644D
-#FF5680
-#FF6E6E
-#FF738A
-#FF79C6
-#FF79C6
-#FF955C
-#FF9F2E
-#FFAA00
-#FFD484
-#b53389
-#bb7766
-#e6daa6
-#eddd59
-#f97e72
-#fb607f
-#fcfcda
-#fdaeb7
-#fe4450
-#fede5d
-#fefe33
-#ff7edb
-#ff8b39
-#ffea7f
-
-  Below are colors that were published but later removed
-#FFAE57
-#22ECDB
-#50FA7B
-#57B6CD
-#7AD3F3
-#80DEEA
-#82AAFF
-#BF616A
-#D1F1A9
-#D55975
-#D8EACC
-#F3F99D
-#FF955C
-#FFAE57
-#a87ca1
-#b8a0af
-#edf3a6
-#f98fab
-#fdd365
-#ff6f7b
-*/
-
-/*
-  New suggestions
-  #4FE0E0
-  #D74BBE
-  #FF9EE7
-  #F07178
-  #13BE77
-  #28C6E2
-  #ECAE4F
-*/
 
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
@@ -252,8 +90,8 @@ SETTINGS[ 7 ] = {
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
-  COLOR_1 : '#FEDE5D',
-  // COLOR_1 : '#FFCC66',
+  // COLOR_1 : '#FEDE5D',
+  COLOR_1 : '#FFCC66',
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
   // COLOR_4 : '#FF3399',
@@ -302,8 +140,8 @@ test('happy', () => {
     const palette = readJsonAnt('src/palette.json')
     const themeData = generateThemeData({
       palette,
-      chrome : chromeColors,
-      colors,
+      paletteColors,
+      themeColors: colors,
     })
     themeData.name = pascalCase(name)
 
