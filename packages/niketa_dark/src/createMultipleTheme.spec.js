@@ -5,9 +5,9 @@ import { pascalCase } from 'string-fn'
 import { readJsonAnt } from './ants/readJson'
 import { saveToPackageJsonAnt } from './ants/saveToPackageJson'
 import { writeJsonAnt } from './ants/writeJson'
-import { generateThemeData } from './generateThemeData'
-import { paletteColors } from './assets/palette-colors'
 import { BRIGHT, FIRST_THEME } from './assets/common'
+import { paletteColors } from './assets/palette-colors'
+import { generateThemeData } from './generateThemeData'
 
 export const SETTINGS = {}
 const SPIN_LABEL_INDEX = false
@@ -15,25 +15,25 @@ const SPIN_LABEL_INDEX = false
 
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
-  COLOR_0 : '#C5DBF2',
-  COLOR_1 : '#A277FF',
-  COLOR_2 : '#00D364',
-  COLOR_3 : '#A1887F',
+  COLOR_0 : '#00D364',
+  COLOR_1 : '#ee3311',
+  COLOR_2 : '#e1dce9',
+  COLOR_3 : '#A277FF',
   COLOR_4 : '#FF85B8',
 }
 SETTINGS[ 1 ] = {
   name    : 'aqua.teen.hunger.force',
-  COLOR_0 : '#DBD9D2',
-  COLOR_1 : '#FF8B39',
-  COLOR_2 : '#1cb3b8',
-  COLOR_3 : '#BAE67E',
-  COLOR_4 : '#d97397',
+  COLOR_0 : '#ff63e9',
+  COLOR_1 : '#1cb3b8',
+  COLOR_2 : '#C5DBF2',
+  COLOR_3 : '#FF8B39',
+  COLOR_4 : '#BAE67E',
 }
 
 SETTINGS[ 2 ] = {
   name    : 'archer',
   COLOR_0 : '#EFEEEA',
-  COLOR_1 : '#A277FF',
+  COLOR_1 : '#ff832b',
   COLOR_2 : '#E83B57',
   COLOR_3 : '#a3be8c',
   COLOR_4 : '#00B0FF',
@@ -42,55 +42,55 @@ SETTINGS[ 2 ] = {
 SETTINGS[ 3 ] = {
   name    : 'cleveland.show',
   COLOR_0 : '#2196f3',
-  COLOR_1 : '#FBCFBD',
-  COLOR_2 : '#ff7edb',
-  COLOR_3 : '#72f1b8',
-  COLOR_4 : '#D1675A',
+  COLOR_1 : '#d97397',
+  COLOR_2 : '#76b995',
+  COLOR_3 : BRIGHT,
+  COLOR_4 : '#cf875f',
 }
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
-  COLOR_0 : '#94D0FF',
-  COLOR_1 : '#E07C64',
-  COLOR_2 : '#FBEECA',
-  COLOR_3 : '#cfe071',
+  COLOR_0 : '#FBEECA',
+  COLOR_1 : '#72f1b8',
+  COLOR_2 : '#E07C64',
+  COLOR_3 : '#94D0FF',
   COLOR_4 : '#AD82CB',
 }
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
-  COLOR_0 : '#EA9A97',
-  COLOR_1 : '#EA80FC',
-  COLOR_2 : '#1DE9B6',
-  COLOR_3 : '#FFA000',
-  COLOR_4 : '#B2FF59',
+  COLOR_0 : '#D1675A',
+  COLOR_1 : '#1DE9B6',
+  COLOR_2 : '#EA9A97',
+  COLOR_3 : '#ee5396',
+  COLOR_4 : '#FFA000',
 }
 
 SETTINGS[ 6 ] = {
   name    : 'south.park',
-  COLOR_0 : '#F6C177',
-  COLOR_1 : '#00C14E',
-  COLOR_2 : BRIGHT,
+  COLOR_0 : '#B48EAD',
+  COLOR_1 : '#F6C177',
+  COLOR_2 : '#DBD9D2',
   COLOR_3 : '#FF7EDB',
-  COLOR_4 : '#B48EAD',
+  COLOR_4 : '#00C14E',
 }
 
 SETTINGS[ 7 ] = {
   name    : 'trip.tank',
-  COLOR_0 : '#e2f118',
-  COLOR_1 : '#e17096',
-  COLOR_2 : '#36F9F6',
-  COLOR_3 : BRIGHT,
+  COLOR_0 : '#e17096',
+  COLOR_1 : '#dd14ab',
+  COLOR_2 : BRIGHT,
+  COLOR_3 : '#e2f118',
   COLOR_4 : '#7eb19f',
 }
 
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
-  COLOR_0 : '#a87ca1',
-  COLOR_1 : '#FFCC66',
-  COLOR_2 : '#fcfcfc',
-  COLOR_3 : '#F25F25',
-  COLOR_4 : '#FF3EBF',
+  COLOR_0 : '#fe486c',
+  COLOR_1 : '#3E8FB0',
+  COLOR_2 : '#fdaeb7',
+  COLOR_3 : '#EA80FC',
+  COLOR_4 : BRIGHT,
 }
 
 const settings = {}
@@ -122,7 +122,7 @@ map((x, i) => {
   }
 
   settings[ i ] = x
-})(SETTINGS)
+}, SETTINGS)
 
 test('happy', () => {
   const allThemes = []
@@ -136,7 +136,7 @@ test('happy', () => {
     const themeData = generateThemeData({
       palette,
       paletteColors,
-      themeColors: colors,
+      themeColors : colors,
     })
     themeData.name = pascalCase(name)
 
