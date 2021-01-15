@@ -17,7 +17,6 @@ SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
   COLOR_0 : '#C5DBF2',
   COLOR_1 : '#A277FF',
-  // COLOR_2 : '#72F1B8', // test
   COLOR_2 : '#00D364',
   COLOR_3 : '#A1887F',
   COLOR_4 : '#FF85B8',
@@ -51,8 +50,7 @@ SETTINGS[ 3 ] = {
 
 SETTINGS[ 4 ] = {
   name    : 'curb.your.enthusiasm',
-  // COLOR_0 : '#94D0FF', // test
-  COLOR_0 : '#3E8FB0',
+  COLOR_0 : '#94D0FF',
   COLOR_1 : '#E07C64',
   COLOR_2 : '#FBEECA',
   COLOR_3 : '#cfe071',
@@ -61,7 +59,6 @@ SETTINGS[ 4 ] = {
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
-  // COLOR_0 : '#fb607f',
   COLOR_0 : '#EA9A97',
   COLOR_1 : '#EA80FC',
   COLOR_2 : '#1DE9B6',
@@ -90,11 +87,9 @@ SETTINGS[ 7 ] = {
 SETTINGS[ 8 ] = {
   name    : 'ugly.americans',
   COLOR_0 : '#a87ca1',
-  // COLOR_1 : '#FEDE5D',
   COLOR_1 : '#FFCC66',
   COLOR_2 : '#fcfcfc',
   COLOR_3 : '#F25F25',
-  // COLOR_4 : '#FF3399',
   COLOR_4 : '#FF3EBF',
 }
 
