@@ -9,9 +9,9 @@ import { BRIGHT, FIRST_THEME } from './assets/common'
 import { paletteColors } from './assets/palette-colors'
 import { generateThemeData } from './generateThemeData'
 
-export const SETTINGS = {}
+const SETTINGS = {}
 const SPIN_LABEL_INDEX = false
-// const SPIN_LABEL_INDEX = 8
+// const SPIN_LABEL_INDEX = 7
 
 SETTINGS[ 0 ] = {
   name    : FIRST_THEME,
@@ -32,11 +32,11 @@ SETTINGS[ 1 ] = {
 
 SETTINGS[ 2 ] = {
   name    : 'archer',
-  COLOR_0 : '#EFEEEA',
-  COLOR_1 : '#ff832b',
-  COLOR_2 : '#E83B57',
-  COLOR_3 : '#a3be8c',
-  COLOR_4 : '#00B0FF',
+  "COLOR_0": "#ff832b",
+  "COLOR_1": "#E83B57",
+  "COLOR_2": "#00B0FF",
+  "COLOR_3": "#EFEEEA",
+  "COLOR_4": "#a3be8c"
 }
 
 SETTINGS[ 3 ] = {
@@ -77,11 +77,11 @@ SETTINGS[ 6 ] = {
 
 SETTINGS[ 7 ] = {
   name    : 'trip.tank',
-  COLOR_0 : '#e17096',
-  COLOR_1 : '#dd14ab',
-  COLOR_2 : BRIGHT,
-  COLOR_3 : '#e2f118',
-  COLOR_4 : '#7eb19f',
+  "COLOR_0": "#dd14ab",
+  "COLOR_1": "#e2f118",
+  "COLOR_2": "#7eb19f",
+  "COLOR_3": BRIGHT,
+  "COLOR_4": "#e17096"
 }
 
 SETTINGS[ 8 ] = {

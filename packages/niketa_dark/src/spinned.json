@@ -1,10 +1,10 @@
 {
-  "ugly.americans": {
+  "trip.tank": {
     "name": "american.dad",
-    "COLOR_0": "#fe486c",
-    "COLOR_1": "#3E8FB0",
-    "COLOR_2": "#fdaeb7",
-    "COLOR_3": "#EA80FC",
-    "COLOR_4": "BRIGHT"
+    "COLOR_0": "#dd14ab",
+    "COLOR_1": "#e2f118",
+    "COLOR_2": "#7eb19f",
+    "COLOR_3": "BRIGHT",
+    "COLOR_4": "#e17096"
   }
 }

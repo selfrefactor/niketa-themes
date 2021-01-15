@@ -1,3 +1,7 @@
+## 1.18.0
+
+Change colors order for Archer and TripTank
+
 ## 1.17.0 
 
 Important - Change many colors
