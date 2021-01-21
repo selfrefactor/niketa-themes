@@ -1,4 +1,8 @@
-## 1.18.0
+## 1.19.0
+
+Change hover suggestion color
+
+# 1.18.0
 
 Change colors order for Archer and TripTank
 

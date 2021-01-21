@@ -19,6 +19,6 @@ export const listColors = {
   // Right click on file in file explorer, this is foreground on hover
   'list.activeSelectionForeground'   : '#e7e7e7',
   // visible in autocomplete, in suggest, change of theme
-  'list.hoverForeground'             : '#999966',
-  'list.hoverBackground'             : '#ad680055',
+  'list.hoverForeground'             : '#3333333',
+  'list.hoverBackground'             : '#dadada',
 }

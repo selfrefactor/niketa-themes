@@ -2,7 +2,8 @@ import { CHROME_COLOR } from "./common";
 
 export const suggestionsColors = {
   // in autocomplete box, the active line background
-  'editorSuggestWidget.selectedBackground'  : '#2c3d52',
+  'editorSuggestWidget.selectedBackground'  : '#ad6800',
+  // 'editorSuggestWidget.selectedBackground'  : '#2c3d52',
   'editorSuggestWidget.background'          : '#0a0026',
   'editorHoverWidget.background'            : '#282c34',
   // when search with ctrl+f, this is widget chrome color
