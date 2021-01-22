@@ -5690,6 +5690,13 @@
       }
     },
     {
+      "name": "support.type.property-name.css",
+      "scope": "support.type.property-name.css",
+      "settings": {
+        "foreground": "#A277FF"
+      }
+    },
+    {
       "name": "support.class.component",
       "scope": "support.class.component",
       "settings": {
@@ -6645,6 +6652,13 @@
       "scope": "constant.other",
       "settings": {
         "fontStyle": "bold",
+        "foreground": "#FF85B8"
+      }
+    },
+    {
+      "name": "entity.name.tag.css",
+      "scope": "entity.name.tag.css",
+      "settings": {
         "foreground": "#FF85B8"
       }
     },
