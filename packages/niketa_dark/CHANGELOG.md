@@ -1,3 +1,7 @@
+## 1.20.0
+
+Fix missing grouping of CSS related attributes.
+
 ## 1.19.0
 
 Change hover suggestion color
