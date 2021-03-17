@@ -1,5 +1,9 @@
 ## 1.20.0
 
+Change Dilbert theme | Rename theme to HomeMovies
+
+## 1.20.0
+
 Fix missing grouping of CSS related attributes.
 
 ## 1.19.0

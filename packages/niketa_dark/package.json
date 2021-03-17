@@ -62,9 +62,9 @@
         "path": "./themes/ClevelandShow.json"
       },
       {
-        "label": "CurbYourEnthusiasm",
+        "label": "HomeMovies",
         "uiTheme": "vs-dark",
-        "path": "./themes/CurbYourEnthusiasm.json"
+        "path": "./themes/HomeMovies.json"
       },
       {
         "label": "Dilbert",

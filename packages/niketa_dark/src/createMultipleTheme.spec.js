@@ -49,7 +49,7 @@ SETTINGS[ 3 ] = {
 }
 
 SETTINGS[ 4 ] = {
-  name    : 'curb.your.enthusiasm',
+  name    : 'home.movies',
   COLOR_0 : '#FBEECA',
   COLOR_1 : '#72f1b8',
   COLOR_2 : '#E07C64',
@@ -59,11 +59,16 @@ SETTINGS[ 4 ] = {
 
 SETTINGS[ 5 ] = {
   name    : 'dilbert',
-  COLOR_0 : '#D1675A',
-  COLOR_1 : '#1DE9B6',
-  COLOR_2 : '#EA9A97',
-  COLOR_3 : '#ee5396',
-  COLOR_4 : '#FFA000',
+  COLOR_0 : '#D59DF6',
+  COLOR_1 : '#85AC3A',
+  COLOR_2 : '#E9B684',
+  COLOR_3 : '#E76572',
+  COLOR_4 : '#71B1FE',
+  // COLOR_0 : '#D1675A',
+  // COLOR_1 : '#1DE9B6',
+  // COLOR_2 : '#EA9A97',
+  // COLOR_3 : '#ee5396',
+  // COLOR_4 : '#FFA000',
 }
 
 SETTINGS[ 6 ] = {
