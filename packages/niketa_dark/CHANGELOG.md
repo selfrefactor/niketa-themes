@@ -1,6 +1,6 @@
-## 1.23.0
+## 1.26.0
 
-Change background | add underline
+Change background | change underline
 
 ## 1.22.0
 
