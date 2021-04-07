@@ -5512,6 +5512,7 @@
       "name": "meta.parameters.js",
       "scope": "meta.parameters.js",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5519,6 +5520,7 @@
       "name": "meta.parameters.jsx",
       "scope": "meta.parameters.jsx",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5526,6 +5528,7 @@
       "name": "meta.parameters.ts",
       "scope": "meta.parameters.ts",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5533,6 +5536,7 @@
       "name": "meta.parameters.tsx",
       "scope": "meta.parameters.tsx",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },

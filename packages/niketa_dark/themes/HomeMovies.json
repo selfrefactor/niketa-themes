@@ -5590,6 +5590,7 @@
       "name": "meta.parameters.js",
       "scope": "meta.parameters.js",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "#94D0FF"
       }
     },
@@ -5597,6 +5598,7 @@
       "name": "meta.parameters.jsx",
       "scope": "meta.parameters.jsx",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "#94D0FF"
       }
     },
@@ -5604,6 +5606,7 @@
       "name": "meta.parameters.ts",
       "scope": "meta.parameters.ts",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "#94D0FF"
       }
     },
@@ -5611,6 +5614,7 @@
       "name": "meta.parameters.tsx",
       "scope": "meta.parameters.tsx",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "#94D0FF"
       }
     },
