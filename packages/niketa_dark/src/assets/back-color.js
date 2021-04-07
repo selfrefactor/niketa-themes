@@ -22,4 +22,4 @@
 // #1F1D2E
 // #1D1D26
 // #252525
-export const BACK_COLOR = '#292C3D'
+export const BACK_COLOR = '#282C34'

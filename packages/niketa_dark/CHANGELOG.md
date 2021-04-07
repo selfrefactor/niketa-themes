@@ -1,4 +1,8 @@
-## 1.20.0
+## 1.23.0
+
+Change background | add underline
+
+## 1.22.0
 
 Change Dilbert theme | Rename theme to HomeMovies
 
