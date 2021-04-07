@@ -2413,7 +2413,6 @@
       "name": "meta.brace.round.js",
       "scope": "meta.brace.round.js",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_1"
       }
     },
@@ -2421,7 +2420,6 @@
       "name": "meta.brace.round.jsx",
       "scope": "meta.brace.round.jsx",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_1"
       }
     },
@@ -2429,7 +2427,6 @@
       "name": "meta.brace.round.ts",
       "scope": "meta.brace.round.ts",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_1"
       }
     },
@@ -2437,7 +2434,6 @@
       "name": "meta.brace.round.tsx",
       "scope": "meta.brace.round.tsx",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_1"
       }
     },
@@ -3737,7 +3733,6 @@
       "name": "meta.import.js",
       "scope": "meta.import.js",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_2"
       }
     },
@@ -3745,7 +3740,6 @@
       "name": "meta.import.jsx",
       "scope": "meta.import.jsx",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_2"
       }
     },
@@ -3753,7 +3747,6 @@
       "name": "meta.import.ts",
       "scope": "meta.import.ts",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_2"
       }
     },
@@ -3761,7 +3754,6 @@
       "name": "meta.import.tsx",
       "scope": "meta.import.tsx",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_2"
       }
     },
@@ -5460,7 +5452,6 @@
       "name": "meta.brace.square.js",
       "scope": "meta.brace.square.js",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5468,7 +5459,6 @@
       "name": "meta.brace.square.jsx",
       "scope": "meta.brace.square.jsx",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5476,7 +5466,6 @@
       "name": "meta.brace.square.ts",
       "scope": "meta.brace.square.ts",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5484,7 +5473,6 @@
       "name": "meta.brace.square.tsx",
       "scope": "meta.brace.square.tsx",
       "settings": {
-        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5492,6 +5480,7 @@
       "name": "meta.function.parameters.js",
       "scope": "meta.function.parameters.js",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5499,6 +5488,7 @@
       "name": "meta.function.parameters.jsx",
       "scope": "meta.function.parameters.jsx",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5506,6 +5496,7 @@
       "name": "meta.function.parameters.ts",
       "scope": "meta.function.parameters.ts",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
@@ -5513,6 +5504,7 @@
       "name": "meta.function.parameters.tsx",
       "scope": "meta.function.parameters.tsx",
       "settings": {
+        "fontStyle": "underline",
         "foreground": "COLOR_3"
       }
     },
